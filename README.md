@@ -15,21 +15,27 @@ evaluated framework and its reproducibility materials.
 
 -   **Repository:**
     https://github.com/arya114/context-aware-adaptive-ui-cognitive-accessibility
--   **Artifact version:** 0.2.2
+-   **Artifact version:** 0.2.3
 -   **Frozen build:** UAIS-CORE-0.2.2
 -   **Dataset:** UAIS-CORE-DATA-1.2
 -   **Specification:** UAIS-S3-FINAL-1.0
 -   **Action catalogue:** UAIS-CAT-1.0
 -   **Verification obligations:** VER-CAT1
 -   **Fixture:** UAIS-VRI-1.0
--   **Archive DOI:** not yet assigned
+-   **Archive DOI:** https://doi.org/10.5281/zenodo.22971444
 -   **Journal publication:** not represented as accepted or published by
     this repository
 
-The artifact version **0.2.2** identifies the evaluated model and does
-not by itself represent a versioned public archive release. A
-version-specific DOI should only be added after an approved release and
-archive deposit.
+The **artifact version 0.2.3** identifies the versioned public archive
+release. The **frozen build UAIS-CORE-0.2.2** identifies the evaluated
+model contained in the release.
+
+The version-specific archive DOI is:
+
+https://doi.org/10.5281/zenodo.22971444
+
+The DOI should be used consistently when citing this versioned research
+artifact.
 
 ## Contents
 
@@ -61,7 +67,7 @@ verification/
   Navigation to the canonical verification evidence
 
 CITATION.cff
-  Citation metadata without a fabricated DOI
+  Citation metadata for the versioned research artifact
 
 LICENSE
   MIT License for source code and software materials
@@ -132,13 +138,13 @@ The model links:
 
 ``` text
 Context evidence
-      ↓
+     ↓
 Support needs
-      ↓
+     ↓
 Concurrent rule/action decisions
-      ↓
+     ↓
 State-aware execution
-      ↓
+     ↓
 Adaptive UI actions
 ```
 
@@ -200,18 +206,18 @@ complete evidence map.
 Use [CITATION.cff](CITATION.cff) for artifact authorship and citation
 metadata.
 
-The repository currently does **not** contain a fabricated DOI,
-publication date, or archive identifier.
+The versioned public archive for this repository is:
 
-After an approved versioned release and archive deposit:
+**Artifact version:** 0.2.3\
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.22971444
 
-1.  add the actual version-specific DOI;
-2.  record the concept DOI if the archive provides one;
-3.  update this README and `CITATION.cff`;
-4.  use the same approved identifiers in the manuscript, cover letter
-    and supplementary-material description.
+This DOI identifies the archived v0.2.3 research artifact. The frozen
+evaluated build remains **UAIS-CORE-0.2.2**.
 
-Do not use placeholder manuscript DOI values.
+Use the same version-specific DOI in the manuscript, cover letter and
+supplementary-material description.
+
+Do not use placeholder DOI values.
 
 ## Licensing
 
@@ -288,5 +294,5 @@ verification domain.
 
 **Repository:**
 https://github.com/arya114/context-aware-adaptive-ui-cognitive-accessibility\
-**Artifact version:** 0.2.2\
-**DOI:** pending approved archive release
+**Artifact version:** 0.2.3\
+**DOI:** https://doi.org/10.5281/zenodo.22971444
