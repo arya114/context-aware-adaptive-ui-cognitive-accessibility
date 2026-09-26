@@ -1,0 +1,15 @@
+{
+  "parents_with_executed_instances": 34,
+  "historical_parent_count": 35,
+  "parents_without_explicit_instances": [
+    "V2-07"
+  ],
+  "current_families_with_instances": 41,
+  "current_family_count": 44,
+  "families_without_explicit_instances": [
+    "CAT1/V2-07/status",
+    "CAT1/V3-06/no-shortcut",
+    "CAT1/V3-03/response-boundary"
+  ],
+  "warning": "A linked instance does not establish full branch, scope, parameter, guard or effect coverage of its family."
+}

@@ -1,0 +1,138 @@
+{
+  "Build": "UAIS-HEADLESS-0.1.2",
+  "RunID": "20260913T022729Z-05c9476b",
+  "InventoryEntries": 775,
+  "ExecutableCases": 770,
+  "Pass": 770,
+  "Fail": 0,
+  "Unresolved": 0,
+  "NotRunEntries": 5,
+  "SelectedDeterministicAgreementPercent": 100.0,
+  "Oracles": [
+    {
+      "Oracle": "O1",
+      "Planned": 55,
+      "Executed": 54,
+      "Pass": 54,
+      "Fail": 0,
+      "Unresolved": 0,
+      "Not run": 1
+    },
+    {
+      "Oracle": "O2",
+      "Planned": 643,
+      "Executed": 641,
+      "Pass": 641,
+      "Fail": 0,
+      "Unresolved": 0,
+      "Not run": 2
+    },
+    {
+      "Oracle": "O3",
+      "Planned": 45,
+      "Executed": 44,
+      "Pass": 44,
+      "Fail": 0,
+      "Unresolved": 0,
+      "Not run": 1
+    },
+    {
+      "Oracle": "O4",
+      "Planned": 38,
+      "Executed": 38,
+      "Pass": 38,
+      "Fail": 0,
+      "Unresolved": 0,
+      "Not run": 0
+    },
+    {
+      "Oracle": "O5",
+      "Planned": 43,
+      "Executed": 42,
+      "Pass": 42,
+      "Fail": 0,
+      "Unresolved": 0,
+      "Not run": 1
+    },
+    {
+      "Oracle": "End-to-End",
+      "Planned": 14,
+      "Executed": 14,
+      "Pass": 14,
+      "Fail": 0,
+      "Unresolved": 0,
+      "Not run": 0
+    }
+  ],
+  "CaseKinds": {
+    "classification": 39,
+    "assistance": 11,
+    "risk": 4,
+    "cn": 278,
+    "nr": 112,
+    "action": 144,
+    "legal": 67,
+    "legal_variant": 10,
+    "resolver": 26,
+    "compose": 13,
+    "reduce": 5,
+    "combinations": 16,
+    "state": 5,
+    "invariant": 10,
+    "transaction": 6,
+    "response": 3,
+    "query": 3,
+    "resume": 3,
+    "baseline": 2,
+    "trace": 8,
+    "shortcut": 2,
+    "response_boundary": 2,
+    "conditional": 1
+  },
+  "ParentsRepresented": 35,
+  "ParentsTotal": 35,
+  "CurrentChildFamiliesRepresented": 44,
+  "CurrentChildFamiliesTotal": 44,
+  "CoverageCaution": "Presence of a linked instance is not full branch/effect coverage; universe of remaining concrete parameter/scope instances is not fully enumerated.",
+  "InvariantMetrics": [
+    {
+      "Invariant": "INV-01",
+      "RecordedPredicateEvaluations": 30,
+      "AdmittedViolations": 0,
+      "UnknownOnAdmitted": 0
+    },
+    {
+      "Invariant": "INV-02",
+      "RecordedPredicateEvaluations": 30,
+      "AdmittedViolations": 0,
+      "UnknownOnAdmitted": 0
+    },
+    {
+      "Invariant": "INV-03",
+      "RecordedPredicateEvaluations": 30,
+      "AdmittedViolations": 0,
+      "UnknownOnAdmitted": 0
+    },
+    {
+      "Invariant": "INV-04",
+      "RecordedPredicateEvaluations": 30,
+      "AdmittedViolations": 0,
+      "UnknownOnAdmitted": 0
+    },
+    {
+      "Invariant": "INV-05",
+      "RecordedPredicateEvaluations": 30,
+      "AdmittedViolations": 0,
+      "UnknownOnAdmitted": 0
+    }
+  ],
+  "AppliedInvariantViolationsObserved": 0,
+  "StaleDecisionPreventions": 1,
+  "DuplicateTransactionEffectsObserved": 0,
+  "TraceAcceptanceFailuresFinal": 0,
+  "TraceAcceptanceFailuresInitial": 8,
+  "TransactionAcceptanceFailuresIntermediate": 5,
+  "SpecificationDefectsDiscovered": 0,
+  "ConfirmedImplementationDefectsDiscovered": 3,
+  "Recommendation": "SECTION 6 NOT YET SUPPORTED"
+}

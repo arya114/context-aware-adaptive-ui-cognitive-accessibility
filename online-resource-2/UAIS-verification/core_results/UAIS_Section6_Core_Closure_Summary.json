@@ -1,0 +1,112 @@
+{
+  "Decision": "SECTION 6 READY TO LOCK — BOUNDED SEMANTIC VERIFICATION",
+  "Build": "UAIS-CORE-0.2.2",
+  "RegressionRun": "20260913T030324Z-075d96fc",
+  "ClosureRun": "20260913T030322Z-8f183b76",
+  "PreviousExecuted": 770,
+  "NewCases": 98,
+  "CurrentExecuted": 868,
+  "Pass": 868,
+  "Fail": 0,
+  "Unresolved": 0,
+  "NotRunInDeclaredExecutableDomain": 0,
+  "LegacyGapPlaceholdersStillStoredAsNotRun": 5,
+  "LegacyGapDisposition": [
+    {
+      "OriginalID": "GAP/browser-reflow",
+      "Disposition": "RETAINED AS EXPLICIT BOUNDARY",
+      "Basis": "Controlled C2.2/reachability witnesses; acquisition and rendering are outside this evaluated semantic domain."
+    },
+    {
+      "OriginalID": "GAP/full-contract-effects",
+      "Disposition": "CLOSED",
+      "Basis": "24 positive action effects, 10 declared transformations, 14 empty-list transform rejections and an additional missing-value draft restoration. Representative fixture scope/effect coverage only."
+    },
+    {
+      "OriginalID": "GAP/canonical-typed-domain",
+      "Disposition": "CLOSED",
+      "Basis": "27 canonical/resolver checks cover exact typed normalisation, ordered/unordered structures, genuine ties, unknown, incomparability, permutation and duplicate equivalent-plan merging."
+    },
+    {
+      "OriginalID": "GAP/all-scope-combinations",
+      "Disposition": "CLOSED",
+      "Basis": "16 reachable scoped rule subsets plus five concurrent disposition/conflict scenarios; not exhaustive 24-action combination coverage."
+    },
+    {
+      "OriginalID": "GAP/ime-dom-preservation",
+      "Disposition": "RETAINED AS EXPLICIT BOUNDARY",
+      "Basis": "Symbolic field/buffer/selection/composition state only; no actual DOM, focus or IME measurement."
+    }
+  ],
+  "BoundaryCategories": 2,
+  "RegressionIDsAndExpectedOutcomesUnchanged": true,
+  "OriginalEvidenceZIPStatus": "not present in current workspace; original source/run files and recorded checksum retained",
+  "Oracles": [
+    {
+      "Oracle": "O1",
+      "PlannedExecutable": 54,
+      "Executed": 54,
+      "Pass": 54,
+      "Fail": 0,
+      "Unresolved": 0,
+      "NotRunInDeclaredDomain": 0
+    },
+    {
+      "Oracle": "O2",
+      "PlannedExecutable": 712,
+      "Executed": 712,
+      "Pass": 712,
+      "Fail": 0,
+      "Unresolved": 0,
+      "NotRunInDeclaredDomain": 0
+    },
+    {
+      "Oracle": "O3",
+      "PlannedExecutable": 116,
+      "Executed": 116,
+      "Pass": 116,
+      "Fail": 0,
+      "Unresolved": 0,
+      "NotRunInDeclaredDomain": 0
+    },
+    {
+      "Oracle": "O4",
+      "PlannedExecutable": 85,
+      "Executed": 85,
+      "Pass": 85,
+      "Fail": 0,
+      "Unresolved": 0,
+      "NotRunInDeclaredDomain": 0
+    },
+    {
+      "Oracle": "O5",
+      "PlannedExecutable": 112,
+      "Executed": 112,
+      "Pass": 112,
+      "Fail": 0,
+      "Unresolved": 0,
+      "NotRunInDeclaredDomain": 0
+    },
+    {
+      "Oracle": "End-to-End",
+      "PlannedExecutable": 71,
+      "Executed": 71,
+      "Pass": 71,
+      "Fail": 0,
+      "Unresolved": 0,
+      "NotRunInDeclaredDomain": 0
+    }
+  ],
+  "NewCaseKinds": {
+    "effect": 35,
+    "reject": 14,
+    "key": 14,
+    "resolve": 8,
+    "key-reject": 3,
+    "multi": 19,
+    "multi_conflict": 2,
+    "dedup": 2,
+    "query-provenance": 1
+  },
+  "Statement": "No claim of exhaustive framework or complete implementation verification. Rows with several oracle tags overlap."
+}

@@ -1,0 +1,1413 @@
+{
+  "CatalogueVersion": "UAIS-CAT-1.0",
+  "decision": "current versioned refinement",
+  "actions": [
+    {
+      "name": "Contextual Guidance",
+      "contract": {
+        "ActionID": "R1.A1",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R1",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R1.A1; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Provide instructions at the relevant task location.",
+        "NeedCoverage": {
+          "declared": {
+            "N1": "Expose the referenced explanation.",
+            "N2": "Expose the referenced process instruction."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R1 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "G.guidance.visibility",
+        "Legal parameters/values": {
+          "mode": [
+            "off",
+            "on",
+            "contextual"
+          ],
+          "scope": "Declared instruction/task anchor"
+        },
+        "Default/current state": {
+          "default": "off",
+          "adaptive_target": "contextual",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and A scoped instruction object and its task anchor exist; the current presentation passes display/reachability checks.",
+        "Permanent exclusions": "CG-6 and No valid instruction for this service/version; effect would replace mandatory instructions with an incomplete alternative.",
+        "Temporary blockers": "CG-7 and Instruction/anchor evidence unknown or affected input not at a safe point.",
+        "ExpectedEffect": "Expose contextual guidance without changing data or service sequence.",
+        "Postconditions": "INV-01–INV-05 and Required instruction content remains accessible; no input values, selection or progress change.",
+        "Compatibility constraints": "CG-8 and R2 reduction cannot remove its only access; guidance and step cues must reference the same logical task.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [
+          {
+            "VariantID": "contextual",
+            "change": "on → contextual",
+            "guard": "All required instruction IDs remain reachable through the same scoped anchor; no simultaneous-display requirement is lost.",
+            "preserved_effect": "The same instruction content is offered in context."
+          }
+        ],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R1.A1",
+          "H:V2-04",
+          "CAT1/V2-04/guidance"
+        ]
+      }
+    },
+    {
+      "name": "Term Explanation",
+      "contract": {
+        "ActionID": "R1.A2",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R1",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R1.A2; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Explain service terminology.",
+        "NeedCoverage": {
+          "declared": {
+            "N1": "Make the scoped term definition accessible."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R1 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "G.term.explanation",
+        "Legal parameters/values": {
+          "mode": [
+            "hidden",
+            "on-demand",
+            "inline"
+          ],
+          "scope": "TermID with versioned definition"
+        },
+        "Default/current state": {
+          "default": "on-demand",
+          "adaptive_target": "inline when display supports it; otherwise declared on-demand variant",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and A version-matched definition exists for the term.",
+        "Permanent exclusions": "CG-6 and No definition or inaccurate/unapproved content.",
+        "Temporary blockers": "CG-7 and Definition version or current display feasibility unknown.",
+        "ExpectedEffect": "Offer the correct term explanation.",
+        "Postconditions": "INV-01–INV-05 and The term meaning and surrounding required instructions are preserved.",
+        "Compatibility constraints": "CG-8 and Compatible with autosave; inline content must respect density/reflow.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [
+          {
+            "VariantID": "on-demand",
+            "change": "inline → on-demand",
+            "guard": "A labelled reachable control provides exactly the same definition; access does not require unavailable capabilities.",
+            "preserved_effect": "The definition remains available."
+          }
+        ],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R1.A2",
+          "H:V2-02",
+          "CAT1/V2-02/compatible"
+        ]
+      }
+    },
+    {
+      "name": "Step Cue",
+      "contract": {
+        "ActionID": "R1.A3",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R1",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R1.A3; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Explain current and next logical steps.",
+        "NeedCoverage": {
+          "declared": {
+            "N2": "Show the next permitted step cue.",
+            "N3": "Show the current logical location when its conditional N3→R1 edge is true."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R1 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "G.step.cue; G.step.cue.realisation",
+        "Legal parameters/values": {
+          "mode": [
+            "compact",
+            "full"
+          ],
+          "realisation": [
+            "native",
+            "shared-progress"
+          ],
+          "scope": "Logical StepID"
+        },
+        "Default/current state": {
+          "default": {
+            "mode": "compact",
+            "realisation": "native"
+          },
+          "adaptive_target": {
+            "mode": "full",
+            "realisation": "native"
+          },
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and Versioned cue text and logical current/next-step identities exist.",
+        "Permanent exclusions": "CG-6 and Cue contradicts prerequisites or invents completed progress.",
+        "Temporary blockers": "CG-7 and Logical stage or affected editing scope unresolved.",
+        "ExpectedEffect": "Present a full step cue bound to true logical progress.",
+        "Postconditions": "INV-01–INV-05 and Current step and progress facts unchanged.",
+        "Compatibility constraints": "CG-8 and May share one control with R4.A2 only under reciprocal shared-progress declarations.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [
+          {
+            "VariantID": "shared-progress",
+            "change": "realisation native → shared-progress; mode remains full",
+            "guard": "R4.A2 is independently nominated, its indicator is on, and both refer to the same StepID/progress object; all cue text is preserved.",
+            "preserved_effect": "One consistent component retains full cue and progress information."
+          }
+        ],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R1.A3",
+          "H:V2-03",
+          "CAT1/V2-03/shared"
+        ]
+      }
+    },
+    {
+      "name": "Examples",
+      "contract": {
+        "ActionID": "R1.A4",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R1",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R1.A4; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Provide valid contextual examples.",
+        "NeedCoverage": {
+          "declared": {
+            "N1": "Provide a comprehension example.",
+            "N5": "Provide an example explaining a choice.",
+            "N6": "Provide an example supporting correct input."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R1 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "G.example.visibility; G.example.realisation",
+        "Legal parameters/values": {
+          "mode": [
+            "hidden",
+            "on-demand"
+          ],
+          "realisation": [
+            "native",
+            "text-equivalent"
+          ],
+          "scope": "ExampleID; no generated unapproved example"
+        },
+        "Default/current state": {
+          "default": {
+            "mode": "hidden",
+            "realisation": "native"
+          },
+          "adaptive_target": {
+            "mode": "on-demand",
+            "realisation": "native"
+          },
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and Example is valid for the current field/choice and service version.",
+        "Permanent exclusions": "CG-6 and Invalid example, or conversion omits a required semantic element.",
+        "Temporary blockers": "CG-7 and Example mapping/reachability or active input scope unknown/unsafe.",
+        "ExpectedEffect": "Expose an on-demand example.",
+        "Postconditions": "INV-01–INV-05 and Example never pre-fills or overwrites user data.",
+        "Compatibility constraints": "CG-8 and May use text-equivalent with low-bandwidth profile; optional collapse must preserve its help control.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [
+          {
+            "VariantID": "text-equivalent",
+            "change": "native media → registered text-equivalent",
+            "guard": "Versioned ExampleID maps every required instruction/choice/error-prevention content ID to a text element; text is accessible and no indispensable visual-only element is omitted.",
+            "preserved_effect": "Same declared support purpose and scoped coverage; no claim of empirically equal effectiveness."
+          }
+        ],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R1.A4",
+          "H:V2-06",
+          "CAT1/V2-06/text"
+        ]
+      }
+    },
+    {
+      "name": "Contextual Help Access",
+      "contract": {
+        "ActionID": "R1.A5",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R1",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R1.A5; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Expose task-relevant help access.",
+        "NeedCoverage": {
+          "declared": {
+            "N1": "Access clarification.",
+            "N2": "Access process guidance.",
+            "N3": "Access orientation help if conditional edge true.",
+            "N5": "Access choice explanation."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R1 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "G.help.access",
+        "Legal parameters/values": {
+          "mode": [
+            "standard",
+            "contextual"
+          ],
+          "scope": "Task/NeedKind anchor"
+        },
+        "Default/current state": {
+          "default": "standard",
+          "adaptive_target": "contextual",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and A help route and appropriate help kind exist.",
+        "Permanent exclusions": "CG-6 and Contextual route unavailable with no valid destination.",
+        "Temporary blockers": "CG-7 and Current help-kind/scope binding unknown.",
+        "ExpectedEffect": "Expose the relevant help request control.",
+        "Postconditions": "INV-01–INV-05 and Standard help remains reachable; opening a preview does not itself confirm a need.",
+        "Compatibility constraints": "CG-8 and Uses C13-CD1 preview/request event distinction; no direct R1 activation by the control.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R1.A5",
+          "H:V1-03",
+          "CAT1/V1-03/help"
+        ]
+      }
+    },
+    {
+      "name": "Contextual Error Explanation",
+      "contract": {
+        "ActionID": "R1.A6",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R1",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R1.A6; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Explain an observed validation/service error and its correction.",
+        "NeedCoverage": {
+          "declared": {
+            "N6": "Expose the current error and valid correction instruction."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R1 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "G.error.explanation",
+        "Legal parameters/values": {
+          "mode": [
+            "standard",
+            "contextual"
+          ],
+          "scope": "ErrorID/FieldID or service error reference"
+        },
+        "Default/current state": {
+          "default": "standard",
+          "adaptive_target": "contextual",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and An actual error with a versioned correction reference exists.",
+        "Permanent exclusions": "CG-6 and Fabricated error, changed validation rules or speculative correction.",
+        "Temporary blockers": "CG-7 and Error/field version mismatched or source unknown.",
+        "ExpectedEffect": "Add contextual explanation to baseline error feedback.",
+        "Postconditions": "INV-01–INV-05 and Raw values, validation truth and error identity preserved.",
+        "Compatibility constraints": "CG-8 and Does not retry, reconcile a transaction or suppress required error/status feedback.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R1.A6",
+          "H:V2-08",
+          "CAT1/V2-08/protected"
+        ]
+      }
+    },
+    {
+      "name": "Reduce Interface Density",
+      "contract": {
+        "ActionID": "R2.A1",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R2",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R2.A1; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Reduce nonessential presentation density.",
+        "NeedCoverage": {
+          "declared": {
+            "N1": "Expose relevant information with reduced nonessential density.",
+            "N3": "Make current navigation/location content discernible."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R2 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "D.layout.density",
+        "Legal parameters/values": {
+          "mode": [
+            "standard",
+            "reduced"
+          ],
+          "scope": "Versioned layout region"
+        },
+        "Default/current state": {
+          "default": "standard",
+          "adaptive_target": "reduced",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and A registered reduced presentation preserves required content, order and functionality and passes reflow.",
+        "Permanent exclusions": "CG-6 and Reduced form deletes required content, breaks logical order, or has no permitted rendering.",
+        "Temporary blockers": "CG-7 and Space/anchor mapping unknown or active input restructuring blocked.",
+        "ExpectedEffect": "Render the same essential task content in reduced-density form.",
+        "Postconditions": "INV-01–INV-05 and Values, focus during active input and required routes preserved.",
+        "Compatibility constraints": "CG-8 and Full/contextual guidance jointly checked; density does not override help or error requirements.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R2.A1",
+          "H:V2-04",
+          "CAT1/V2-04/guidance"
+        ]
+      }
+    },
+    {
+      "name": "Contextual Secondary/Optional Content Reduction",
+      "contract": {
+        "ActionID": "R2.A2",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R2",
+        "HistoricalProvenance": "H:R2.A2 Collapse Optional Elements + H:R2.A6 Collapse Secondary Navigation → current R2.A2 by explicit user decision of 12 September 2026. Nonessential controls are an explicitly declared scope of this current granularity refinement. H:R2.A6 is merged, not reassigned to R3.",
+        "PrimaryPurpose": "Reduce nonessential interface demand through independently scoped optional/secondary content reduction.",
+        "NeedCoverage": {
+          "declared": {
+            "N1": "Reduce nonessential content in the scoped comprehension task.",
+            "N3": "Reduce nonessential secondary navigation/control demand in the scoped orientation task."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R2 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "D.content.reduction[ElementID].state",
+        "Legal parameters/values": {
+          "state": [
+            "shown",
+            "collapsed"
+          ],
+          "scope_kind": [
+            "optional-content",
+            "secondary-navigation",
+            "nonessential-controls"
+          ],
+          "scope": "Nonempty set of versioned ElementIDs with disjoint canonical ownership; independent state per ElementID"
+        },
+        "Default/current state": {
+          "default": "shown for every declared ElementID",
+          "adaptive_target": "collapsed for the eligible declared scope",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and Every selected element is explicitly nonessential in this task; required route/feedback/status/recovery descendants are excluded; a labelled expansion control remains available.",
+        "Permanent exclusions": "CG-6 and Element is essential, contains the only required route, hides required feedback/status/recovery, or lacks a safe expansion control.",
+        "Temporary blockers": "CG-7 and Essentiality, descendant graph, focus relationship or viewport result unknown; input active in selected scope.",
+        "ExpectedEffect": "Collapse only the eligible selected elements; other scopes retain their own current states.",
+        "Postconditions": "INV-01–INV-05 and No required information, validation/error feedback, transaction status, required action or recovery route is lost; no selections/data are deleted.",
+        "Compatibility constraints": "CG-8 and R1 help and R3 recovery/status controls are protected; R2.A3 cannot group a protected control into a collapsed ancestor.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [
+          {
+            "VariantID": "narrow-scope",
+            "change": "Selected scope → nonempty eligible subset; state stays collapsed",
+            "guard": "All excluded elements remain shown/current-safe; every retained element is declared nonessential; scoped coverage is recomputed for the reduced subset.",
+            "preserved_effect": "Nonessential-demand reduction remains delivered in the remaining scope; no new function."
+          }
+        ],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R2.A2",
+          "H:V2-08",
+          "CAT1/V2-08/merge",
+          "CAT1/V2-08/protected"
+        ]
+      }
+    },
+    {
+      "name": "Semantic Grouping",
+      "contract": {
+        "ActionID": "R2.A3",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R2",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R2.A3; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Group related content while respecting task structure.",
+        "NeedCoverage": {
+          "declared": {
+            "N3": "Provide logical content grouping for orientation.",
+            "N4": "Keep related references together if the conditional edge is true."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R2 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "D.grouping.mode; D.grouping.realisation",
+        "Legal parameters/values": {
+          "mode": [
+            "standard",
+            "semantic"
+          ],
+          "realisation": [
+            "native",
+            "within-stage"
+          ],
+          "scope": "Registered groups of FieldID/content IDs"
+        },
+        "Default/current state": {
+          "default": {
+            "mode": "standard",
+            "realisation": "native"
+          },
+          "adaptive_target": {
+            "mode": "semantic",
+            "realisation": "native"
+          },
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and A versioned grouping maps every member once without changing dependency order.",
+        "Permanent exclusions": "CG-6 and Required field omitted/duplicated, dependency cycle, or inaccessible member.",
+        "Temporary blockers": "CG-7 and Stage/group/focus mapping unknown or active input move pending.",
+        "ExpectedEffect": "Group related content without editing its values.",
+        "Postconditions": "INV-01–INV-05 and All members, dependencies and value identity preserved.",
+        "Compatibility constraints": "CG-8 and With R4.A1 staged flow, groups crossing stages require the declared within-stage partition.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [
+          {
+            "VariantID": "within-stage",
+            "change": "native grouping → within-stage partition",
+            "guard": "Partition is total/disjoint over original members, preserves dependency order and contextual reference access, and all stage scopes are valid.",
+            "preserved_effect": "Related grouping is retained within legal stage boundaries."
+          }
+        ],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R2.A3",
+          "H:V2-05",
+          "CAT1/V2-05/stage"
+        ]
+      }
+    },
+    {
+      "name": "Emphasise Primary Control",
+      "contract": {
+        "ActionID": "R2.A4",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R2",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R2.A4; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Visually prioritise the current valid primary action.",
+        "NeedCoverage": {
+          "declared": {
+            "N3": "Identify the current primary control.",
+            "N5": "Distinguish the relevant next choice/action."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R2 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "D.primary.control.emphasis",
+        "Legal parameters/values": {
+          "mode": [
+            "standard",
+            "emphasized"
+          ],
+          "scope": "One manifest-declared valid primary ControlID per decision scope"
+        },
+        "Default/current state": {
+          "default": "standard",
+          "adaptive_target": "emphasized",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and Exactly one primary ControlID is declared valid for the scope.",
+        "Permanent exclusions": "CG-6 and Control is unauthorised/invalid or emphasis hides alternatives/required controls.",
+        "Temporary blockers": "CG-7 and No uniquely known valid primary control.",
+        "ExpectedEffect": "Emphasise the existing control without executing it.",
+        "Postconditions": "INV-01–INV-05 and Action semantics and authorisation unchanged.",
+        "Compatibility constraints": "CG-8 and Must agree with R4 step/dependency model; cannot force submit or replace choice.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R2.A4",
+          "H:V2-08"
+        ]
+      }
+    },
+    {
+      "name": "Checklist Presentation",
+      "contract": {
+        "ActionID": "R2.A5",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R2",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R2.A5; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Present requirements as a readable checklist.",
+        "NeedCoverage": {
+          "declared": {
+            "N4": "Keep requirement references/status available if its conditional edge is true.",
+            "N5": "Support requirement comparison and preparation choices."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R2 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "D.requirements.view",
+        "Legal parameters/values": {
+          "mode": [
+            "full",
+            "checklist"
+          ],
+          "scope": "Versioned requirement list"
+        },
+        "Default/current state": {
+          "default": "full",
+          "adaptive_target": "checklist",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and Complete requirement IDs, descriptions and known/unknown fulfilment states are available for display.",
+        "Permanent exclusions": "CG-6 and Checklist omits requirements, fabricates fulfilment or removes full descriptions.",
+        "Temporary blockers": "CG-7 and Requirement list version or mapping unknown.",
+        "ExpectedEffect": "Show checklist entries with accurate state and access to full requirement detail.",
+        "Postconditions": "INV-01–INV-05 and No requirement becomes fulfilled through a UI change; unknown status remains unknown.",
+        "Compatibility constraints": "CG-8 and May coexist with autosave/resume; does not itself persist, restore or reconcile progress.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R2.A5",
+          "H:V3-01"
+        ]
+      }
+    },
+    {
+      "name": "Draft Autosave",
+      "contract": {
+        "ActionID": "R3.A1",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R3",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R3.A1; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Persist eligible current draft data for continuity.",
+        "NeedCoverage": {
+          "declared": {
+            "N4": "Preserve task references if N4→R3 is true.",
+            "N6": "Support recovery of entered data.",
+            "N7": "Maintain draft continuity."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R3 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "P.draft.autosave",
+        "Legal parameters/values": {
+          "mode": [
+            "off",
+            "on"
+          ],
+          "scope": "Authorised draft ID and version"
+        },
+        "Default/current state": {
+          "default": "on if supported and consent policy permits; otherwise effective off",
+          "adaptive_target": "on when eligible",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and Storage is supported, consent/policy permits, and snapshot has the correct draft/session identity.",
+        "Permanent exclusions": "CG-6 and Storage prohibited/unsupported for this contract; snapshot belongs to another draft/user.",
+        "Temporary blockers": "CG-7 and Storage state unknown, write in progress or newer draft revision unresolved.",
+        "ExpectedEffect": "Persist a versioned draft snapshot after an accepted input event.",
+        "Postconditions": "INV-01–INV-05 and No source data deleted or replaced by an older snapshot; persist result is recorded honestly.",
+        "Compatibility constraints": "CG-8 and Compatible with guidance; resume and save serialised by draft version; baseline minimum persistence applies equally to both UI conditions.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Also request/transaction identity, authorisation and payload references, ambiguity epoch, permit/status revision, query/retry token, result quality and baseline/adaptive origin; do not copy sensitive payloads.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R3.A1",
+          "H:V3-01",
+          "H:V3-05"
+        ]
+      }
+    },
+    {
+      "name": "Guarded Retry",
+      "contract": {
+        "ActionID": "R3.A2",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R3",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R3.A2; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Continue a previously authorised logical request only under a current safe retry permit.",
+        "NeedCoverage": {
+          "declared": {
+            "N6": "Prevent unsafe duplication while allowing a permitted retry.",
+            "N7": "Continue an eligible interrupted request."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R3 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "P.network.retry",
+        "Legal parameters/values": {
+          "mode": [
+            "manual",
+            "guarded-auto"
+          ],
+          "scope": "Same TransactionID, idempotency key, operation, authorisation and payload reference; one attempt per permit token"
+        },
+        "Default/current state": {
+          "default": "manual",
+          "adaptive_target": "guarded-auto",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and TX-1 retry permit is current; authoritative result is safely_retryable; same payload/identity and prior user authorisation remain valid.",
+        "Permanent exclusions": "CG-6 and Transaction completed or terminally rejected; non-idempotent/unauthorised operation; changed payload/identity or service forbids retries.",
+        "Temporary blockers": "CG-7 and Status pending/unknown, query or original mutation in flight, permit stale, or safe-point/token check unresolved.",
+        "ExpectedEffect": "Issue at most one permitted retry for the same logical transaction; never generate a new submission identity.",
+        "Postconditions": "INV-01–INV-05 and No duplicate transaction and no assumption that a timed-out retry failed; consume the attempt permit.",
+        "Compatibility constraints": "CG-8 and Mutually exclusive with R3.A7 command on the same transaction snapshot; feedback follows result evidence, not predicted success.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. Read/query/retry/resume commands additionally obey TX-1; a policy change is not a command authorisation.",
+        "PermittedTransformations": [],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Also request/transaction identity, authorisation and payload references, ambiguity epoch, permit/status revision, query/retry token, result quality and baseline/adaptive origin; do not copy sensitive payloads.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R3.A2",
+          "H:V2-07",
+          "H:V3-02",
+          "CAT1/V2-07/status",
+          "CAT1/V3-02/branches"
+        ]
+      }
+    },
+    {
+      "name": "Low-Bandwidth Asset Profile",
+      "contract": {
+        "ActionID": "R3.A3",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R3",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R3.A3; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Use declared lighter resources while preserving essential support.",
+        "NeedCoverage": {
+          "declared": {
+            "N7": "Keep essential service content available under the justified continuity need."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R3 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "P.asset.profile; P.asset.realisation",
+        "Legal parameters/values": {
+          "profile": [
+            "standard",
+            "low-bandwidth"
+          ],
+          "realisation": [
+            "native",
+            "registered-text"
+          ],
+          "scope": "Versioned asset bundle with required semantic content IDs"
+        },
+        "Default/current state": {
+          "default": {
+            "profile": "standard",
+            "realisation": "native"
+          },
+          "adaptive_target": {
+            "profile": "low-bandwidth",
+            "realisation": "native"
+          },
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and A registered low-bandwidth bundle preserves every required content/function ID.",
+        "Permanent exclusions": "CG-6 and No equivalent permitted resources; suppressing an essential asset loses required meaning.",
+        "Temporary blockers": "CG-7 and Resource equivalence/version or feature availability unknown; replacement would interrupt active input.",
+        "ExpectedEffect": "Use declared low-bandwidth assets without silently dropping essential information.",
+        "Postconditions": "INV-01–INV-05 and Required content coverage and functionality remain accessible.",
+        "Compatibility constraints": "CG-8 and R1.A4 media alternatives require reciprocal registered equivalence; bandwidth never overrides INV-04.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [
+          {
+            "VariantID": "registered-text",
+            "change": "low-bandwidth native → registered-text",
+            "guard": "Versioned per-asset map covers every required semantic ID; no indispensable visual-only content is lost; the text bundle is permitted for the current task.",
+            "preserved_effect": "Essential continuity-supporting content remains available."
+          }
+        ],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Also request/transaction identity, authorisation and payload references, ambiguity epoch, permit/status revision, query/retry token, result quality and baseline/adaptive origin; do not copy sensitive payloads.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R3.A3",
+          "H:V2-06",
+          "CAT1/V2-06/text"
+        ]
+      }
+    },
+    {
+      "name": "Recovery Panel",
+      "contract": {
+        "ActionID": "R3.A4",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R3",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R3.A4; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Expose interruption state and permitted recovery controls.",
+        "NeedCoverage": {
+          "declared": {
+            "N6": "Expose safe recovery options.",
+            "N7": "Explain how the interrupted task may continue."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R3 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "P.recovery.panel; P.recovery.realisation",
+        "Legal parameters/values": {
+          "visibility": [
+            "hidden",
+            "visible"
+          ],
+          "realisation": [
+            "native",
+            "shared-review"
+          ],
+          "scope": "Current interruption/task ID"
+        },
+        "Default/current state": {
+          "default": {
+            "visibility": "hidden unless baseline safety requires visible",
+            "realisation": "native"
+          },
+          "adaptive_target": {
+            "visibility": "visible",
+            "realisation": "native"
+          },
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and An actual pending/error/interruption state exists and each enabled recovery control has a current guard.",
+        "Permanent exclusions": "CG-6 and Fabricated status or a recovery control that enables an unsafe operation.",
+        "Temporary blockers": "CG-7 and Control permissions/status evidence unknown; show known uncertainty through baseline feedback while guarded controls remain disabled.",
+        "ExpectedEffect": "Show accurate interruption state and safe next controls.",
+        "Postconditions": "INV-01–INV-05 and Does not itself retry, restore a draft or determine authoritative transaction state.",
+        "Compatibility constraints": "CG-8 and Can share presentation with R4.A4; status and review data must remain distinguishable.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [
+          {
+            "VariantID": "shared-review",
+            "change": "native → shared-review",
+            "guard": "R4.A4 independently nominated; review data and recovery state have separate labelled regions and preserved controls/IDs.",
+            "preserved_effect": "Both recovery and review purposes retained."
+          }
+        ],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Also request/transaction identity, authorisation and payload references, ambiguity epoch, permit/status revision, query/retry token, result quality and baseline/adaptive origin; do not copy sensitive payloads.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R3.A4",
+          "H:V2-09",
+          "CAT1/V2-09/shared"
+        ]
+      }
+    },
+    {
+      "name": "Explicit Submission Feedback",
+      "contract": {
+        "ActionID": "R3.A5",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R3",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R3.A5; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Communicate the evidenced current transaction status.",
+        "NeedCoverage": {
+          "declared": {
+            "N6": "Explain success, rejection or uncertainty without misleading repeat actions.",
+            "N7": "Make continuation/pending state understandable."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R3 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "P.submission.feedback",
+        "Legal parameters/values": {
+          "mode": [
+            "standard",
+            "explicit"
+          ],
+          "scope": "TransactionID; status is read from S, not assigned by this action"
+        },
+        "Default/current state": {
+          "default": "standard",
+          "adaptive_target": "explicit",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and Current transaction identity is known; status quality and evidence reference are available, including explicit unknown.",
+        "Permanent exclusions": "CG-6 and Status belongs to another transaction or proposed message fabricates success.",
+        "Temporary blockers": "CG-7 and Correlated status record is stale/missing; use baseline unknown feedback until fresh reevaluation.",
+        "ExpectedEffect": "Render completed, pending, safely_retryable, terminal_rejected or unknown using TX-1 message semantics.",
+        "Postconditions": "INV-01–INV-05 and No transaction mutation, query or retry; unknown remains unknown.",
+        "Compatibility constraints": "CG-8 and Consumes R3.A7 or other authoritative result only through a new observation/decision; R3.A4 controls remain distinct.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Also request/transaction identity, authorisation and payload references, ambiguity epoch, permit/status revision, query/retry token, result quality and baseline/adaptive origin; do not copy sensitive payloads.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R3.A5",
+          "H:V2-07",
+          "H:V3-06",
+          "CAT1/V3-06/chain"
+        ]
+      }
+    },
+    {
+      "name": "Guided Draft Resumption",
+      "contract": {
+        "ActionID": "R3.A6",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R3",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R3.A6; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Guide restoration of a compatible persisted user task.",
+        "NeedCoverage": {
+          "declared": {
+            "N4": "Re-establish saved task references when conditional N4→R3 holds.",
+            "N7": "Resume the same draft and valid progress."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R3 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "P.draft.resume",
+        "Legal parameters/values": {
+          "mode": [
+            "manual",
+            "guided"
+          ],
+          "scope": "Authorised compatible draft ID/version; explicit resume authorisation token"
+        },
+        "Default/current state": {
+          "default": "manual",
+          "adaptive_target": "guided",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and Snapshot belongs to the same user/service, is version-compatible, and user explicitly agrees to resume; no entered current value conflicts.",
+        "Permanent exclusions": "CG-6 and Different owner/service, invalid snapshot, destructive overwrite, or incompatible schema with no declared lossless mapping.",
+        "Temporary blockers": "CG-7 and Draft verification/merge safety unknown, user confirmation pending, current edit unfinished or write in flight.",
+        "ExpectedEffect": "Guide a separate authorised resume event that restores the correct snapshot.",
+        "Postconditions": "INV-01–INV-05 and Preserve all current entered values; restoration records source/destination versions and logical progress. A conflicting nonempty current value prevents restoration.",
+        "Compatibility constraints": "CG-8 and Serialised with autosave; does not reconcile server transaction truth or imply a resubmission.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. Read/query/retry/resume commands additionally obey TX-1; a policy change is not a command authorisation.",
+        "PermittedTransformations": [],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Also request/transaction identity, authorisation and payload references, ambiguity epoch, permit/status revision, query/retry token, result quality and baseline/adaptive origin; do not copy sensitive payloads.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R3.A6",
+          "H:V3-05",
+          "CAT1/V3-05/resume"
+        ]
+      }
+    },
+    {
+      "name": "Transaction Status Reconciliation",
+      "contract": {
+        "ActionID": "R3.A7",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R3",
+        "HistoricalProvenance": "No historical ActionID. Current separation of transaction-status checking already required across H:F.5.1, H:V2-07, H:V3-02 and H:V3-05, explicitly adopted by the user on 12 September 2026. It is not H:R2.A6 moved to R3 and not an unchanged historical action.",
+        "PrimaryPurpose": "Determine the reliable status of an in-flight or ambiguously completed logical service transaction before a potentially unsafe continuation.",
+        "NeedCoverage": {
+          "declared": {
+            "N6": "Provide a guarded read-only status-determination attempt and preserve uncertainty to prevent unsafe repeat effects.",
+            "N7": "Provide reliable status evidence, or an explicit unresolved result, for continuity decisions."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R3 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "P.transaction.reconciliation; read-only interaction returns status evidence to S",
+        "Legal parameters/values": {
+          "mode": [
+            "manual",
+            "guarded-query"
+          ],
+          "scope": "Existing TransactionID/idempotency key; ambiguity epoch and trigger token; one query per token; no arbitrary operation/payload"
+        },
+        "Default/current state": {
+          "default": "manual; mandatory baseline pre-retry status checks remain active in both UI conditions",
+          "adaptive_target": "guarded-query",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and N6 and/or N7 is justified in the same scope and nominates R3; transaction is in-flight/ambiguous; current authorised read-only status facility and transaction identity exist; trigger token not consumed.",
+        "Permanent exclusions": "CG-6 and No scoped need/R3 nomination; no existing transaction; unauthorised status access; endpoint has service-mutating semantics; transaction terminally known with no newer ambiguity.",
+        "Temporary blockers": "CG-7 and Network/status facility temporarily unavailable, query already in flight, evidence/identity ambiguous or trigger token already consumed; await a new declared trigger.",
+        "ExpectedEffect": "Dispatch one read-only reconciliation query; accept only TX-1 matched reliable status, otherwise retain explicit unknown/pending. Publish its result as a new observation.",
+        "Postconditions": "INV-01–INV-05 and No submission, resend, invented success, altered authorisation or idempotency key. A status result is evidence for a later full-chain decision, not an inline retry.",
+        "Compatibility constraints": "CG-8 and R3.A2 cannot execute in the same snapshot; R3.A5 displays the next evidenced status; R3.A4 exposes controls and R3.A6 handles local draft resumption separately.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. Read/query/retry/resume commands additionally obey TX-1; a policy change is not a command authorisation.",
+        "PermittedTransformations": [],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Also request/transaction identity, authorisation and payload references, ambiguity epoch, permit/status revision, query/retry token, result quality and baseline/adaptive origin; do not copy sensitive payloads.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R3.A7",
+          "H:V2-07",
+          "H:V3-02",
+          "H:V3-05",
+          "CAT1/V2-07/status",
+          "CAT1/V3-02/branches",
+          "CAT1/V3-06/chain"
+        ]
+      }
+    },
+    {
+      "name": "Staged Flow",
+      "contract": {
+        "ActionID": "R4.A1",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R4",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R4.A1; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Present the task in legal logical stages.",
+        "NeedCoverage": {
+          "declared": {
+            "N2": "Expose the service sequence.",
+            "N3": "Maintain logical stage orientation.",
+            "N4": "Retain references across stages if its conditional edge holds."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R4 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "F.flow.mode",
+        "Legal parameters/values": {
+          "mode": [
+            "single-page",
+            "staged"
+          ],
+          "scope": "Versioned stage/dependency graph"
+        },
+        "Default/current state": {
+          "default": "single-page",
+          "adaptive_target": "staged",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and Total field/control-to-stage mapping preserves dependency order and current logical position.",
+        "Permanent exclusions": "CG-6 and Missing/cyclic dependency or stage mapping loses values/required controls.",
+        "Temporary blockers": "CG-7 and Unfinished input or ambiguous upload/submission affecting restructuring; snapshot mapping unknown.",
+        "ExpectedEffect": "Render stages without changing the logical service facts.",
+        "Postconditions": "INV-01–INV-05 and Preserve values, valid progress and current logical StepID.",
+        "Compatibility constraints": "CG-8 and Grouping must fit stage boundaries; cue/progress share the same logical graph.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R4.A1",
+          "H:V2-05",
+          "H:V3-03",
+          "CAT1/V2-05/stage"
+        ]
+      }
+    },
+    {
+      "name": "Progress Indicator",
+      "contract": {
+        "ActionID": "R4.A2",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R4",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R4.A2; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Display evidenced logical task progress.",
+        "NeedCoverage": {
+          "declared": {
+            "N2": "Show position in the task sequence.",
+            "N3": "Show current stage orientation.",
+            "N7": "Retain continuity cues when conditional N7→R4 holds."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R4 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "F.progress.indicator; F.progress.realisation",
+        "Legal parameters/values": {
+          "mode": [
+            "off",
+            "on"
+          ],
+          "realisation": [
+            "native",
+            "shared-cue"
+          ],
+          "scope": "Logical stage/progress object"
+        },
+        "Default/current state": {
+          "default": {
+            "mode": "off",
+            "realisation": "native"
+          },
+          "adaptive_target": {
+            "mode": "on",
+            "realisation": "native"
+          },
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and Versioned progress object and logical stage are known.",
+        "Permanent exclusions": "CG-6 and Invented completion or progress label contradicts prerequisites.",
+        "Temporary blockers": "CG-7 and Progress snapshot unknown/mismatched.",
+        "ExpectedEffect": "Display actual logical progress.",
+        "Postconditions": "INV-01–INV-05 and No advancement, completion or validation is performed.",
+        "Compatibility constraints": "CG-8 and Can share a control with R1.A3 when identities and cue data match.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [
+          {
+            "VariantID": "shared-cue",
+            "change": "native → shared-cue; mode remains on",
+            "guard": "R1.A3 independently nominated, mode full, same logical progress identity and preserved full cue.",
+            "preserved_effect": "Joint progress/cue representation retains both sources."
+          }
+        ],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R4.A2",
+          "H:V2-03",
+          "CAT1/V2-03/shared"
+        ]
+      }
+    },
+    {
+      "name": "Step Validation",
+      "contract": {
+        "ActionID": "R4.A3",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R4",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R4.A3; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Expose validation at the appropriate task stage.",
+        "NeedCoverage": {
+          "declared": {
+            "N6": "Expose existing validation results and correction opportunities before continuation."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R4 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "F.validation.timing",
+        "Legal parameters/values": {
+          "mode": [
+            "submit",
+            "step"
+          ],
+          "scope": "Manifest validation rules and stage"
+        },
+        "Default/current state": {
+          "default": "submit",
+          "adaptive_target": "step",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and Existing validation predicates can be evaluated without destructive side effects; authoritative server checks remain.",
+        "Permanent exclusions": "CG-6 and Changes validation rules, eligibility or server acceptance; destructive normalisation of user input.",
+        "Temporary blockers": "CG-7 and Input composition incomplete or validation service/evidence unavailable.",
+        "ExpectedEffect": "Evaluate existing rules at the step boundary and display results.",
+        "Postconditions": "INV-01–INV-05 and Validation truth is unchanged by presentation; newly observed results are evidence events, not fabricated progress.",
+        "Compatibility constraints": "CG-8 and R1.A6 may explain errors; step cues must not imply invalid steps completed.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R4.A3",
+          "H:V3-01",
+          "H:V3-08"
+        ]
+      }
+    },
+    {
+      "name": "Review Summary",
+      "contract": {
+        "ActionID": "R4.A4",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R4",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R4.A4; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Expose a faithful review of entered data and requirements.",
+        "NeedCoverage": {
+          "declared": {
+            "N4": "Provide persistent review references if its conditional edge holds.",
+            "N5": "Support a declared review-stage decision if conditional N5→R4 holds.",
+            "N6": "Support checking before authorised submission."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R4 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "F.review.summary; F.review.realisation",
+        "Legal parameters/values": {
+          "mode": [
+            "off",
+            "on"
+          ],
+          "realisation": [
+            "native",
+            "shared-recovery"
+          ],
+          "scope": "Versioned data/requirement snapshot"
+        },
+        "Default/current state": {
+          "default": {
+            "mode": "off",
+            "realisation": "native"
+          },
+          "adaptive_target": {
+            "mode": "on",
+            "realisation": "native"
+          },
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and A complete faithful summary mapping exists for the current version and authorised display scope.",
+        "Permanent exclusions": "CG-6 and Summary omits required review data, exposes unauthorised content or changes values.",
+        "Temporary blockers": "CG-7 and Snapshot/field mapping unknown or update in flight.",
+        "ExpectedEffect": "Display a review summary with a legal correction route.",
+        "Postconditions": "INV-01–INV-05 and Review never submits or changes data; status labels separate from review values.",
+        "Compatibility constraints": "CG-8 and Can share presentation with R3.A4 while preserving separate semantics.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [
+          {
+            "VariantID": "shared-recovery",
+            "change": "native → shared-recovery; mode remains on",
+            "guard": "R3.A4 independently nominated/visible; separately labelled review/status regions preserve all controls and data.",
+            "preserved_effect": "Faithful review remains available alongside recovery."
+          }
+        ],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R4.A4",
+          "H:V2-09",
+          "CAT1/V2-09/shared"
+        ]
+      }
+    },
+    {
+      "name": "Back/Review Navigation",
+      "contract": {
+        "ActionID": "R4.A5",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R4",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R4.A5; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Offer legal navigation to prior stages and review.",
+        "NeedCoverage": {
+          "declared": {
+            "N2": "Offer legal process navigation.",
+            "N3": "Retain orientation through stage navigation.",
+            "N4": "Provide access to prior references if its conditional edge holds."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R4 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "F.stage.navigation",
+        "Legal parameters/values": {
+          "mode": [
+            "basic",
+            "back-review"
+          ],
+          "scope": "Allowed edges of the service stage graph"
+        },
+        "Default/current state": {
+          "default": "basic",
+          "adaptive_target": "back-review",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and The service graph permits the offered return/review edges.",
+        "Permanent exclusions": "CG-6 and Navigation bypasses authorisation/validation or has no safe state mapping.",
+        "Temporary blockers": "CG-7 and Current edit/transaction blocks the offered transition or edge status unknown.",
+        "ExpectedEffect": "Expose valid back/review controls without navigating automatically.",
+        "Postconditions": "INV-01–INV-05 and Data and validation facts survive any later separately authorised navigation.",
+        "Compatibility constraints": "CG-8 and R2 secondary reduction cannot remove its only required route.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R4.A5",
+          "H:V2-08",
+          "H:V3-03"
+        ]
+      }
+    },
+    {
+      "name": "Dependency Cues",
+      "contract": {
+        "ActionID": "R4.A6",
+        "CatalogueVersion": "UAIS-CAT-1.0",
+        "RuleSource": "R4",
+        "HistoricalProvenance": "H-PROP-20260908 F.4 R4.A6; purpose retained, operational contract made explicit in UAIS-CAT-1.0.",
+        "PrimaryPurpose": "Explain task and field prerequisites.",
+        "NeedCoverage": {
+          "declared": {
+            "N2": "Explain required sequence/dependencies.",
+            "N5": "Explain prerequisite choice implications when its conditional edge holds.",
+            "N6": "Expose prerequisite/correction information."
+          },
+          "gate": "CG-1: only currently justified scoped needs with a TRUE existing Nk→R4 edge; union with provenance, never activate a need from this action. Coverage denotes delivered support capability, not empirical effectiveness or resolution of the need."
+        },
+        "Target/UI or service-interaction property": "F.dependency.cue",
+        "Legal parameters/values": {
+          "mode": [
+            "hidden",
+            "visible"
+          ],
+          "scope": "Manifest prerequisite/dependency IDs"
+        },
+        "Default/current state": {
+          "default": "hidden",
+          "adaptive_target": "visible",
+          "current": "Read the typed current property map at the decision snapshot; never substitute the default for a known current value."
+        },
+        "Preconditions": "CG-1–CG-5 and The relevant dependency/prerequisite exists in versioned metadata.",
+        "Permanent exclusions": "CG-6 and Invented dependency or cue contradicts authoritative requirements.",
+        "Temporary blockers": "CG-7 and Metadata version or scoped relevance unknown.",
+        "ExpectedEffect": "Show relevant dependency cues.",
+        "Postconditions": "INV-01–INV-05 and No requirement, choice or eligibility is changed.",
+        "Compatibility constraints": "CG-8 and Must agree with staged flow, current validation truth and step guidance.",
+        "Transition constraints": "CG-9: apply only within a coherent scope/version snapshot; protect active input; retain support during unresolved recovery; withdraw no longer justified optional support only at a safe point. ",
+        "PermittedTransformations": [],
+        "Relevant invariants": [
+          "INV-01",
+          "INV-02",
+          "INV-03",
+          "INV-04",
+          "INV-05"
+        ],
+        "Logging requirements": "TRACE-CAT1: action/variant/parameters, historical predecessor(s), scope and need/edge evidence, guard/invariant results, target and current change atoms, operation/result, versions and predecessor/successor IDs. Record affected content/control/field IDs and reachability/state witnesses.",
+        "Verification references": [
+          "H:V2-01",
+          "CAT1/V2-01/R4.A6",
+          "H:V2-10",
+          "H:V3-08"
+        ]
+      }
+    }
+  ]
+}

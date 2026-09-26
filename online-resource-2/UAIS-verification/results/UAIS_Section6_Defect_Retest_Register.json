@@ -1,0 +1,51 @@
+{
+  "SpecificationDefectsDiscovered": 0,
+  "ImplementationDefectsDiscovered": 3,
+  "Entries": [
+    {
+      "DefectID": "IMPL-001",
+      "Component": "instrumentation",
+      "OriginalEvidence": "assessment-1/trace_acceptance_records.json: eight failed required-field audits",
+      "Correction": "0.1.1 records versions, plan inputs, current/source tokens and deferred supersession",
+      "Retest": "assessment-2 and assessment-3: 8/8 checks pass",
+      "Status": "CLOSED FOR CHECKED MODEL TRACE REQUIREMENTS"
+    },
+    {
+      "DefectID": "HARNESS-001",
+      "Component": "trace checker",
+      "OriginalEvidence": "0.1.0 stage-presence check passed eight traces that failed stricter acceptance",
+      "Correction": "0.1.1 required-field checks; separate acceptance checker and missing-version/token/parent negative controls",
+      "Retest": "eight accepted traces and three rejected corruptions in assessment-3",
+      "Status": "CLOSED FOR CHECKED STRUCTURAL REQUIREMENTS"
+    },
+    {
+      "DefectID": "IMPL-002",
+      "Component": "transaction branch and feedback",
+      "OriginalEvidence": "transaction-audit-0.1.1: two incorrect terminal retry dispositions and five absent feedback records, yielding five failed branch assessments",
+      "Correction": "0.1.2 supplies known-negative terminal retry guard and mandatory baseline feedback, with pending feedback following retry dispatch",
+      "Retest": "transaction-audit-0.1.2: 5/5 pass with unchanged TX-1 expectations",
+      "Status": "CLOSED FOR FIVE CHECKED BRANCHES"
+    },
+    {
+      "DefectID": "LIMIT-001",
+      "Component": "full canonical comparator domain",
+      "Evidence": "Known NFC-string-only canonical key; complete typed tuple/decimal/set normalisation unimplemented",
+      "Status": "OPEN; GAP/canonical-typed-domain"
+    },
+    {
+      "DefectID": "COVERAGE-001",
+      "Component": "remaining verification domain",
+      "Evidence": "Five explicit gap entries; browser, complete action effects/scopes, full canonical domain, fully justified rule-mask scenarios, and IME/browser observation",
+      "Status": "OPEN"
+    },
+    {
+      "DefectID": "COVERAGE-002",
+      "Component": "parent/family linkage",
+      "OriginalEvidence": "34/35 parents and 41/44 child families in 0.1.0",
+      "Correction": "Six added instances in dataset 0.1.1",
+      "Retest": "35/35 parents and 44/44 families represented by at least one current instance",
+      "Status": "LINKAGE CLOSED; FULL SEMANTIC COVERAGE NOT IMPLIED"
+    }
+  ],
+  "OraclePolicy": "Governing specifications unchanged. Existing expected objects retained; six new instances added in a versioned dataset. Acceptance rules apply original TRACE/TX-1 requirements; initial weak-check passes and subsequent failures remain preserved."
+}

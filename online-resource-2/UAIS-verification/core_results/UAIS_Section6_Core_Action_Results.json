@@ -1,0 +1,743 @@
+[
+  {
+    "ActionID": "R1.A1",
+    "PositiveCase": "CORE/ACTION/R1.A1/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R1.A1/contextual"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "instruction_content": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "G.guidance.visibility = contextual",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R1.A2",
+    "PositiveCase": "CORE/ACTION/R1.A2/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R1.A2/on-demand"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "correct_definition": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "G.term.explanation = inline",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R1.A3",
+    "PositiveCase": "CORE/ACTION/R1.A3/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R1.A3/shared-progress"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "actual_step_cue": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "G.step.cue = full",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R1.A4",
+    "PositiveCase": "CORE/ACTION/R1.A4/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R1.A4/text-equivalent"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "example_identity": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "G.example.visibility = on-demand",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R1.A5",
+    "PositiveCase": "CORE/ACTION/R1.A5/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R1.A5/unlisted"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "help_semantics": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "G.help.access = contextual",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R1.A6",
+    "PositiveCase": "CORE/ACTION/R1.A6/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R1.A6/unlisted"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "error_identity_truth": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "G.error.explanation = contextual",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R2.A1",
+    "PositiveCase": "CORE/ACTION/R2.A1/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R2.A1/unlisted"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "essential_content": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "D.layout.density = reduced",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R2.A2",
+    "PositiveCase": "CORE/ACTION/R2.A2/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R2.A2/narrow-scope"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "independent_scopes": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "D.content.reduction[OPT01].state = collapsed",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R2.A3",
+    "PositiveCase": "CORE/ACTION/R2.A3/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R2.A3/within-stage"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "members_dependencies": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "D.grouping.mode = semantic",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R2.A4",
+    "PositiveCase": "CORE/ACTION/R2.A4/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R2.A4/unlisted"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "valid_control": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "D.primary.control.emphasis = emphasized",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R2.A5",
+    "PositiveCase": "CORE/ACTION/R2.A5/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R2.A5/unlisted"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "requirements_truth": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "D.requirements.view = checklist",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R3.A1",
+    "PositiveCase": "CORE/ACTION/R3.A1/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R3.A1/unlisted"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "persisted_accepted_snapshot": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "P.draft.autosave = on; separate persist admission/result",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R3.A2",
+    "PositiveCase": "CORE/ACTION/R3.A2/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R3.A2/unlisted"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "guarded_same_identity_retry": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "P.network.retry = guarded-auto; separate retry admission/result",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R3.A3",
+    "PositiveCase": "CORE/ACTION/R3.A3/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R3.A3/registered-text"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "essential_asset_ids": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "P.asset.profile = low-bandwidth",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R3.A4",
+    "PositiveCase": "CORE/ACTION/R3.A4/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R3.A4/shared-review"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "honest_recovery": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "P.recovery.panel = visible",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R3.A5",
+    "PositiveCase": "CORE/ACTION/R3.A5/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R3.A5/unlisted"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "honest_feedback": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "P.submission.feedback = explicit",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R3.A6",
+    "PositiveCase": "CORE/ACTION/R3.A6/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R3.A6/unlisted",
+      "CORE/ACTION/R3.A6/restore-missing"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "authorised_lossless_resume": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "P.draft.resume = guided; separate resume admission/result",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R3.A7",
+    "PositiveCase": "CORE/ACTION/R3.A7/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R3.A7/unlisted"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "readonly_new_evidence": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "P.transaction.reconciliation = guarded-query; separate query admission/result",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R4.A1",
+    "PositiveCase": "CORE/ACTION/R4.A1/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R4.A1/unlisted"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "logical_stage_binding": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "F.flow.mode = staged",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R4.A2",
+    "PositiveCase": "CORE/ACTION/R4.A2/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R4.A2/shared-cue"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "actual_progress": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "F.progress.indicator = on",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R4.A3",
+    "PositiveCase": "CORE/ACTION/R4.A3/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R4.A3/unlisted"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "existing_validation": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "F.validation.timing = step",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R4.A4",
+    "PositiveCase": "CORE/ACTION/R4.A4/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R4.A4/shared-recovery"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "faithful_review": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "F.review.summary = on",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R4.A5",
+    "PositiveCase": "CORE/ACTION/R4.A5/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R4.A5/unlisted"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "legal_navigation": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "F.stage.navigation = back-review",
+    "Status": "Pass"
+  },
+  {
+    "ActionID": "R4.A6",
+    "PositiveCase": "CORE/ACTION/R4.A6/positive",
+    "AdditionalCases": [
+      "CORE/ACTION/R4.A6/unlisted"
+    ],
+    "PostconditionChecks": {
+      "values_preserved": true,
+      "step_progress_preserved": true,
+      "input_preserved": true,
+      "configuration_invariants": true,
+      "command_identity_unchanged": true,
+      "required_routes": true,
+      "dependency_identity": true,
+      "no_service_side_effect": true,
+      "declared_property": true,
+      "mediated_coverage": true,
+      "trace_reconstruction": true,
+      "rule_source": true,
+      "command_phase_order": true
+    },
+    "InvariantResult": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "ObservedEffect": "F.dependency.cue = visible",
+    "Status": "Pass"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "Control": "version",
+    "Expected": "reject missing evidence",
+    "ObservedMissing": [
+      "version linkage"
+    ],
+    "Status": "Pass"
+  },
+  {
+    "Control": "token",
+    "Expected": "reject missing evidence",
+    "ObservedMissing": [
+      "tokens"
+    ],
+    "Status": "Pass"
+  },
+  {
+    "Control": "parent",
+    "Expected": "reject missing evidence",
+    "ObservedMissing": [
+      "chain",
+      "dangling parent",
+      "true edge provenance"
+    ],
+    "Status": "Pass"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "ServiceID": "VILLAGE-RESIDENCE-DEMO",
+  "ServiceVersion": "1.0.0",
+  "FixtureVersion": "UAIS-VRI-1.0",
+  "steps": [
+    "ST01",
+    "ST02",
+    "ST03",
+    "ST04",
+    "ST05",
+    "ST06",
+    "ST07"
+  ],
+  "fields": [
+    "FLD01",
+    "FLD02",
+    "FLD03",
+    "FLD04",
+    "FLD05",
+    "FLD06"
+  ],
+  "requirements": [
+    "REQ01",
+    "REQ02",
+    "REQ03"
+  ],
+  "documents": [
+    "DOC01"
+  ],
+  "review": "REVIEW01",
+  "validation": [
+    "VAL01",
+    "VAL02",
+    "VAL03",
+    "VAL04",
+    "VAL05",
+    "VAL06",
+    "VAL07"
+  ],
+  "operation": "OP01",
+  "source": "specs/UAIS_Section5_Fixture_and_Production_Specification.md",
+  "required_graph": {
+    "root": [
+      "error",
+      "status",
+      "recovery",
+      "navigation",
+      "submit-explanation"
+    ]
+  },
+  "synthetic_only": true
+}

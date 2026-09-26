@@ -1,0 +1,1260 @@
+{
+  "source_archive_sha256": "f9cc460d81fbaa3bc9e323b98f36dae30999940d32167071dc4044d503dadaed",
+  "manuscript_sha256": "9136403c4bde254501535f269c6d614ebb86a02d3e81bbe3b7f5dcd386cfea85",
+  "files": [
+    {
+      "destination": "online-resource-1/bindings/model.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/model.py",
+      "sha256": "02fd1d5637906925852cff1b821caa77cf6bfc93ba9fd105861421a07bac801e",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/bindings/semantic.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/semantic.py",
+      "sha256": "b2bd0e86b3c6d12f3715e3703f0fb890c9ab0ca21cf361c3499befbd40ddd8a5",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/bindings/service_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/service_manifest.json",
+      "sha256": "165a98ecfe7f29eb49621c97d19957427451eb039fc475c373469361d7184644",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/historical-context/Recovered_Historical_Specifications.md",
+      "source": "2026-09-12 authoring outputs/Recovered_Historical_Specifications.md",
+      "sha256": "fddee885df10c03dcd326b7756301aaf4aa8fd0563b44379fec21b0a5fb4278b",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/historical-context/UAIS_Section3_Text_Patches.md",
+      "source": "2026-09-12 authoring outputs/UAIS_Section3_Text_Patches.md",
+      "sha256": "2766c632dee55f3fe04afe70d6fe37cecb08103127932ebf1457e37d62f0fd99",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/historical-context/UAIS_Section4_Figures_Tables_Supplements.md",
+      "source": "2026-09-12 authoring outputs/UAIS_Section4_Figures_Tables_Supplements.md",
+      "sha256": "2a9d19528fc50b13a71a33c0ba4cc00efb76b85416f021e28f3bbb57c7400684",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/specifications/catalogue.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/catalogue.json",
+      "sha256": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/specifications/UAIS_Final_Action_Catalogue.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Final_Action_Catalogue.md",
+      "sha256": "7376dc09f9fc662f127d7aeb9f1473135764fb23b94aa3a63960ef492d4b214e",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/specifications/UAIS_Final_Action_Contracts.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Final_Action_Contracts.json",
+      "sha256": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/specifications/UAIS_Final_Verification_Delta.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Final_Verification_Delta.md",
+      "sha256": "e1cfcc2dac44902c7a5652906e584f21a731e95fe4bfaf0aa81d88748a9f5398",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/specifications/UAIS_Historical_Mapping_Verification_Import.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Historical_Mapping_Verification_Import.md",
+      "sha256": "8a1216fb46676675624a28a38ef2cd65586c2c7c293903c38d0150caf109106d",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/specifications/UAIS_Section3_Final_Completion_Decisions.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Section3_Final_Completion_Decisions.md",
+      "sha256": "374b852298accfb3cf265a1d894b724814b1ece0fe497e78d52b211f7118d144",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/specifications/UAIS_Section4_Proposed_Framework.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Section4_Proposed_Framework.md",
+      "sha256": "65cbb0e4c1372d0f40bb1f74df3b16432534f02448bd53d727d5c04548b51bed",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/specifications/UAIS_Section5_Fixture_and_Production_Specification.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Section5_Fixture_and_Production_Specification.md",
+      "sha256": "27a1bfa5fe81843731a81324c176362352dd21d02fe5531a453e52f8d01d26f1",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/specifications/UAIS_Section5_Framework_Instantiation.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Section5_Framework_Instantiation.md",
+      "sha256": "fbe9d08e38ce5a7b2e1f4e3357775f23c04276fa76416939f7f7d269e5e1df23",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-1/specifications/UAIS_Verification_Child_Index.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Verification_Child_Index.json",
+      "sha256": "21c564cd4af3e5fc83600ec4f2010a6c69211249e0607ead37ba672054c3bc66",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/assess.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/assess.py",
+      "sha256": "7005804be94fce71361f2d04b159301dba0f21b2f05a2994332133449d156b81",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/audit_transactions.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/audit_transactions.py",
+      "sha256": "f70df01aee667abf4cc1c47d3421c24cd5c00deda49753eac8013aa2c38b3c91",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure_acceptance_022.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure_acceptance_022.py",
+      "sha256": "1a754b3adf077da93fd93c7ca06018c1aab57a8af12bc51a29b4a266dbc4d953",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure_transaction_audit.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure_transaction_audit.py",
+      "sha256": "0f64166e1ae31d7a78df8f6ad02d8d9afc8e6299dcbc3c1774712e434a1f6fbc",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/CORE_CLOSURE_README.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/CORE_CLOSURE_README.md",
+      "sha256": "d3dc37a4454a457da7d0c36078d8158e9a1f6bd410a16bb07fc39cc06d63bd02",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/execution_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/execution_manifest.json",
+      "sha256": "08e0e4f6cc1ce87e5517c091afaca6f57a6a1ef8334253787519b2e3a450cc3e",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/expected.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/expected.json",
+      "sha256": "cf8ec4c003550dab11f578e5405f07eaef0428b0dcd0f682cf16a596d84bedf8",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/inventory.json",
+      "sha256": "535c0371248542ee998c0ae9e6adc29d6427a9ccebed726a84527ccf9830ae26",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/model.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/model.py",
+      "sha256": "98dff24c224637cbd36cd5a5f2cd7883f35894f60656042eed9ac908d81fb892",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/package_core_closure.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/package_core_closure.py",
+      "sha256": "c51adc12b693f1d7b1765c5404df06d0a89c901427b775a15c95351487871fcc",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/package_evidence.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/package_evidence.py",
+      "sha256": "87a9751939508c9caeb64f0de5192c1a275c3cd04b3fe33d02a5fc19045cfde4",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/parent_inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/parent_inventory.json",
+      "sha256": "b3e6a3f700b0aeb0358c88c2cac7e2c342dcf5ac1502b1e42a7a3dc1a430784a",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/prepare.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/prepare.py",
+      "sha256": "d251056d19585e6e6775fdf1d3b87f92426514a58467ea805af5d0e1dc6689e5",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/README.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/README.md",
+      "sha256": "6b97240c87cf585f8c5a335db8dba335e7170fb5b10031dc9e69808f7e80d47d",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/report.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/report.py",
+      "sha256": "f4e3a917e6ebfa9e77a8eb576d3f3de374933b7d4f905176f5d81cb447e91334",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/report_core_closure.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/report_core_closure.py",
+      "sha256": "6f7b6158324544711aa6ff6b1132872e834e7958a513992204d816b4125df657",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/retest_acceptance.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/retest_acceptance.py",
+      "sha256": "7321af45ad2082ae2320e79af2006d3482b1e612ccf802aa116ee96c191c9651",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/retest_acceptance_012.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/retest_acceptance_012.py",
+      "sha256": "16a351b3f3d475d10aa08c4f7469e2d3dc0fc5844badec9849eda9cca2d3b267",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/runner.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/runner.py",
+      "sha256": "bf8c8b33e97de7a2da1f07ea104d6ee3580dd969d771f02ef713047945799643",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/service_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/service_manifest.json",
+      "sha256": "165a98ecfe7f29eb49621c97d19957427451eb039fc475c373469361d7184644",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/assessment-1/audit_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/assessment-1/audit_manifest.json",
+      "sha256": "097ff59cf76460fc8d5301750b0119a22925fe61d9a3b6a0d302c959d2039c86",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/assessment-1/coverage.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/assessment-1/coverage.json",
+      "sha256": "7a223a0d1ed5a9d022803237d32da90d4788b859eec52a8363584e6544a43ad5",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/assessment-1/defect_retest_register.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/assessment-1/defect_retest_register.json",
+      "sha256": "3287ffc450ab023cc540044e0ebb20791cf7581ef83a770373d3c178d0504685",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/assessment-1/trace_acceptance_records.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/assessment-1/trace_acceptance_records.json",
+      "sha256": "eccac3473caab2a9788ea4dd46077fd9a6032daa4eb57bbf491d5b7d375b81d6",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/assessment-2/audit_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/assessment-2/audit_manifest.json",
+      "sha256": "a6a77543a752b4731ce8bac56a390bee639b95b63678d97c1cea6ae6ff89679e",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/assessment-2/audit_negative_controls.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/assessment-2/audit_negative_controls.json",
+      "sha256": "a8b7c94675224da0d2ecda5d961cb9e803354a3eb547d2bff6a47ad926c510e6",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/assessment-2/trace_acceptance_records.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/assessment-2/trace_acceptance_records.json",
+      "sha256": "98d6fcffc8cfade5821fbf2115a4a8cecbec3963ae8db42d394cef9978848d71",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/assessment-3/audit_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/assessment-3/audit_manifest.json",
+      "sha256": "fb3d5a76f0e2ba9938fc79a3340dc4b9c1f7508a03c72f98e2a571102140bfaf",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/assessment-3/audit_negative_controls.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/assessment-3/audit_negative_controls.json",
+      "sha256": "a8b7c94675224da0d2ecda5d961cb9e803354a3eb547d2bff6a47ad926c510e6",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/assessment-3/trace_acceptance_records.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/assessment-3/trace_acceptance_records.json",
+      "sha256": "8f5798e200c66c89cf5cf9490901c76be073713eed9c129015f5f9b8055778ad",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/audit_equivalent_plans.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/audit_equivalent_plans.py",
+      "sha256": "36b6421d80430cae936e036f60268567e64df6b6dc606ba3a50f70f6b7f3d582",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/closure_expected.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/closure_expected.json",
+      "sha256": "ef06bb8c5ac5f1df1476a8a461ade994782c89ffc0825f63b861660828d35a70",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/closure_inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/closure_inventory.json",
+      "sha256": "238379bfe678a8a0a46d9170e812cb666cf4ac08b459d1db52e27437eef9e31e",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/execution_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/execution_manifest.json",
+      "sha256": "744efc75946ee5f0c793baa1c05ce5146f1e25e033a334c59e54c554ee2b3721",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/expected.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/expected.json",
+      "sha256": "ec4ec3ef495cbfaaab4e7540ad1e5e825ce70d9108b1c768333deb52ec553b88",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/inventory.json",
+      "sha256": "fcee773ee9c57b77bf08003e6a3f6119dfb6d0cd5478a781e18a2243eba74066",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/model.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/model.py",
+      "sha256": "6d22cad441fe002f1641957ec73556213d22b8c4cf954a6a1404e3be693c553c",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/parent_inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/parent_inventory.json",
+      "sha256": "b3e6a3f700b0aeb0358c88c2cac7e2c342dcf5ac1502b1e42a7a3dc1a430784a",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/prepare_closure.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/prepare_closure.py",
+      "sha256": "72686669b9189ba131f5dd6113e258a6159cd0c015589939176287699e74c199",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/runner.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/runner.py",
+      "sha256": "d0e5a7850f226ba8a2d62b6d6f44b948eb79cd45e2b728c99cef0aa9a6716b63",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/run_closure.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/run_closure.py",
+      "sha256": "d1bbf9a387b9097396de5c701dc8161bc62d62f6b6a61ec4f564eb6b717b2b68",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/semantic.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/semantic.py",
+      "sha256": "8a979eeb1b78b3e02beb5047139c52f625c2edec1f588bfa8650d5dbcb1d4adb",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/service_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/service_manifest.json",
+      "sha256": "165a98ecfe7f29eb49621c97d19957427451eb039fc475c373469361d7184644",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/closure_expected.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/closure_expected.json",
+      "sha256": "3f7606de342df0964388fbc0b3bba2ba5e59314102b3eb7b20dbf0abe92101b3",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/closure_inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/closure_inventory.json",
+      "sha256": "5036170780801897be3c4ccc04ebdd23b47d10b28204ab3bfaccb4c2d42d75e1",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/execution_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/execution_manifest.json",
+      "sha256": "c7fa7019c2940495e6c121204c61a97d679e2f72bc429faa7bbf19bcf757cdcd",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/expected.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/expected.json",
+      "sha256": "ec4ec3ef495cbfaaab4e7540ad1e5e825ce70d9108b1c768333deb52ec553b88",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/freeze_revision.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/freeze_revision.py",
+      "sha256": "e4a0ac2e6a60060e6ccc141cfe576394f480ae8bab0de627e0626a75b1ee6d49",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/inventory.json",
+      "sha256": "fcee773ee9c57b77bf08003e6a3f6119dfb6d0cd5478a781e18a2243eba74066",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/model.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/model.py",
+      "sha256": "32f0804b70954d884f89ed480715e068fdc885f251391de4cef7e7a995a7add0",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/parent_inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/parent_inventory.json",
+      "sha256": "b3e6a3f700b0aeb0358c88c2cac7e2c342dcf5ac1502b1e42a7a3dc1a430784a",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/runner.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/runner.py",
+      "sha256": "d0e5a7850f226ba8a2d62b6d6f44b948eb79cd45e2b728c99cef0aa9a6716b63",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/run_closure.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/run_closure.py",
+      "sha256": "62be98bce3660b58748f81bccbbf24d419f6480a71bfb6b8eafade63102b2318",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/semantic.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/semantic.py",
+      "sha256": "d079cf5e2227ced051fa9462d4368629939b9b1d141b64a5a407e572db10df4d",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/service_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/service_manifest.json",
+      "sha256": "165a98ecfe7f29eb49621c97d19957427451eb039fc475c373469361d7184644",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/closure_expected.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/closure_expected.json",
+      "sha256": "8d16767091b808b371fcbc581a6a3fca85722e10c858d8975b71aadc01944bbf",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/closure_inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/closure_inventory.json",
+      "sha256": "0c5a199356df465fd422781ecf90afed26fc74782f291978c29c1b31ba865c71",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/execution_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/execution_manifest.json",
+      "sha256": "e23d607e5448fca6563e7d1b75a9fbe5123651f684460cbdfa442028596f9fb7",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/expected.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/expected.json",
+      "sha256": "ec4ec3ef495cbfaaab4e7540ad1e5e825ce70d9108b1c768333deb52ec553b88",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/freeze_revision.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/freeze_revision.py",
+      "sha256": "1de504c0e4c1963e8995aa1317476674d206329dbe7e50957b5e4af301f2b611",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/inventory.json",
+      "sha256": "fcee773ee9c57b77bf08003e6a3f6119dfb6d0cd5478a781e18a2243eba74066",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/model.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/model.py",
+      "sha256": "02fd1d5637906925852cff1b821caa77cf6bfc93ba9fd105861421a07bac801e",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/parent_inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/parent_inventory.json",
+      "sha256": "b3e6a3f700b0aeb0358c88c2cac7e2c342dcf5ac1502b1e42a7a3dc1a430784a",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/runner.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/runner.py",
+      "sha256": "d0e5a7850f226ba8a2d62b6d6f44b948eb79cd45e2b728c99cef0aa9a6716b63",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/run_closure.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/run_closure.py",
+      "sha256": "c4bd480bf5491145ed0a45bdd4228655cea9b19b8493f5222e542d1ac2aa9de8",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/semantic.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/semantic.py",
+      "sha256": "b2bd0e86b3c6d12f3715e3703f0fb890c9ab0ca21cf361c3499befbd40ddd8a5",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/service_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/service_manifest.json",
+      "sha256": "165a98ecfe7f29eb49621c97d19957427451eb039fc475c373469361d7184644",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-assessment-022/audit_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-assessment-022/audit_manifest.json",
+      "sha256": "97f6e33acc75f549ff38406144fe13e0b0d5846f5b7f70b041d4b19feaf4056f",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-assessment-022/audit_negative_controls.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-assessment-022/audit_negative_controls.json",
+      "sha256": "a8b7c94675224da0d2ecda5d961cb9e803354a3eb547d2bff6a47ad926c510e6",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-assessment-022/trace_acceptance_records.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-assessment-022/trace_acceptance_records.json",
+      "sha256": "415c20a7cc94ce6381c9776544f65ff16aa79fb95376c01efc5ae71316383601",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-transaction-audit-0.2.2/audit_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-transaction-audit-0.2.2/audit_manifest.json",
+      "sha256": "7ae7463cbce8bb9b510a3da015cbf87e2debd89abd7be49a5872cf0b74e9b0fb",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-transaction-audit-0.2.2/records.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-transaction-audit-0.2.2/records.json",
+      "sha256": "477a45d890d4f24815e7d4935df7f5afa67d19dff8b4a4f5488ea6ba268eb39f",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/core_results/UAIS_Section6_Bounded_Semantic_Verification.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/core_results/UAIS_Section6_Bounded_Semantic_Verification.md",
+      "sha256": "16cb1fd5b8d5c89509931ca241322088d277d80b9a432fcaec3013e177f01c01",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/core_results/UAIS_Section6_Core_Action_Results.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/core_results/UAIS_Section6_Core_Action_Results.json",
+      "sha256": "d6fa6d339510ea5a257b04d5d8cfa4d73ffdf5c98a57666d6b74e63ff5bb607c",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/core_results/UAIS_Section6_Core_Closure_Manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/core_results/UAIS_Section6_Core_Closure_Manifest.json",
+      "sha256": "e23d607e5448fca6563e7d1b75a9fbe5123651f684460cbdfa442028596f9fb7",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/core_results/UAIS_Section6_Core_Closure_Summary.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/core_results/UAIS_Section6_Core_Closure_Summary.json",
+      "sha256": "0137705e0610c1485eacf4b245e2c8373688ffed80671838a683871e28acba25",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/core_results/UAIS_Section6_Core_Closure_Tables.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/core_results/UAIS_Section6_Core_Closure_Tables.md",
+      "sha256": "4d360000e0aa511ce935caa4f9453457262ba5049fe7dc1a1ecdece81ebf8753",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/core_results/UAIS_Section6_Core_Defect_Retest_Register.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/core_results/UAIS_Section6_Core_Defect_Retest_Register.json",
+      "sha256": "8fc0e25596511032e8f3158e2ebbc7a4895ac41fc167c76a8c6d3c7d905318c2",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/core_results/UAIS_Section6_Core_Gap_Disposition.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/core_results/UAIS_Section6_Core_Gap_Disposition.md",
+      "sha256": "4ff180e28e5873518f84fd9917e565dec2c32ab40d7a82257b7a0b2548b7c114",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/core_results/UAIS_Section6_Core_New_Cases.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/core_results/UAIS_Section6_Core_New_Cases.json",
+      "sha256": "3476b4ac4847f055d1d7b6967ead7c636c9253b116e76874b7ca71ba086d6f91",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/core_results/UAIS_Section6_Exact_Claims_and_Boundaries.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/core_results/UAIS_Section6_Exact_Claims_and_Boundaries.md",
+      "sha256": "ab676e598cd7dfacb4d5dfbc60db7c563f4c627d66a804abd47377a6468879af",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/results/UAIS_Section6_Coverage_Summary.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/results/UAIS_Section6_Coverage_Summary.json",
+      "sha256": "3e02c8fc7bc46f6352d2d77a5ce82914555be5f87162070ee8e9a766de672bd5",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/results/UAIS_Section6_Defect_Retest_Register.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/results/UAIS_Section6_Defect_Retest_Register.json",
+      "sha256": "ae694b331e2198412d0bbaa38775dda1dadb8e918af1f94f1d289490a5555aa4",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/results/UAIS_Section6_Execution_Manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/results/UAIS_Section6_Execution_Manifest.json",
+      "sha256": "7f1d07f119c26d7319f8ab1abeff149ca82b3f311209ec89aa6dfc961e4e12bc",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/results/UAIS_Section6_Limitations_and_Readiness.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/results/UAIS_Section6_Limitations_and_Readiness.md",
+      "sha256": "889ba1e18bbe64da0e8e719467d021634a5a8a3a339a5985bf2aa6f7e2e22d91",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/results/UAIS_Section6_Result_Tables.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/results/UAIS_Section6_Result_Tables.md",
+      "sha256": "9943a56d7069bda88dd50c10fca31c5ace8685f70f746c8151095d4891f6035d",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/results/UAIS_Section6_Verification_and_Results_Draft.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/results/UAIS_Section6_Verification_and_Results_Draft.md",
+      "sha256": "5b0effcbe188747913a241077b96edbc583f34f4f39c24555f189a7452bec592",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/execution_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/execution_manifest.json",
+      "sha256": "64475caa041789818034f0e14a1ded51824f972df6ab5e1caf2d2533a2a8aa54",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/expected.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/expected.json",
+      "sha256": "ec4ec3ef495cbfaaab4e7540ad1e5e825ce70d9108b1c768333deb52ec553b88",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/freeze_revision.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/freeze_revision.py",
+      "sha256": "d4b8ca7105f7fc6c6f9411be8c5fd300f0442314095401afd5e9c9896eb289fc",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/inventory.json",
+      "sha256": "fcee773ee9c57b77bf08003e6a3f6119dfb6d0cd5478a781e18a2243eba74066",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/model.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/model.py",
+      "sha256": "4f63ecdf673d8c34d0a92b57ac5c1ad18f1d1a7f78fcf68372b418cf4f6261d6",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/parent_inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/parent_inventory.json",
+      "sha256": "b3e6a3f700b0aeb0358c88c2cac7e2c342dcf5ac1502b1e42a7a3dc1a430784a",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/runner.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/runner.py",
+      "sha256": "a58d88478f410dd0c6ac66a47e119f337b7d5587c505720372b4a76a8de7ea6f",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/service_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/service_manifest.json",
+      "sha256": "165a98ecfe7f29eb49621c97d19957427451eb039fc475c373469361d7184644",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/execution_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/execution_manifest.json",
+      "sha256": "7f1d07f119c26d7319f8ab1abeff149ca82b3f311209ec89aa6dfc961e4e12bc",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/expected.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/expected.json",
+      "sha256": "ec4ec3ef495cbfaaab4e7540ad1e5e825ce70d9108b1c768333deb52ec553b88",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/freeze_revision.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/freeze_revision.py",
+      "sha256": "5cc21011d239d0f4fb418223518b75c1d02326eb4fb5ae5fdabff9237a00747d",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/inventory.json",
+      "sha256": "fcee773ee9c57b77bf08003e6a3f6119dfb6d0cd5478a781e18a2243eba74066",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/model.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/model.py",
+      "sha256": "414d387f26f9c1fe3c9bd84ad01fa27bb639f27400e53802c397634208088c0d",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/parent_inventory.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/parent_inventory.json",
+      "sha256": "b3e6a3f700b0aeb0358c88c2cac7e2c342dcf5ac1502b1e42a7a3dc1a430784a",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/runner.py",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/runner.py",
+      "sha256": "d0e5a7850f226ba8a2d62b6d6f44b948eb79cd45e2b728c99cef0aa9a6716b63",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/service_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/service_manifest.json",
+      "sha256": "165a98ecfe7f29eb49621c97d19957427451eb039fc475c373469361d7184644",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/specs/catalogue.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/specs/catalogue.json",
+      "sha256": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/specs/UAIS_Final_Action_Catalogue.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/specs/UAIS_Final_Action_Catalogue.md",
+      "sha256": "7376dc09f9fc662f127d7aeb9f1473135764fb23b94aa3a63960ef492d4b214e",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/specs/UAIS_Final_Action_Contracts.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/specs/UAIS_Final_Action_Contracts.json",
+      "sha256": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/specs/UAIS_Final_Verification_Delta.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/specs/UAIS_Final_Verification_Delta.md",
+      "sha256": "e1cfcc2dac44902c7a5652906e584f21a731e95fe4bfaf0aa81d88748a9f5398",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/specs/UAIS_Historical_Mapping_Verification_Import.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/specs/UAIS_Historical_Mapping_Verification_Import.md",
+      "sha256": "8a1216fb46676675624a28a38ef2cd65586c2c7c293903c38d0150caf109106d",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/specs/UAIS_Section3_Final_Completion_Decisions.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/specs/UAIS_Section3_Final_Completion_Decisions.md",
+      "sha256": "374b852298accfb3cf265a1d894b724814b1ece0fe497e78d52b211f7118d144",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/specs/UAIS_Section4_Proposed_Framework.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/specs/UAIS_Section4_Proposed_Framework.md",
+      "sha256": "65cbb0e4c1372d0f40bb1f74df3b16432534f02448bd53d727d5c04548b51bed",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/specs/UAIS_Section5_Fixture_and_Production_Specification.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/specs/UAIS_Section5_Fixture_and_Production_Specification.md",
+      "sha256": "27a1bfa5fe81843731a81324c176362352dd21d02fe5531a453e52f8d01d26f1",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/specs/UAIS_Section5_Framework_Instantiation.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/specs/UAIS_Section5_Framework_Instantiation.md",
+      "sha256": "fbe9d08e38ce5a7b2e1f4e3357775f23c04276fa76416939f7f7d269e5e1df23",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/specs/UAIS_Verification_Child_Index.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/specs/UAIS_Verification_Child_Index.json",
+      "sha256": "21c564cd4af3e5fc83600ec4f2010a6c69211249e0607ead37ba672054c3bc66",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/transaction-audit-0.1.1/audit_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/transaction-audit-0.1.1/audit_manifest.json",
+      "sha256": "cdb82bed7d2aa2beb16adef8ecca3107e8882883856cfe7472e08eed26cbf0aa",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/transaction-audit-0.1.1/records.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/transaction-audit-0.1.1/records.json",
+      "sha256": "2804e451fa68b563b216e4f3d0138fc6c5e71f68f7e425f0c34058f2e7cf08f1",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/transaction-audit-0.1.2/audit_manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/transaction-audit-0.1.2/audit_manifest.json",
+      "sha256": "7f93d7e400dc0839f7b79e7d608e26e61f0c46806f27e7c316a9faa45a8dc8ac",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/transaction-audit-0.1.2/records.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/transaction-audit-0.1.2/records.json",
+      "sha256": "bffe0ca8d03e3399ed31cc4a3a2338fa3187f27faea13d410ebc0f0e66f1d560",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/equivalence_audit/manifest.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/equivalence_audit/manifest.json",
+      "sha256": "e7b0e9f464ef653dbd12ce12cc05f0eabb872262e4a43d146da1b857ae5506ab",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/equivalence_audit/records.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/equivalence_audit/records.json",
+      "sha256": "c016941a7808f19ede57f27e8acd79582ab8eb770bbb2ed1f496b5a51f759db8",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/specs/catalogue.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/specs/catalogue.json",
+      "sha256": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/specs/UAIS_Final_Action_Catalogue.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/specs/UAIS_Final_Action_Catalogue.md",
+      "sha256": "7376dc09f9fc662f127d7aeb9f1473135764fb23b94aa3a63960ef492d4b214e",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/specs/UAIS_Final_Action_Contracts.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/specs/UAIS_Final_Action_Contracts.json",
+      "sha256": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/specs/UAIS_Final_Verification_Delta.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/specs/UAIS_Final_Verification_Delta.md",
+      "sha256": "e1cfcc2dac44902c7a5652906e584f21a731e95fe4bfaf0aa81d88748a9f5398",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/specs/UAIS_Historical_Mapping_Verification_Import.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/specs/UAIS_Historical_Mapping_Verification_Import.md",
+      "sha256": "8a1216fb46676675624a28a38ef2cd65586c2c7c293903c38d0150caf109106d",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/specs/UAIS_Section3_Final_Completion_Decisions.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/specs/UAIS_Section3_Final_Completion_Decisions.md",
+      "sha256": "374b852298accfb3cf265a1d894b724814b1ece0fe497e78d52b211f7118d144",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/specs/UAIS_Section4_Proposed_Framework.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/specs/UAIS_Section4_Proposed_Framework.md",
+      "sha256": "65cbb0e4c1372d0f40bb1f74df3b16432534f02448bd53d727d5c04548b51bed",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/specs/UAIS_Section5_Fixture_and_Production_Specification.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/specs/UAIS_Section5_Fixture_and_Production_Specification.md",
+      "sha256": "27a1bfa5fe81843731a81324c176362352dd21d02fe5531a453e52f8d01d26f1",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/specs/UAIS_Section5_Framework_Instantiation.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/specs/UAIS_Section5_Framework_Instantiation.md",
+      "sha256": "fbe9d08e38ce5a7b2e1f4e3357775f23c04276fa76416939f7f7d269e5e1df23",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/specs/UAIS_Verification_Child_Index.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/specs/UAIS_Verification_Child_Index.json",
+      "sha256": "21c564cd4af3e5fc83600ec4f2010a6c69211249e0607ead37ba672054c3bc66",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/closure_runs/20260913T025656Z-2644e145/records.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/closure_runs/20260913T025656Z-2644e145/records.jsonl",
+      "sha256": "2ecaccb06e84007d681e0a8ef6fb60dd876c1881306499de6c9401ffeaa01290",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/closure_runs/20260913T025656Z-2644e145/traces.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/closure_runs/20260913T025656Z-2644e145/traces.jsonl",
+      "sha256": "81a39d7e9c13693b9b0216af99c7035bae83e097e6bd46516f63172de25cfb37",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/runs/20260913T025657Z-11a9abfc/records.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/runs/20260913T025657Z-11a9abfc/records.jsonl",
+      "sha256": "1015e07a62a32342d9eed2a19ba375d3c7027c67c67ef75efe2f7bef700e4681",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/runs/20260913T025657Z-11a9abfc/run.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/runs/20260913T025657Z-11a9abfc/run.json",
+      "sha256": "dab5f2e29eacc536a719b96e1cfaf81559d38f736216d0cac37d56e5b6d1d93e",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.0/runs/20260913T025657Z-11a9abfc/traces.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.0/runs/20260913T025657Z-11a9abfc/traces.jsonl",
+      "sha256": "d2228673e56a7fc6fa9a0b4cfa9515db391f460fe44145bcfe920ad5916f33f8",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/specs/catalogue.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/specs/catalogue.json",
+      "sha256": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/specs/UAIS_Final_Action_Catalogue.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/specs/UAIS_Final_Action_Catalogue.md",
+      "sha256": "7376dc09f9fc662f127d7aeb9f1473135764fb23b94aa3a63960ef492d4b214e",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/specs/UAIS_Final_Action_Contracts.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/specs/UAIS_Final_Action_Contracts.json",
+      "sha256": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/specs/UAIS_Final_Verification_Delta.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/specs/UAIS_Final_Verification_Delta.md",
+      "sha256": "e1cfcc2dac44902c7a5652906e584f21a731e95fe4bfaf0aa81d88748a9f5398",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/specs/UAIS_Historical_Mapping_Verification_Import.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/specs/UAIS_Historical_Mapping_Verification_Import.md",
+      "sha256": "8a1216fb46676675624a28a38ef2cd65586c2c7c293903c38d0150caf109106d",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/specs/UAIS_Section3_Final_Completion_Decisions.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/specs/UAIS_Section3_Final_Completion_Decisions.md",
+      "sha256": "374b852298accfb3cf265a1d894b724814b1ece0fe497e78d52b211f7118d144",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/specs/UAIS_Section4_Proposed_Framework.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/specs/UAIS_Section4_Proposed_Framework.md",
+      "sha256": "65cbb0e4c1372d0f40bb1f74df3b16432534f02448bd53d727d5c04548b51bed",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/specs/UAIS_Section5_Fixture_and_Production_Specification.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/specs/UAIS_Section5_Fixture_and_Production_Specification.md",
+      "sha256": "27a1bfa5fe81843731a81324c176362352dd21d02fe5531a453e52f8d01d26f1",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/specs/UAIS_Section5_Framework_Instantiation.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/specs/UAIS_Section5_Framework_Instantiation.md",
+      "sha256": "fbe9d08e38ce5a7b2e1f4e3357775f23c04276fa76416939f7f7d269e5e1df23",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/specs/UAIS_Verification_Child_Index.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/specs/UAIS_Verification_Child_Index.json",
+      "sha256": "21c564cd4af3e5fc83600ec4f2010a6c69211249e0607ead37ba672054c3bc66",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/closure_runs/20260913T030111Z-18869a06/records.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/closure_runs/20260913T030111Z-18869a06/records.jsonl",
+      "sha256": "d401619a070a51766de8b35233370cc62505b5505ab254dcfb0308d173a24688",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/closure_runs/20260913T030111Z-18869a06/traces.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/closure_runs/20260913T030111Z-18869a06/traces.jsonl",
+      "sha256": "54a6d5f352e8d446eda31281381afc3ff8d488906a7efb450a9cf4839b2a0acf",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/runs/20260913T030112Z-6f0278c5/records.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/runs/20260913T030112Z-6f0278c5/records.jsonl",
+      "sha256": "de1a547f5bc66af87db0418e2a2b79e83e7cf4a797e3e67c32ad91f5b5d43c8b",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/runs/20260913T030112Z-6f0278c5/run.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/runs/20260913T030112Z-6f0278c5/run.json",
+      "sha256": "52f7f94cf6d40bec7e70f65219bb4de8bc1fb564ab2143c79cd654194dd4cb0e",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.1/runs/20260913T030112Z-6f0278c5/traces.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.1/runs/20260913T030112Z-6f0278c5/traces.jsonl",
+      "sha256": "e5626bf8fa7e1d4df18aac8783c75017a30602ae5b6394ea50c0b1a5d284f57c",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/specs/catalogue.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/catalogue.json",
+      "sha256": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/specs/UAIS_Final_Action_Catalogue.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Final_Action_Catalogue.md",
+      "sha256": "7376dc09f9fc662f127d7aeb9f1473135764fb23b94aa3a63960ef492d4b214e",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/specs/UAIS_Final_Action_Contracts.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Final_Action_Contracts.json",
+      "sha256": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/specs/UAIS_Final_Verification_Delta.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Final_Verification_Delta.md",
+      "sha256": "e1cfcc2dac44902c7a5652906e584f21a731e95fe4bfaf0aa81d88748a9f5398",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/specs/UAIS_Historical_Mapping_Verification_Import.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Historical_Mapping_Verification_Import.md",
+      "sha256": "8a1216fb46676675624a28a38ef2cd65586c2c7c293903c38d0150caf109106d",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/specs/UAIS_Section3_Final_Completion_Decisions.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Section3_Final_Completion_Decisions.md",
+      "sha256": "374b852298accfb3cf265a1d894b724814b1ece0fe497e78d52b211f7118d144",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/specs/UAIS_Section4_Proposed_Framework.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Section4_Proposed_Framework.md",
+      "sha256": "65cbb0e4c1372d0f40bb1f74df3b16432534f02448bd53d727d5c04548b51bed",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/specs/UAIS_Section5_Fixture_and_Production_Specification.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Section5_Fixture_and_Production_Specification.md",
+      "sha256": "27a1bfa5fe81843731a81324c176362352dd21d02fe5531a453e52f8d01d26f1",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/specs/UAIS_Section5_Framework_Instantiation.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Section5_Framework_Instantiation.md",
+      "sha256": "fbe9d08e38ce5a7b2e1f4e3357775f23c04276fa76416939f7f7d269e5e1df23",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/specs/UAIS_Verification_Child_Index.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/specs/UAIS_Verification_Child_Index.json",
+      "sha256": "21c564cd4af3e5fc83600ec4f2010a6c69211249e0607ead37ba672054c3bc66",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/closure_runs/20260913T030322Z-8f183b76/records.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/closure_runs/20260913T030322Z-8f183b76/records.jsonl",
+      "sha256": "9d1ca4d4be9748ce74e5fc0f30c98f804edd74616fe83e7fa7823366d0d022fb",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/closure_runs/20260913T030322Z-8f183b76/traces.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/closure_runs/20260913T030322Z-8f183b76/traces.jsonl",
+      "sha256": "670b7a9211617a38c6ca58b2c359f1b7fdc326e3444575bd512f393d45a81915",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/runs/20260913T030324Z-075d96fc/records.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/runs/20260913T030324Z-075d96fc/records.jsonl",
+      "sha256": "6f5b74e077622fa27a66f107d4a7911fdb17f5dad9cefbbff2fe9d085e2e4532",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/runs/20260913T030324Z-075d96fc/run.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/runs/20260913T030324Z-075d96fc/run.json",
+      "sha256": "2140b1c8c67cc777328c8728976f9ba79e3ed0b8cff568a92f84cc567f174d24",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/closure-0.2.2/runs/20260913T030324Z-075d96fc/traces.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/closure-0.2.2/runs/20260913T030324Z-075d96fc/traces.jsonl",
+      "sha256": "ab53f424a6d7a81c54fccfdf8ce63a4c60ef831df2557a80811df8745f32f380",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/specs/catalogue.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/specs/catalogue.json",
+      "sha256": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/specs/UAIS_Final_Action_Catalogue.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/specs/UAIS_Final_Action_Catalogue.md",
+      "sha256": "7376dc09f9fc662f127d7aeb9f1473135764fb23b94aa3a63960ef492d4b214e",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/specs/UAIS_Final_Action_Contracts.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/specs/UAIS_Final_Action_Contracts.json",
+      "sha256": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/specs/UAIS_Final_Verification_Delta.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/specs/UAIS_Final_Verification_Delta.md",
+      "sha256": "e1cfcc2dac44902c7a5652906e584f21a731e95fe4bfaf0aa81d88748a9f5398",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/specs/UAIS_Historical_Mapping_Verification_Import.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/specs/UAIS_Historical_Mapping_Verification_Import.md",
+      "sha256": "8a1216fb46676675624a28a38ef2cd65586c2c7c293903c38d0150caf109106d",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/specs/UAIS_Section3_Final_Completion_Decisions.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/specs/UAIS_Section3_Final_Completion_Decisions.md",
+      "sha256": "374b852298accfb3cf265a1d894b724814b1ece0fe497e78d52b211f7118d144",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/specs/UAIS_Section4_Proposed_Framework.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/specs/UAIS_Section4_Proposed_Framework.md",
+      "sha256": "65cbb0e4c1372d0f40bb1f74df3b16432534f02448bd53d727d5c04548b51bed",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/specs/UAIS_Section5_Fixture_and_Production_Specification.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/specs/UAIS_Section5_Fixture_and_Production_Specification.md",
+      "sha256": "27a1bfa5fe81843731a81324c176362352dd21d02fe5531a453e52f8d01d26f1",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/specs/UAIS_Section5_Framework_Instantiation.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/specs/UAIS_Section5_Framework_Instantiation.md",
+      "sha256": "fbe9d08e38ce5a7b2e1f4e3357775f23c04276fa76416939f7f7d269e5e1df23",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/specs/UAIS_Verification_Child_Index.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/specs/UAIS_Verification_Child_Index.json",
+      "sha256": "21c564cd4af3e5fc83600ec4f2010a6c69211249e0607ead37ba672054c3bc66",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/runs/20260913T022442Z-2525a456/records.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/runs/20260913T022442Z-2525a456/records.jsonl",
+      "sha256": "0949edba7365549b48c28d055b6a677033e8b9f0a2c1622eeac8241c8461d069",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/runs/20260913T022442Z-2525a456/run.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/runs/20260913T022442Z-2525a456/run.json",
+      "sha256": "1fba13810d72144bdfd183c36bdc8769c15936690190ee50f60fb83f515edfed",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.1/runs/20260913T022442Z-2525a456/traces.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.1/runs/20260913T022442Z-2525a456/traces.jsonl",
+      "sha256": "77a78ab9beb3b1f58fd6e707a46e7a696893e69d6dcc4b140306540974dd2200",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/specs/catalogue.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/specs/catalogue.json",
+      "sha256": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/specs/UAIS_Final_Action_Catalogue.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/specs/UAIS_Final_Action_Catalogue.md",
+      "sha256": "7376dc09f9fc662f127d7aeb9f1473135764fb23b94aa3a63960ef492d4b214e",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/specs/UAIS_Final_Action_Contracts.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/specs/UAIS_Final_Action_Contracts.json",
+      "sha256": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/specs/UAIS_Final_Verification_Delta.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/specs/UAIS_Final_Verification_Delta.md",
+      "sha256": "e1cfcc2dac44902c7a5652906e584f21a731e95fe4bfaf0aa81d88748a9f5398",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/specs/UAIS_Historical_Mapping_Verification_Import.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/specs/UAIS_Historical_Mapping_Verification_Import.md",
+      "sha256": "8a1216fb46676675624a28a38ef2cd65586c2c7c293903c38d0150caf109106d",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/specs/UAIS_Section3_Final_Completion_Decisions.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/specs/UAIS_Section3_Final_Completion_Decisions.md",
+      "sha256": "374b852298accfb3cf265a1d894b724814b1ece0fe497e78d52b211f7118d144",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/specs/UAIS_Section4_Proposed_Framework.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/specs/UAIS_Section4_Proposed_Framework.md",
+      "sha256": "65cbb0e4c1372d0f40bb1f74df3b16432534f02448bd53d727d5c04548b51bed",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/specs/UAIS_Section5_Fixture_and_Production_Specification.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/specs/UAIS_Section5_Fixture_and_Production_Specification.md",
+      "sha256": "27a1bfa5fe81843731a81324c176362352dd21d02fe5531a453e52f8d01d26f1",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/specs/UAIS_Section5_Framework_Instantiation.md",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/specs/UAIS_Section5_Framework_Instantiation.md",
+      "sha256": "fbe9d08e38ce5a7b2e1f4e3357775f23c04276fa76416939f7f7d269e5e1df23",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/specs/UAIS_Verification_Child_Index.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/specs/UAIS_Verification_Child_Index.json",
+      "sha256": "21c564cd4af3e5fc83600ec4f2010a6c69211249e0607ead37ba672054c3bc66",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/runs/20260913T022729Z-05c9476b/records.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/runs/20260913T022729Z-05c9476b/records.jsonl",
+      "sha256": "20ec56186ccf28151f08f9c027836bf6974701105124e0397db45c0ca730ff8a",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/runs/20260913T022729Z-05c9476b/run.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/runs/20260913T022729Z-05c9476b/run.json",
+      "sha256": "c019134ee455ee30b7aa0f2d4bcf181d4c019a522647a80ac592b2e3fe0dd436",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/revision-0.1.2/runs/20260913T022729Z-05c9476b/traces.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/revision-0.1.2/runs/20260913T022729Z-05c9476b/traces.jsonl",
+      "sha256": "69cc1292561be04c2dba002ac5c844d4613f415463c39c4294a2dd839c09704c",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/runs/20260913T022049Z-e0dd89d1/records.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/runs/20260913T022049Z-e0dd89d1/records.jsonl",
+      "sha256": "b9fce5d2a06cdeed641097ef0816ade6717004acf4faf2568457c69f04708a5f",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/runs/20260913T022049Z-e0dd89d1/run.json",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/runs/20260913T022049Z-e0dd89d1/run.json",
+      "sha256": "dbfba4982c5f0e6ca1c5b374678e5ac80e720ef1ac4faf6417a9432c0a657754",
+      "transformation": "none; archive extraction"
+    },
+    {
+      "destination": "online-resource-2/UAIS-verification/runs/20260913T022049Z-e0dd89d1/traces.jsonl",
+      "source": "UAIS_Section6_Core_Closure_Evidence.zip::UAIS-verification/runs/20260913T022049Z-e0dd89d1/traces.jsonl",
+      "sha256": "e3ca56111ed5d6671dbfb76ba79b3bb47395a33523252f6b2c4812514456f5e4",
+      "transformation": "none; archive extraction"
+    }
+  ]
+}

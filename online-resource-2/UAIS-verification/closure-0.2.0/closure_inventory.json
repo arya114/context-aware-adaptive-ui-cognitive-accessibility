@@ -1,0 +1,3706 @@
+[
+  {
+    "TestCaseID": "CORE/ACTION/R1.A1/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R1.A1",
+      "variant": null,
+      "need": "N1"
+    },
+    "ExpectedOutcome": {
+      "property": "G.guidance.visibility",
+      "value": "contextual",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R1.A1/contextual",
+    "Kind": "effect",
+    "Input": {
+      "action": "R1.A1",
+      "variant": "contextual",
+      "need": "N1"
+    },
+    "ExpectedOutcome": {
+      "property": "G.guidance.visibility",
+      "value": "contextual",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R1.A2/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R1.A2",
+      "variant": null,
+      "need": "N1"
+    },
+    "ExpectedOutcome": {
+      "property": "G.term.explanation",
+      "value": "inline",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R1.A2/on-demand",
+    "Kind": "effect",
+    "Input": {
+      "action": "R1.A2",
+      "variant": "on-demand",
+      "need": "N1"
+    },
+    "ExpectedOutcome": {
+      "property": "G.term.explanation",
+      "value": "on-demand",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R1.A3/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R1.A3",
+      "variant": null,
+      "need": "N2"
+    },
+    "ExpectedOutcome": {
+      "property": "G.step.cue",
+      "value": "full",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R1.A3/shared-progress",
+    "Kind": "effect",
+    "Input": {
+      "action": "R1.A3",
+      "variant": "shared-progress",
+      "need": "N2"
+    },
+    "ExpectedOutcome": {
+      "property": "G.step.cue",
+      "value": "full",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R1.A4/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R1.A4",
+      "variant": null,
+      "need": "N1"
+    },
+    "ExpectedOutcome": {
+      "property": "G.example.visibility",
+      "value": "on-demand",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R1.A4/text-equivalent",
+    "Kind": "effect",
+    "Input": {
+      "action": "R1.A4",
+      "variant": "text-equivalent",
+      "need": "N1"
+    },
+    "ExpectedOutcome": {
+      "property": "G.example.visibility",
+      "value": "on-demand",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R1.A5/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R1.A5",
+      "variant": null,
+      "need": "N1"
+    },
+    "ExpectedOutcome": {
+      "property": "G.help.access",
+      "value": "contextual",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R1.A5/unlisted",
+    "Kind": "reject",
+    "Input": {
+      "action": "R1.A5",
+      "need": "N1",
+      "variant": "unlisted-conversion"
+    },
+    "ExpectedOutcome": {
+      "operation": "SUPPRESS",
+      "unchanged": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R1.A6/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R1.A6",
+      "variant": null,
+      "need": "N6"
+    },
+    "ExpectedOutcome": {
+      "property": "G.error.explanation",
+      "value": "contextual",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R1.A6/unlisted",
+    "Kind": "reject",
+    "Input": {
+      "action": "R1.A6",
+      "need": "N6",
+      "variant": "unlisted-conversion"
+    },
+    "ExpectedOutcome": {
+      "operation": "SUPPRESS",
+      "unchanged": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R2.A1/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R2.A1",
+      "variant": null,
+      "need": "N1"
+    },
+    "ExpectedOutcome": {
+      "property": "D.layout.density",
+      "value": "reduced",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R2.A1/unlisted",
+    "Kind": "reject",
+    "Input": {
+      "action": "R2.A1",
+      "need": "N1",
+      "variant": "unlisted-conversion"
+    },
+    "ExpectedOutcome": {
+      "operation": "SUPPRESS",
+      "unchanged": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R2.A2/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R2.A2",
+      "variant": null,
+      "need": "N1"
+    },
+    "ExpectedOutcome": {
+      "property": "D.content.reduction[OPT01].state",
+      "value": "collapsed",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R2.A2/narrow-scope",
+    "Kind": "effect",
+    "Input": {
+      "action": "R2.A2",
+      "variant": "narrow-scope",
+      "need": "N1"
+    },
+    "ExpectedOutcome": {
+      "property": "D.content.reduction[OPT01].state",
+      "value": "collapsed",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R2.A3/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R2.A3",
+      "variant": null,
+      "need": "N3"
+    },
+    "ExpectedOutcome": {
+      "property": "D.grouping.mode",
+      "value": "semantic",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R2.A3/within-stage",
+    "Kind": "effect",
+    "Input": {
+      "action": "R2.A3",
+      "variant": "within-stage",
+      "need": "N3"
+    },
+    "ExpectedOutcome": {
+      "property": "D.grouping.mode",
+      "value": "semantic",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R2.A4/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R2.A4",
+      "variant": null,
+      "need": "N3"
+    },
+    "ExpectedOutcome": {
+      "property": "D.primary.control.emphasis",
+      "value": "emphasized",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R2.A4/unlisted",
+    "Kind": "reject",
+    "Input": {
+      "action": "R2.A4",
+      "need": "N3",
+      "variant": "unlisted-conversion"
+    },
+    "ExpectedOutcome": {
+      "operation": "SUPPRESS",
+      "unchanged": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R2.A5/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R2.A5",
+      "variant": null,
+      "need": "N4"
+    },
+    "ExpectedOutcome": {
+      "property": "D.requirements.view",
+      "value": "checklist",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R2.A5/unlisted",
+    "Kind": "reject",
+    "Input": {
+      "action": "R2.A5",
+      "need": "N4",
+      "variant": "unlisted-conversion"
+    },
+    "ExpectedOutcome": {
+      "operation": "SUPPRESS",
+      "unchanged": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R3.A1/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R3.A1",
+      "variant": null,
+      "need": "N4"
+    },
+    "ExpectedOutcome": {
+      "property": "P.draft.autosave",
+      "value": "on",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R3.A1/unlisted",
+    "Kind": "reject",
+    "Input": {
+      "action": "R3.A1",
+      "need": "N4",
+      "variant": "unlisted-conversion"
+    },
+    "ExpectedOutcome": {
+      "operation": "SUPPRESS",
+      "unchanged": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R3.A2/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R3.A2",
+      "variant": null,
+      "need": "N6"
+    },
+    "ExpectedOutcome": {
+      "property": "P.network.retry",
+      "value": "guarded-auto",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R3.A2/unlisted",
+    "Kind": "reject",
+    "Input": {
+      "action": "R3.A2",
+      "need": "N6",
+      "variant": "unlisted-conversion"
+    },
+    "ExpectedOutcome": {
+      "operation": "SUPPRESS",
+      "unchanged": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R3.A3/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R3.A3",
+      "variant": null,
+      "need": "N7"
+    },
+    "ExpectedOutcome": {
+      "property": "P.asset.profile",
+      "value": "low-bandwidth",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R3.A3/registered-text",
+    "Kind": "effect",
+    "Input": {
+      "action": "R3.A3",
+      "variant": "registered-text",
+      "need": "N7"
+    },
+    "ExpectedOutcome": {
+      "property": "P.asset.profile",
+      "value": "low-bandwidth",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R3.A4/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R3.A4",
+      "variant": null,
+      "need": "N6"
+    },
+    "ExpectedOutcome": {
+      "property": "P.recovery.panel",
+      "value": "visible",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R3.A4/shared-review",
+    "Kind": "effect",
+    "Input": {
+      "action": "R3.A4",
+      "variant": "shared-review",
+      "need": "N6"
+    },
+    "ExpectedOutcome": {
+      "property": "P.recovery.panel",
+      "value": "visible",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R3.A5/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R3.A5",
+      "variant": null,
+      "need": "N6"
+    },
+    "ExpectedOutcome": {
+      "property": "P.submission.feedback",
+      "value": "explicit",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R3.A5/unlisted",
+    "Kind": "reject",
+    "Input": {
+      "action": "R3.A5",
+      "need": "N6",
+      "variant": "unlisted-conversion"
+    },
+    "ExpectedOutcome": {
+      "operation": "SUPPRESS",
+      "unchanged": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R3.A6/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R3.A6",
+      "variant": null,
+      "need": "N4"
+    },
+    "ExpectedOutcome": {
+      "property": "P.draft.resume",
+      "value": "guided",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R3.A6/unlisted",
+    "Kind": "reject",
+    "Input": {
+      "action": "R3.A6",
+      "need": "N4",
+      "variant": "unlisted-conversion"
+    },
+    "ExpectedOutcome": {
+      "operation": "SUPPRESS",
+      "unchanged": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R3.A7/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R3.A7",
+      "variant": null,
+      "need": "N6"
+    },
+    "ExpectedOutcome": {
+      "property": "P.transaction.reconciliation",
+      "value": "guarded-query",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R3.A7/unlisted",
+    "Kind": "reject",
+    "Input": {
+      "action": "R3.A7",
+      "need": "N6",
+      "variant": "unlisted-conversion"
+    },
+    "ExpectedOutcome": {
+      "operation": "SUPPRESS",
+      "unchanged": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R4.A1/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R4.A1",
+      "variant": null,
+      "need": "N2"
+    },
+    "ExpectedOutcome": {
+      "property": "F.flow.mode",
+      "value": "staged",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R4.A1/unlisted",
+    "Kind": "reject",
+    "Input": {
+      "action": "R4.A1",
+      "need": "N2",
+      "variant": "unlisted-conversion"
+    },
+    "ExpectedOutcome": {
+      "operation": "SUPPRESS",
+      "unchanged": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R4.A2/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R4.A2",
+      "variant": null,
+      "need": "N2"
+    },
+    "ExpectedOutcome": {
+      "property": "F.progress.indicator",
+      "value": "on",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R4.A2/shared-cue",
+    "Kind": "effect",
+    "Input": {
+      "action": "R4.A2",
+      "variant": "shared-cue",
+      "need": "N2"
+    },
+    "ExpectedOutcome": {
+      "property": "F.progress.indicator",
+      "value": "on",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R4.A3/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R4.A3",
+      "variant": null,
+      "need": "N6"
+    },
+    "ExpectedOutcome": {
+      "property": "F.validation.timing",
+      "value": "step",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R4.A3/unlisted",
+    "Kind": "reject",
+    "Input": {
+      "action": "R4.A3",
+      "need": "N6",
+      "variant": "unlisted-conversion"
+    },
+    "ExpectedOutcome": {
+      "operation": "SUPPRESS",
+      "unchanged": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R4.A4/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R4.A4",
+      "variant": null,
+      "need": "N4"
+    },
+    "ExpectedOutcome": {
+      "property": "F.review.summary",
+      "value": "on",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R4.A4/shared-recovery",
+    "Kind": "effect",
+    "Input": {
+      "action": "R4.A4",
+      "variant": "shared-recovery",
+      "need": "N4"
+    },
+    "ExpectedOutcome": {
+      "property": "F.review.summary",
+      "value": "on",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R4.A5/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R4.A5",
+      "variant": null,
+      "need": "N2"
+    },
+    "ExpectedOutcome": {
+      "property": "F.stage.navigation",
+      "value": "back-review",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R4.A5/unlisted",
+    "Kind": "reject",
+    "Input": {
+      "action": "R4.A5",
+      "need": "N2",
+      "variant": "unlisted-conversion"
+    },
+    "ExpectedOutcome": {
+      "operation": "SUPPRESS",
+      "unchanged": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R4.A6/positive",
+    "Kind": "effect",
+    "Input": {
+      "action": "R4.A6",
+      "variant": null,
+      "need": "N2"
+    },
+    "ExpectedOutcome": {
+      "property": "F.dependency.cue",
+      "value": "visible",
+      "checks_pass": true
+    },
+    "Oracles": [
+      "O2",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/ACTION/R4.A6/unlisted",
+    "Kind": "reject",
+    "Input": {
+      "action": "R4.A6",
+      "need": "N2",
+      "variant": "unlisted-conversion"
+    },
+    "ExpectedOutcome": {
+      "operation": "SUPPRESS",
+      "unchanged": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "ParentCaseID": "V2-01"
+  },
+  {
+    "TestCaseID": "CORE/KEY/decimal-equivalent",
+    "Kind": "key",
+    "Input": {
+      "left": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "decimal",
+              "value": "1.000"
+            }
+          }
+        }
+      ],
+      "right": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "decimal",
+              "value": "1e0"
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": 0,
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/decimal-exact",
+    "Kind": "key",
+    "Input": {
+      "left": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "decimal",
+              "value": "1.00000000000000000001"
+            }
+          }
+        }
+      ],
+      "right": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "decimal",
+              "value": "1.00000000000000000002"
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": -1,
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/decimal-numeric-order",
+    "Kind": "key",
+    "Input": {
+      "left": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "decimal",
+              "value": "2"
+            }
+          }
+        }
+      ],
+      "right": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "decimal",
+              "value": "10"
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": -1,
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/signed-zero",
+    "Kind": "key",
+    "Input": {
+      "left": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "decimal",
+              "value": "-0.000"
+            }
+          }
+        }
+      ],
+      "right": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "decimal",
+              "value": "0"
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": 0,
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/unicode-nfc",
+    "Kind": "key",
+    "Input": {
+      "left": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "string",
+              "value": "é"
+            }
+          }
+        }
+      ],
+      "right": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "string",
+              "value": "é"
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": 0,
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/unicode-distinct",
+    "Kind": "key",
+    "Input": {
+      "left": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "string",
+              "value": "a"
+            }
+          }
+        }
+      ],
+      "right": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "string",
+              "value": "b"
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": -1,
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/boolean",
+    "Kind": "key",
+    "Input": {
+      "left": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "boolean",
+              "value": false
+            }
+          }
+        }
+      ],
+      "right": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "boolean",
+              "value": true
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": -1,
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/enum",
+    "Kind": "key",
+    "Input": {
+      "left": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "enum",
+              "value": "contextual"
+            }
+          }
+        }
+      ],
+      "right": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "enum",
+              "value": "contextual"
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": 0,
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/sequence-equal",
+    "Kind": "key",
+    "Input": {
+      "left": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "sequence",
+              "value": [
+                {
+                  "type": "decimal",
+                  "value": "1"
+                },
+                {
+                  "type": "decimal",
+                  "value": "2"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "right": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "sequence",
+              "value": [
+                {
+                  "type": "decimal",
+                  "value": "1.0"
+                },
+                {
+                  "type": "decimal",
+                  "value": "2.00"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": 0,
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/sequence-order",
+    "Kind": "key",
+    "Input": {
+      "left": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "sequence",
+              "value": [
+                {
+                  "type": "decimal",
+                  "value": "1"
+                },
+                {
+                  "type": "decimal",
+                  "value": "2"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "right": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "sequence",
+              "value": [
+                {
+                  "type": "decimal",
+                  "value": "2"
+                },
+                {
+                  "type": "decimal",
+                  "value": "1"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": -1,
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/set-order",
+    "Kind": "key",
+    "Input": {
+      "left": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "set",
+              "value": [
+                {
+                  "type": "string",
+                  "value": "b"
+                },
+                {
+                  "type": "string",
+                  "value": "a"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "right": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "set",
+              "value": [
+                {
+                  "type": "string",
+                  "value": "a"
+                },
+                {
+                  "type": "string",
+                  "value": "b"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": 0,
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/nested",
+    "Kind": "key",
+    "Input": {
+      "left": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "object",
+              "value": {
+                "enabled": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "items": {
+                  "type": "set",
+                  "value": [
+                    {
+                      "type": "decimal",
+                      "value": "2"
+                    },
+                    {
+                      "type": "decimal",
+                      "value": "1"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ],
+      "right": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "object",
+              "value": {
+                "items": {
+                  "type": "set",
+                  "value": [
+                    {
+                      "type": "decimal",
+                      "value": "1.0"
+                    },
+                    {
+                      "type": "decimal",
+                      "value": "2.0"
+                    }
+                  ]
+                },
+                "enabled": {
+                  "type": "boolean",
+                  "value": true
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": 0,
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/multi-action-order",
+    "Kind": "key",
+    "Input": {
+      "left": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R3.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {}
+        },
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {}
+        }
+      ],
+      "right": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {}
+        },
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R3.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {}
+        }
+      ]
+    },
+    "ExpectedOutcome": 0,
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/shorter-prefix",
+    "Kind": "key",
+    "Input": {
+      "left": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {}
+        }
+      ],
+      "right": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {}
+        },
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R3.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {}
+        }
+      ]
+    },
+    "ExpectedOutcome": -1,
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/RESOLVE/tie/False",
+    "Kind": "resolve",
+    "Input": {
+      "plans": [
+        {
+          "id": "two",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": [
+            "N1/INFO-ST04"
+          ],
+          "disruption": [],
+          "stability": [],
+          "changes": 1,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "ten",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": [
+            "N1/INFO-ST04"
+          ],
+          "disruption": [],
+          "stability": [],
+          "changes": 1,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "10"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "ExpectedOutcome": {
+      "selected": [
+        "two"
+      ],
+      "operation": "KEEP",
+      "canonical_used": true
+    },
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/RESOLVE/unknown/False",
+    "Kind": "resolve",
+    "Input": {
+      "plans": [
+        {
+          "id": "two",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": null,
+          "disruption": [],
+          "stability": [],
+          "changes": 1,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "ten",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": [
+            "N1/INFO-ST04"
+          ],
+          "disruption": [],
+          "stability": [],
+          "changes": 1,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "10"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "ExpectedOutcome": {
+      "selected": [],
+      "operation": "DEFER",
+      "canonical_used": false
+    },
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/RESOLVE/incomparable/False",
+    "Kind": "resolve",
+    "Input": {
+      "plans": [
+        {
+          "id": "two",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": [
+            "N1/a"
+          ],
+          "disruption": [],
+          "stability": [],
+          "changes": 1,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "ten",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": [
+            "N1/b"
+          ],
+          "disruption": [],
+          "stability": [],
+          "changes": 1,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "10"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "ExpectedOutcome": {
+      "selected": [],
+      "operation": "DEFER",
+      "canonical_used": false
+    },
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/RESOLVE/lower/False",
+    "Kind": "resolve",
+    "Input": {
+      "plans": [
+        {
+          "id": "two",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": [
+            "N1/a"
+          ],
+          "disruption": [],
+          "stability": [],
+          "changes": 1,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "ten",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": [
+            "N1/b"
+          ],
+          "disruption": [],
+          "stability": [],
+          "changes": 0,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "10"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "ExpectedOutcome": {
+      "selected": [
+        "ten"
+      ],
+      "operation": "KEEP",
+      "canonical_used": false
+    },
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/RESOLVE/tie/True",
+    "Kind": "resolve",
+    "Input": {
+      "plans": [
+        {
+          "id": "ten",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": [
+            "N1/INFO-ST04"
+          ],
+          "disruption": [],
+          "stability": [],
+          "changes": 1,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "10"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "two",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": [
+            "N1/INFO-ST04"
+          ],
+          "disruption": [],
+          "stability": [],
+          "changes": 1,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "ExpectedOutcome": {
+      "selected": [
+        "two"
+      ],
+      "operation": "KEEP",
+      "canonical_used": true
+    },
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/RESOLVE/unknown/True",
+    "Kind": "resolve",
+    "Input": {
+      "plans": [
+        {
+          "id": "ten",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": [
+            "N1/INFO-ST04"
+          ],
+          "disruption": [],
+          "stability": [],
+          "changes": 1,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "10"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "two",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": null,
+          "disruption": [],
+          "stability": [],
+          "changes": 1,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "ExpectedOutcome": {
+      "selected": [],
+      "operation": "DEFER",
+      "canonical_used": false
+    },
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/RESOLVE/incomparable/True",
+    "Kind": "resolve",
+    "Input": {
+      "plans": [
+        {
+          "id": "ten",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": [
+            "N1/b"
+          ],
+          "disruption": [],
+          "stability": [],
+          "changes": 1,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "10"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "two",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": [
+            "N1/a"
+          ],
+          "disruption": [],
+          "stability": [],
+          "changes": 1,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "ExpectedOutcome": {
+      "selected": [],
+      "operation": "DEFER",
+      "canonical_used": false
+    },
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/RESOLVE/lower/True",
+    "Kind": "resolve",
+    "Input": {
+      "plans": [
+        {
+          "id": "ten",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": [
+            "N1/b"
+          ],
+          "disruption": [],
+          "stability": [],
+          "changes": 0,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "10"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "two",
+          "valid": true,
+          "feasibility": "READY",
+          "coverage": [
+            "N1/a"
+          ],
+          "disruption": [],
+          "stability": [],
+          "changes": 1,
+          "action_tuples": [
+            {
+              "catalogue": "UAIS-CAT-1.0",
+              "action": "R1.A1",
+              "variant": "",
+              "scope": "INFO-ST04",
+              "parameters": {
+                "number": {
+                  "type": "decimal",
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "ExpectedOutcome": {
+      "selected": [
+        "ten"
+      ],
+      "operation": "KEEP",
+      "canonical_used": false
+    },
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/binary-float",
+    "Kind": "key-reject",
+    "Input": {
+      "actions": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "decimal",
+              "value": 0.1
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": "REJECT_UNKNOWN",
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/unknown-value",
+    "Kind": "key-reject",
+    "Input": {
+      "actions": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "decimal",
+              "value": null
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": "REJECT_UNKNOWN",
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/KEY/nonfinite",
+    "Kind": "key-reject",
+    "Input": {
+      "actions": [
+        {
+          "catalogue": "UAIS-CAT-1.0",
+          "action": "R1.A1",
+          "variant": "",
+          "scope": "INFO-ST04",
+          "parameters": {
+            "p": {
+              "type": "decimal",
+              "value": "NaN"
+            }
+          }
+        }
+      ]
+    },
+    "ExpectedOutcome": "REJECT_UNKNOWN",
+    "Oracles": [
+      "O3"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S00",
+    "Kind": "multi",
+    "Input": {
+      "components": [],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [],
+      "dispositions": {},
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S01",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N1",
+          "kind": "clarification",
+          "scope": "TERM01",
+          "facts": {
+            "requested_term": "TERM01",
+            "optional_reduction_useful": false
+          },
+          "conditions": {
+            "N1→R2": false
+          },
+          "action": "R1.A2"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R1"
+      ],
+      "dispositions": {
+        "R1.A2": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S02",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "GROUP-ST04",
+          "facts": {
+            "cross_screen_references": [
+              "FLD04",
+              "FLD05"
+            ],
+            "grouping_retains_references": true,
+            "interruption": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": true,
+            "N4→R3": false,
+            "N4→R4": false
+          },
+          "action": "R2.A3"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R2"
+      ],
+      "dispositions": {
+        "R2.A3": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S03",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "d1/persistence",
+          "facts": {
+            "interruption": true,
+            "accepted_draft_version": 1,
+            "saved_references_needed": true,
+            "grouping_useful": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": true,
+            "N4→R4": false
+          },
+          "action": "R3.A1"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R3"
+      ],
+      "dispositions": {
+        "R3.A1": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S04",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "ST04",
+          "facts": {
+            "retain_prior_values": true,
+            "legal_back_review": true,
+            "stage_references_needed": true,
+            "grouping_useful": false,
+            "interruption": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": false,
+            "N4→R4": true
+          },
+          "action": "R4.A1"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R4"
+      ],
+      "dispositions": {
+        "R4.A1": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S05",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N1",
+          "kind": "clarification",
+          "scope": "TERM01",
+          "facts": {
+            "requested_term": "TERM01",
+            "optional_reduction_useful": false
+          },
+          "conditions": {
+            "N1→R2": false
+          },
+          "action": "R1.A2"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "GROUP-ST04",
+          "facts": {
+            "cross_screen_references": [
+              "FLD04",
+              "FLD05"
+            ],
+            "grouping_retains_references": true,
+            "interruption": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": true,
+            "N4→R3": false,
+            "N4→R4": false
+          },
+          "action": "R2.A3"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R1",
+        "R2"
+      ],
+      "dispositions": {
+        "R1.A2": "KEEP",
+        "R2.A3": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S06",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N1",
+          "kind": "clarification",
+          "scope": "TERM01",
+          "facts": {
+            "requested_term": "TERM01",
+            "optional_reduction_useful": false
+          },
+          "conditions": {
+            "N1→R2": false
+          },
+          "action": "R1.A2"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "d1/persistence",
+          "facts": {
+            "interruption": true,
+            "accepted_draft_version": 1,
+            "saved_references_needed": true,
+            "grouping_useful": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": true,
+            "N4→R4": false
+          },
+          "action": "R3.A1"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R1",
+        "R3"
+      ],
+      "dispositions": {
+        "R1.A2": "KEEP",
+        "R3.A1": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S07",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N1",
+          "kind": "clarification",
+          "scope": "TERM01",
+          "facts": {
+            "requested_term": "TERM01",
+            "optional_reduction_useful": false
+          },
+          "conditions": {
+            "N1→R2": false
+          },
+          "action": "R1.A2"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "ST04",
+          "facts": {
+            "retain_prior_values": true,
+            "legal_back_review": true,
+            "stage_references_needed": true,
+            "grouping_useful": false,
+            "interruption": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": false,
+            "N4→R4": true
+          },
+          "action": "R4.A1"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R1",
+        "R4"
+      ],
+      "dispositions": {
+        "R1.A2": "KEEP",
+        "R4.A1": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S08",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "GROUP-ST04",
+          "facts": {
+            "cross_screen_references": [
+              "FLD04",
+              "FLD05"
+            ],
+            "grouping_retains_references": true,
+            "interruption": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": true,
+            "N4→R3": false,
+            "N4→R4": false
+          },
+          "action": "R2.A3"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "d1/persistence",
+          "facts": {
+            "interruption": true,
+            "accepted_draft_version": 1,
+            "saved_references_needed": true,
+            "grouping_useful": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": true,
+            "N4→R4": false
+          },
+          "action": "R3.A1"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R2",
+        "R3"
+      ],
+      "dispositions": {
+        "R2.A3": "KEEP",
+        "R3.A1": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S09",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "GROUP-ST04",
+          "facts": {
+            "cross_screen_references": [
+              "FLD04",
+              "FLD05"
+            ],
+            "grouping_retains_references": true,
+            "interruption": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": true,
+            "N4→R3": false,
+            "N4→R4": false
+          },
+          "action": "R2.A3"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "ST04",
+          "facts": {
+            "retain_prior_values": true,
+            "legal_back_review": true,
+            "stage_references_needed": true,
+            "grouping_useful": false,
+            "interruption": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": false,
+            "N4→R4": true
+          },
+          "action": "R4.A1"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R2",
+        "R4"
+      ],
+      "dispositions": {
+        "R2.A3": "KEEP",
+        "R4.A1": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S10",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "d1/persistence",
+          "facts": {
+            "interruption": true,
+            "accepted_draft_version": 1,
+            "saved_references_needed": true,
+            "grouping_useful": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": true,
+            "N4→R4": false
+          },
+          "action": "R3.A1"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "ST04",
+          "facts": {
+            "retain_prior_values": true,
+            "legal_back_review": true,
+            "stage_references_needed": true,
+            "grouping_useful": false,
+            "interruption": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": false,
+            "N4→R4": true
+          },
+          "action": "R4.A1"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R3",
+        "R4"
+      ],
+      "dispositions": {
+        "R3.A1": "KEEP",
+        "R4.A1": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S11",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N1",
+          "kind": "clarification",
+          "scope": "TERM01",
+          "facts": {
+            "requested_term": "TERM01",
+            "optional_reduction_useful": false
+          },
+          "conditions": {
+            "N1→R2": false
+          },
+          "action": "R1.A2"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "GROUP-ST04",
+          "facts": {
+            "cross_screen_references": [
+              "FLD04",
+              "FLD05"
+            ],
+            "grouping_retains_references": true,
+            "interruption": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": true,
+            "N4→R3": false,
+            "N4→R4": false
+          },
+          "action": "R2.A3"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "d1/persistence",
+          "facts": {
+            "interruption": true,
+            "accepted_draft_version": 1,
+            "saved_references_needed": true,
+            "grouping_useful": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": true,
+            "N4→R4": false
+          },
+          "action": "R3.A1"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "dispositions": {
+        "R1.A2": "KEEP",
+        "R2.A3": "KEEP",
+        "R3.A1": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S12",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N1",
+          "kind": "clarification",
+          "scope": "TERM01",
+          "facts": {
+            "requested_term": "TERM01",
+            "optional_reduction_useful": false
+          },
+          "conditions": {
+            "N1→R2": false
+          },
+          "action": "R1.A2"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "GROUP-ST04",
+          "facts": {
+            "cross_screen_references": [
+              "FLD04",
+              "FLD05"
+            ],
+            "grouping_retains_references": true,
+            "interruption": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": true,
+            "N4→R3": false,
+            "N4→R4": false
+          },
+          "action": "R2.A3"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "ST04",
+          "facts": {
+            "retain_prior_values": true,
+            "legal_back_review": true,
+            "stage_references_needed": true,
+            "grouping_useful": false,
+            "interruption": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": false,
+            "N4→R4": true
+          },
+          "action": "R4.A1"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R1",
+        "R2",
+        "R4"
+      ],
+      "dispositions": {
+        "R1.A2": "KEEP",
+        "R2.A3": "KEEP",
+        "R4.A1": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S13",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N1",
+          "kind": "clarification",
+          "scope": "TERM01",
+          "facts": {
+            "requested_term": "TERM01",
+            "optional_reduction_useful": false
+          },
+          "conditions": {
+            "N1→R2": false
+          },
+          "action": "R1.A2"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "d1/persistence",
+          "facts": {
+            "interruption": true,
+            "accepted_draft_version": 1,
+            "saved_references_needed": true,
+            "grouping_useful": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": true,
+            "N4→R4": false
+          },
+          "action": "R3.A1"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "ST04",
+          "facts": {
+            "retain_prior_values": true,
+            "legal_back_review": true,
+            "stage_references_needed": true,
+            "grouping_useful": false,
+            "interruption": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": false,
+            "N4→R4": true
+          },
+          "action": "R4.A1"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R1",
+        "R3",
+        "R4"
+      ],
+      "dispositions": {
+        "R1.A2": "KEEP",
+        "R3.A1": "KEEP",
+        "R4.A1": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S14",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "GROUP-ST04",
+          "facts": {
+            "cross_screen_references": [
+              "FLD04",
+              "FLD05"
+            ],
+            "grouping_retains_references": true,
+            "interruption": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": true,
+            "N4→R3": false,
+            "N4→R4": false
+          },
+          "action": "R2.A3"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "d1/persistence",
+          "facts": {
+            "interruption": true,
+            "accepted_draft_version": 1,
+            "saved_references_needed": true,
+            "grouping_useful": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": true,
+            "N4→R4": false
+          },
+          "action": "R3.A1"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "ST04",
+          "facts": {
+            "retain_prior_values": true,
+            "legal_back_review": true,
+            "stage_references_needed": true,
+            "grouping_useful": false,
+            "interruption": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": false,
+            "N4→R4": true
+          },
+          "action": "R4.A1"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "dispositions": {
+        "R2.A3": "KEEP",
+        "R3.A1": "KEEP",
+        "R4.A1": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/S15",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N1",
+          "kind": "clarification",
+          "scope": "TERM01",
+          "facts": {
+            "requested_term": "TERM01",
+            "optional_reduction_useful": false
+          },
+          "conditions": {
+            "N1→R2": false
+          },
+          "action": "R1.A2"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "GROUP-ST04",
+          "facts": {
+            "cross_screen_references": [
+              "FLD04",
+              "FLD05"
+            ],
+            "grouping_retains_references": true,
+            "interruption": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": true,
+            "N4→R3": false,
+            "N4→R4": false
+          },
+          "action": "R2.A3"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "d1/persistence",
+          "facts": {
+            "interruption": true,
+            "accepted_draft_version": 1,
+            "saved_references_needed": true,
+            "grouping_useful": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": true,
+            "N4→R4": false
+          },
+          "action": "R3.A1"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "ST04",
+          "facts": {
+            "retain_prior_values": true,
+            "legal_back_review": true,
+            "stage_references_needed": true,
+            "grouping_useful": false,
+            "interruption": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": false,
+            "N4→R4": true
+          },
+          "action": "R4.A1"
+        }
+      ],
+      "mode": "compatible"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "dispositions": {
+        "R1.A2": "KEEP",
+        "R2.A3": "KEEP",
+        "R3.A1": "KEEP",
+        "R4.A1": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/suppressed",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N1",
+          "kind": "clarification",
+          "scope": "TERM01",
+          "facts": {
+            "requested_term": "TERM01",
+            "optional_reduction_useful": false
+          },
+          "conditions": {
+            "N1→R2": false
+          },
+          "action": "R1.A2"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "GROUP-ST04",
+          "facts": {
+            "cross_screen_references": [
+              "FLD04",
+              "FLD05"
+            ],
+            "grouping_retains_references": true,
+            "interruption": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": true,
+            "N4→R3": false,
+            "N4→R4": false
+          },
+          "action": "R2.A3"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "d1/persistence",
+          "facts": {
+            "interruption": true,
+            "accepted_draft_version": 1,
+            "saved_references_needed": true,
+            "grouping_useful": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": true,
+            "N4→R4": false
+          },
+          "action": "R3.A1"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "ST04",
+          "facts": {
+            "retain_prior_values": true,
+            "legal_back_review": true,
+            "stage_references_needed": true,
+            "grouping_useful": false,
+            "interruption": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": false,
+            "N4→R4": true
+          },
+          "action": "R4.A1"
+        }
+      ],
+      "mode": "suppressed"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "dispositions": {
+        "R1.A2": "KEEP",
+        "R2.A3": "SUPPRESS",
+        "R3.A1": "KEEP",
+        "R4.A1": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/transformed",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N1",
+          "kind": "clarification",
+          "scope": "TERM01",
+          "facts": {
+            "requested_term": "TERM01",
+            "optional_reduction_useful": false
+          },
+          "conditions": {
+            "N1→R2": false
+          },
+          "action": "R1.A2"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "GROUP-ST04",
+          "facts": {
+            "cross_screen_references": [
+              "FLD04",
+              "FLD05"
+            ],
+            "grouping_retains_references": true,
+            "interruption": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": true,
+            "N4→R3": false,
+            "N4→R4": false
+          },
+          "action": "R2.A3"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "d1/persistence",
+          "facts": {
+            "interruption": true,
+            "accepted_draft_version": 1,
+            "saved_references_needed": true,
+            "grouping_useful": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": true,
+            "N4→R4": false
+          },
+          "action": "R3.A1"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "ST04",
+          "facts": {
+            "retain_prior_values": true,
+            "legal_back_review": true,
+            "stage_references_needed": true,
+            "grouping_useful": false,
+            "interruption": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": false,
+            "N4→R4": true
+          },
+          "action": "R4.A1"
+        }
+      ],
+      "mode": "transformed"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "dispositions": {
+        "R1.A2": "KEEP",
+        "R2.A3": "TRANSFORM",
+        "R3.A1": "KEEP",
+        "R4.A1": "KEEP"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/deferred",
+    "Kind": "multi",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N1",
+          "kind": "clarification",
+          "scope": "TERM01",
+          "facts": {
+            "requested_term": "TERM01",
+            "optional_reduction_useful": false
+          },
+          "conditions": {
+            "N1→R2": false
+          },
+          "action": "R1.A2"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "GROUP-ST04",
+          "facts": {
+            "cross_screen_references": [
+              "FLD04",
+              "FLD05"
+            ],
+            "grouping_retains_references": true,
+            "interruption": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": true,
+            "N4→R3": false,
+            "N4→R4": false
+          },
+          "action": "R2.A3"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "d1/persistence",
+          "facts": {
+            "interruption": true,
+            "accepted_draft_version": 1,
+            "saved_references_needed": true,
+            "grouping_useful": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": true,
+            "N4→R4": false
+          },
+          "action": "R3.A1"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "ST04",
+          "facts": {
+            "retain_prior_values": true,
+            "legal_back_review": true,
+            "stage_references_needed": true,
+            "grouping_useful": false,
+            "interruption": false
+          },
+          "conditions": {
+            "N4→R2": false,
+            "N4→R3": false,
+            "N4→R4": true
+          },
+          "action": "R4.A1"
+        }
+      ],
+      "mode": "deferred"
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "dispositions": {
+        "R1.A2": "KEEP",
+        "R2.A3": "KEEP",
+        "R3.A1": "KEEP",
+        "R4.A1": "DEFER"
+      },
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-10"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/lower",
+    "Kind": "multi_conflict",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N1",
+          "kind": "clarification",
+          "scope": "TERM01",
+          "facts": {
+            "requested_term": "TERM01",
+            "optional_reduction_useful": false
+          },
+          "conditions": {
+            "N1→R2": false
+          },
+          "action": "R1.A2"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "GROUP-ST04",
+          "facts": {
+            "cross_screen_references": [
+              "FLD04",
+              "FLD05"
+            ],
+            "grouping_retains_references": true,
+            "interruption": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": true,
+            "N4→R3": false,
+            "N4→R4": false
+          },
+          "action": "R2.A3"
+        }
+      ],
+      "mode": "lower",
+      "exclusive_support_region": true
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R1",
+        "R2"
+      ],
+      "selected": [
+        "R1.A2"
+      ],
+      "operation": "KEEP",
+      "canonical_used": false,
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-11"
+  },
+  {
+    "TestCaseID": "CORE/MULTI/final-incomparable",
+    "Kind": "multi_conflict",
+    "Input": {
+      "components": [
+        {
+          "context": "C1.3",
+          "need": "N1",
+          "kind": "clarification",
+          "scope": "TERM01",
+          "facts": {
+            "requested_term": "TERM01",
+            "optional_reduction_useful": false
+          },
+          "conditions": {
+            "N1→R2": false
+          },
+          "action": "R1.A2"
+        },
+        {
+          "context": "C1.3",
+          "need": "N4",
+          "kind": "reminder",
+          "scope": "GROUP-ST04",
+          "facts": {
+            "cross_screen_references": [
+              "FLD04",
+              "FLD05"
+            ],
+            "grouping_retains_references": true,
+            "interruption": false,
+            "staging_needed": false
+          },
+          "conditions": {
+            "N4→R2": true,
+            "N4→R3": false,
+            "N4→R4": false
+          },
+          "action": "R2.A3"
+        }
+      ],
+      "mode": "final-incomparable",
+      "exclusive_support_region": true
+    },
+    "ExpectedOutcome": {
+      "rules": [
+        "R1",
+        "R2"
+      ],
+      "selected": [],
+      "operation": "DEFER",
+      "canonical_used": false,
+      "preserved": true
+    },
+    "Oracles": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "End-to-End"
+    ],
+    "ParentCaseID": "V2-11"
+  }
+]

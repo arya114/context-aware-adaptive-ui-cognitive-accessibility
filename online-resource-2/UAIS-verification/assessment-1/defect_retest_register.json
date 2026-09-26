@@ -1,0 +1,61 @@
+{
+  "SpecificationDefectsDiscovered": 0,
+  "ConfirmedImplementationDefects": 2,
+  "ImplementationLimitations": 1,
+  "Entries": [
+    {
+      "DefectID": "IMPL-001",
+      "Class": "implementation defect",
+      "Component": "trace instrumentation",
+      "Evidence": "All eight strict acceptance records identify missing catalogue/service version linkage, actual resolver plan witnesses and/or commit-token comparison.",
+      "Status": "OPEN",
+      "Change": "None; original execution retained",
+      "Retest": "Not performed"
+    },
+    {
+      "DefectID": "HARNESS-001",
+      "Class": "implementation defect",
+      "Component": "runner trace oracle",
+      "Evidence": "Eight initial TRACE cases passed stage/parent-presence checking but fail the required-field acceptance audit.",
+      "Status": "OPEN",
+      "Change": "Independent stricter acceptance audit added without editing original expected outcomes or first-run verdicts",
+      "Retest": "Eight acceptance failures; original eight stage-presence passes retained as superseded for acceptance"
+    },
+    {
+      "DefectID": "COVERAGE-001",
+      "Class": "coverage gap",
+      "Component": "contract semantics and browser boundary",
+      "Evidence": "Five explicit not-run entries plus incomplete full-contract scope/effect coverage; family-mask test is a projection rather than end-to-end nomination.",
+      "Status": "OPEN"
+    },
+    {
+      "DefectID": "COVERAGE-002",
+      "Class": "coverage gap",
+      "Component": "case traceability",
+      "Evidence": {
+        "parents_with_executed_instances": 34,
+        "historical_parent_count": 35,
+        "parents_without_explicit_instances": [
+          "V2-07"
+        ],
+        "current_families_with_instances": 41,
+        "current_family_count": 44,
+        "families_without_explicit_instances": [
+          "CAT1/V2-07/status",
+          "CAT1/V3-06/no-shortcut",
+          "CAT1/V3-03/response-boundary"
+        ],
+        "warning": "A linked instance does not establish full branch, scope, parameter, guard or effect coverage of its family."
+      },
+      "Status": "OPEN"
+    },
+    {
+      "DefectID": "IMPL-LIMIT-001",
+      "Class": "implementation limitation",
+      "Component": "canonical key",
+      "Evidence": "Known restricted implementation compares NFC strings rather than the full typed tuple, decimal and set-normalisation domain. This is the GAP/canonical-typed-domain not-run entry.",
+      "Status": "OPEN"
+    }
+  ],
+  "Note": "No claim of zero undiscovered defects. No fixes or successful retests are claimed."
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-26",
+  "purpose": "Pre-submission reproduction check; not new scientific cases",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "source_archive_sha256": "f9cc460d81fbaa3bc9e323b98f36dae30999940d32167071dc4044d503dadaed",
+  "frozen_hash_checks": {
+    "closure_expected.json": true,
+    "closure_inventory.json": true,
+    "expected.json": true,
+    "freeze_revision.py": true,
+    "inventory.json": true,
+    "model.py": true,
+    "parent_inventory.json": true,
+    "runner.py": true,
+    "run_closure.py": true,
+    "semantic.py": true,
+    "service_manifest.json": true,
+    "specs/catalogue.json": true,
+    "specs/UAIS_Final_Action_Catalogue.md": true,
+    "specs/UAIS_Final_Action_Contracts.json": true,
+    "specs/UAIS_Final_Verification_Delta.md": true,
+    "specs/UAIS_Historical_Mapping_Verification_Import.md": true,
+    "specs/UAIS_Section3_Final_Completion_Decisions.md": true,
+    "specs/UAIS_Section4_Proposed_Framework.md": true,
+    "specs/UAIS_Section5_Fixture_and_Production_Specification.md": true,
+    "specs/UAIS_Section5_Framework_Instantiation.md": true,
+    "specs/UAIS_Verification_Child_Index.json": true
+  },
+  "runs": [
+    {
+      "suite": "runs",
+      "run_id": "20260926T021119Z-6080a528",
+      "counts": {
+        "Pass": 770,
+        "Fail": 0,
+        "Unresolved": 0,
+        "Not run": 5
+      }
+    },
+    {
+      "suite": "closure_runs",
+      "run_id": "20260926T021119Z-4b88705e",
+      "counts": {
+        "Pass": 98,
+        "Fail": 0,
+        "Unresolved": 0,
+        "Not run": 0
+      }
+    }
+  ],
+  "interpretation": "868 matches; historical gaps retained; original trace/transaction acceptance audits packaged but not independently rerun in this check."
+}

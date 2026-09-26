@@ -1,0 +1,28 @@
+{
+  "Version": "TX1-ACCEPTANCE-1.0",
+  "Source": "UAIS_Final_Action_Catalogue.md TX-1; UAIS_Final_Verification_Delta.md fixture X",
+  "Expected": {
+    "X-C": {
+      "retry": "SUPPRESS",
+      "feedback": "completed"
+    },
+    "X-P": {
+      "retry": "DEFER",
+      "feedback": "pending"
+    },
+    "X-R": {
+      "retry": "KEEP",
+      "feedback": "pending"
+    },
+    "X-F": {
+      "retry": "SUPPRESS",
+      "feedback": "terminal_rejected"
+    },
+    "X-U": {
+      "retry": "DEFER",
+      "feedback": "unknown"
+    }
+  },
+  "FrozenAt": "2026-09-13T07:01:51.532260+00:00",
+  "CodeSHA256": "0f64166e1ae31d7a78df8f6ad02d8d9afc8e6299dcbc3c1774712e434a1f6fbc"
+}

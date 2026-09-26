@@ -1,0 +1,146 @@
+[
+  {
+    "input": [
+      {
+        "id": "a",
+        "valid": true,
+        "feasibility": "READY",
+        "coverage": [
+          "N1/INFO-ST04"
+        ],
+        "disruption": [],
+        "stability": [],
+        "changes": 1,
+        "action_tuples": [
+          {
+            "catalogue": "UAIS-CAT-1.0",
+            "action": "R1.A1",
+            "variant": "",
+            "scope": "INFO-ST04",
+            "parameters": {
+              "n": {
+                "type": "decimal",
+                "value": "1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b",
+        "valid": true,
+        "feasibility": "READY",
+        "coverage": [
+          "N1/INFO-ST04"
+        ],
+        "disruption": [],
+        "stability": [],
+        "changes": 1,
+        "action_tuples": [
+          {
+            "catalogue": "UAIS-CAT-1.0",
+            "action": "R1.A1",
+            "variant": "",
+            "scope": "INFO-ST04",
+            "parameters": {
+              "n": {
+                "type": "decimal",
+                "value": "1.00"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "operation": "COMBINE",
+      "selected": [
+        "a"
+      ],
+      "sources": [
+        "a",
+        "b"
+      ]
+    },
+    "observed": {
+      "operation": "KEEP",
+      "selected": [
+        "a"
+      ],
+      "sources": []
+    },
+    "status": "Fail"
+  },
+  {
+    "input": [
+      {
+        "id": "b",
+        "valid": true,
+        "feasibility": "READY",
+        "coverage": [
+          "N1/INFO-ST04"
+        ],
+        "disruption": [],
+        "stability": [],
+        "changes": 1,
+        "action_tuples": [
+          {
+            "catalogue": "UAIS-CAT-1.0",
+            "action": "R1.A1",
+            "variant": "",
+            "scope": "INFO-ST04",
+            "parameters": {
+              "n": {
+                "type": "decimal",
+                "value": "1.00"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a",
+        "valid": true,
+        "feasibility": "READY",
+        "coverage": [
+          "N1/INFO-ST04"
+        ],
+        "disruption": [],
+        "stability": [],
+        "changes": 1,
+        "action_tuples": [
+          {
+            "catalogue": "UAIS-CAT-1.0",
+            "action": "R1.A1",
+            "variant": "",
+            "scope": "INFO-ST04",
+            "parameters": {
+              "n": {
+                "type": "decimal",
+                "value": "1"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "operation": "COMBINE",
+      "selected": [
+        "a"
+      ],
+      "sources": [
+        "a",
+        "b"
+      ]
+    },
+    "observed": {
+      "operation": "KEEP",
+      "selected": [
+        "b"
+      ],
+      "sources": []
+    },
+    "status": "Fail"
+  }
+]

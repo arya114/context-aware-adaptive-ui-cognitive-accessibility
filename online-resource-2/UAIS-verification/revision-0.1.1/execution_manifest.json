@@ -1,0 +1,38 @@
+{
+  "SpecificationVersion": "UAIS-S3-FINAL-1.0",
+  "CatalogueVersion": "UAIS-CAT-1.0",
+  "VerificationVersion": "VER-CAT1",
+  "FixtureVersion": "UAIS-VRI-1.0",
+  "ImplementationBuildID": "UAIS-HEADLESS-0.1.1",
+  "ExecutionDate": "2026-09-13T02:24:41.921330+00:00",
+  "TestDatasetVersion": "UAIS-EXEC-DATA-0.1.1",
+  "ServiceManifestVersion": "1.0.0",
+  "SimulatorVersion": "UAIS-LEDGER-0.1.0",
+  "PythonVersion": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "Status": "FROZEN_BEFORE_FIRST_TEST_EXECUTION",
+  "hashes": {
+    "expected.json": "ec4ec3ef495cbfaaab4e7540ad1e5e825ce70d9108b1c768333deb52ec553b88",
+    "freeze_revision.py": "d4b8ca7105f7fc6c6f9411be8c5fd300f0442314095401afd5e9c9896eb289fc",
+    "inventory.json": "fcee773ee9c57b77bf08003e6a3f6119dfb6d0cd5478a781e18a2243eba74066",
+    "model.py": "4f63ecdf673d8c34d0a92b57ac5c1ad18f1d1a7f78fcf68372b418cf4f6261d6",
+    "parent_inventory.json": "b3e6a3f700b0aeb0358c88c2cac7e2c342dcf5ac1502b1e42a7a3dc1a430784a",
+    "runner.py": "a58d88478f410dd0c6ac66a47e119f337b7d5587c505720372b4a76a8de7ea6f",
+    "service_manifest.json": "165a98ecfe7f29eb49621c97d19957427451eb039fc475c373469361d7184644",
+    "specs/catalogue.json": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+    "specs/UAIS_Final_Action_Catalogue.md": "7376dc09f9fc662f127d7aeb9f1473135764fb23b94aa3a63960ef492d4b214e",
+    "specs/UAIS_Final_Action_Contracts.json": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+    "specs/UAIS_Final_Verification_Delta.md": "e1cfcc2dac44902c7a5652906e584f21a731e95fe4bfaf0aa81d88748a9f5398",
+    "specs/UAIS_Historical_Mapping_Verification_Import.md": "8a1216fb46676675624a28a38ef2cd65586c2c7c293903c38d0150caf109106d",
+    "specs/UAIS_Section3_Final_Completion_Decisions.md": "374b852298accfb3cf265a1d894b724814b1ece0fe497e78d52b211f7118d144",
+    "specs/UAIS_Section4_Proposed_Framework.md": "65cbb0e4c1372d0f40bb1f74df3b16432534f02448bd53d727d5c04548b51bed",
+    "specs/UAIS_Section5_Fixture_and_Production_Specification.md": "27a1bfa5fe81843731a81324c176362352dd21d02fe5531a453e52f8d01d26f1",
+    "specs/UAIS_Section5_Framework_Instantiation.md": "fbe9d08e38ce5a7b2e1f4e3357775f23c04276fa76416939f7f7d269e5e1df23",
+    "specs/UAIS_Verification_Child_Index.json": "21c564cd4af3e5fc83600ec4f2010a6c69211249e0607ead37ba672054c3bc66"
+  },
+  "PreviousManifestSHA256": "08e0e4f6cc1ce87e5517c091afaca6f57a6a1ef8334253787519b2e3a450cc3e",
+  "ChangeRecord": [
+    "IMPL-001: trace versions, resolver witnesses, commit tokens and deferred supersession recorded",
+    "HARNESS-001: required trace fields checked in runner",
+    "Six additional oracle instances; existing expectations unchanged"
+  ]
+}

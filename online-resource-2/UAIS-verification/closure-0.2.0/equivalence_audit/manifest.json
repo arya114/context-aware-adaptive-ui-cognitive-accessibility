@@ -1,0 +1,15 @@
+{
+  "Source": "RES-CD1: identical typed effects deduplicated with all provenance retained",
+  "Expected": {
+    "operation": "COMBINE",
+    "selected": [
+      "a"
+    ],
+    "sources": [
+      "a",
+      "b"
+    ]
+  },
+  "FrozenAt": "2026-09-13T02:59:42.258730+00:00",
+  "CodeSHA256": "36b6421d80430cae936e036f60268567e64df6b6dc606ba3a50f70f6b7f3d582"
+}

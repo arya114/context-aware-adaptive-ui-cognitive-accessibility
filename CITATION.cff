@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Cite the archived research artifact after its public release; DOI is pending."
+title: "A Context-Aware Rule-Based Adaptive User Interface Framework for Cognitive Accessibility in Digital Public Services: Research Artifacts"
+type: software
+version: "0.2.2"
+authors:
+  - family-names: "Rosmasari"
+    affiliation: "Udayana University"
+    orcid: "https://orcid.org/0000-0001-5943-3642"
+  - family-names: "Ni Made Ary Esta Dewi Wirastuti"
+    affiliation: "Udayana University"
+    orcid: "https://orcid.org/0000-0001-5522-8684"
+  - family-names: "Ida Bagus Alit Swamardika"
+    affiliation: "Udayana University"
+    orcid: "https://orcid.org/0000-0002-4887-4298"
+  - family-names: "Gede Sukadarmika"
+    affiliation: "Udayana University"
+    orcid: "https://orcid.org/0000-0003-1161-4852"
+keywords:
+  - cognitive accessibility
+  - adaptive user interfaces
+  - bounded semantic verification
+repository-code: 'https://github.com/arya114/context-aware-adaptive-ui-cognitive-accessibility'

@@ -1,0 +1,96 @@
+{
+  "SpecificationDefectsDiscovered": 0,
+  "ImplementationDefectsDiscovered": 5,
+  "Entries": [
+    {
+      "DefectID": "IMPL-001",
+      "Component": "instrumentation",
+      "OriginalEvidence": "assessment-1/trace_acceptance_records.json: eight failed required-field audits",
+      "Correction": "0.1.1 records versions, plan inputs, current/source tokens and deferred supersession",
+      "Retest": "assessment-2 and assessment-3: 8/8 checks pass",
+      "Status": "CLOSED FOR CHECKED MODEL TRACE REQUIREMENTS"
+    },
+    {
+      "DefectID": "HARNESS-001",
+      "Component": "trace checker",
+      "OriginalEvidence": "0.1.0 stage-presence check passed eight traces that failed stricter acceptance",
+      "Correction": "0.1.1 required-field checks; separate acceptance checker and missing-version/token/parent negative controls",
+      "Retest": "eight accepted traces and three rejected corruptions in assessment-3",
+      "Status": "CLOSED FOR CHECKED STRUCTURAL REQUIREMENTS"
+    },
+    {
+      "DefectID": "IMPL-002",
+      "Component": "transaction branch and feedback",
+      "OriginalEvidence": "transaction-audit-0.1.1: two incorrect terminal retry dispositions and five absent feedback records, yielding five failed branch assessments",
+      "Correction": "0.1.2 supplies known-negative terminal retry guard and mandatory baseline feedback, with pending feedback following retry dispatch",
+      "Retest": "transaction-audit-0.1.2: 5/5 pass with unchanged TX-1 expectations",
+      "Status": "CLOSED FOR FIVE CHECKED BRANCHES"
+    },
+    {
+      "DefectID": "LIMIT-001",
+      "Component": "full canonical comparator domain",
+      "Evidence": "Known NFC-string-only canonical key; complete typed tuple/decimal/set normalisation unimplemented",
+      "Status": "OPEN; GAP/canonical-typed-domain"
+    },
+    {
+      "DefectID": "COVERAGE-001",
+      "Component": "remaining verification domain",
+      "Evidence": "Five explicit gap entries; browser, complete action effects/scopes, full canonical domain, fully justified rule-mask scenarios, and IME/browser observation",
+      "Status": "OPEN"
+    },
+    {
+      "DefectID": "COVERAGE-002",
+      "Component": "parent/family linkage",
+      "OriginalEvidence": "34/35 parents and 41/44 child families in 0.1.0",
+      "Correction": "Six added instances in dataset 0.1.1",
+      "Retest": "35/35 parents and 44/44 families represented by at least one current instance",
+      "Status": "LINKAGE CLOSED; FULL SEMANTIC COVERAGE NOT IMPLIED"
+    },
+    {
+      "DefectID": "IMPL-003",
+      "Component": "canonical-equivalent plan deduplication",
+      "OriginalEvidence": "closure-0.2.0/equivalence_audit/records.json: two failures under reversed input orders",
+      "Correction": "0.2.1 combines identical canonical semantic plans and retains all source aliases in one selected record; decimal coefficient normalisation is exact",
+      "Retest": "CORE/DEDUP/False and CORE/DEDUP/True pass in 0.2.1 and final 0.2.2",
+      "Status": "CLOSED FOR DECLARED DOMAIN"
+    },
+    {
+      "DefectID": "IMPL-004",
+      "Component": "query-result provenance",
+      "Discovery": "Code review of semantic.py in 0.2.1: query result was followed by a synthetic assistance-request snapshot; no separate failing run claimed",
+      "Correction": "0.2.2 publishes service evidence without inventing a new explicit request; subsequent decisions require independently current evidence",
+      "Retest": "CORE/QUERY/no-invented-request: zero invented requests, one query, zero inline retries",
+      "Status": "CLOSED FOR DECLARED DOMAIN"
+    }
+  ],
+  "OraclePolicy": "Governing specifications unchanged. Existing expected objects retained; six new instances added in a versioned dataset. Acceptance rules apply original TRACE/TX-1 requirements; initial weak-check passes and subsequent failures remain preserved.",
+  "CoreClosureGapDispositions": [
+    {
+      "OriginalID": "GAP/browser-reflow",
+      "Disposition": "RETAINED AS EXPLICIT BOUNDARY",
+      "Basis": "Controlled C2.2/reachability witnesses; acquisition and rendering are outside this evaluated semantic domain."
+    },
+    {
+      "OriginalID": "GAP/full-contract-effects",
+      "Disposition": "CLOSED",
+      "Basis": "24 positive action effects, 10 declared transformations, 14 empty-list transform rejections and an additional missing-value draft restoration. Representative fixture scope/effect coverage only."
+    },
+    {
+      "OriginalID": "GAP/canonical-typed-domain",
+      "Disposition": "CLOSED",
+      "Basis": "27 canonical/resolver checks cover exact typed normalisation, ordered/unordered structures, genuine ties, unknown, incomparability, permutation and duplicate equivalent-plan merging."
+    },
+    {
+      "OriginalID": "GAP/all-scope-combinations",
+      "Disposition": "CLOSED",
+      "Basis": "16 reachable scoped rule subsets plus five concurrent disposition/conflict scenarios; not exhaustive 24-action combination coverage."
+    },
+    {
+      "OriginalID": "GAP/ime-dom-preservation",
+      "Disposition": "RETAINED AS EXPLICIT BOUNDARY",
+      "Basis": "Symbolic field/buffer/selection/composition state only; no actual DOM, focus or IME measurement."
+    }
+  ],
+  "HistoricalRegisterPreservedAt": "UAIS_Section6_Defect_Retest_Register.json",
+  "CurrentStatusNote": "Older OPEN entries are preserved as historical statements; current gap dispositions supersede their readiness interpretation only to the declared representative semantic scope."
+}

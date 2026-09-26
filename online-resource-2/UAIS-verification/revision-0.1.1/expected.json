@@ -1,0 +1,1925 @@
+{
+  "O1/experience/boundary": "Recent Experience",
+  "O1/experience/inside": "Recent Experience",
+  "O1/experience/never": "No Recent Experience",
+  "O1/experience/missing": "Unknown",
+  "O1/experience/older": "Unknown",
+  "O1/iss/complete": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "O1/iss/reverse1": [
+    1,
+    5,
+    1,
+    1
+  ],
+  "O1/iss/reverse5": [
+    5,
+    1,
+    5,
+    5
+  ],
+  "O1/iss/missing": [
+    null,
+    3,
+    3,
+    3
+  ],
+  "O1/time/1.999": "Preferred",
+  "O1/time/2.000": "Acceptable",
+  "O1/time/2.001": "Acceptable",
+  "O1/time/3.999": "Acceptable",
+  "O1/time/4.000": "Poor",
+  "O1/time/4.001": "Poor",
+  "O1/time/timeout": "Poor",
+  "O1/time/unknown": "Unknown",
+  "O1/time/validation": "Preferred",
+  "O1/device/Mobile": "Mobile",
+  "O1/device/Tablet": "Tablet",
+  "O1/device/Desktop": "Desktop",
+  "O1/device/None": "Unknown",
+  "O1/reflow/0": "ReflowOK",
+  "O1/reflow/1": "Constrained",
+  "O1/reflow/2": "Unknown",
+  "O1/reflow/3": "Unknown",
+  "O1/features/0": "Supported",
+  "O1/features/1": "Limited",
+  "O1/features/2": "Unknown",
+  "O1/features/3": "Unknown",
+  "O1/chain/0": "Stable",
+  "O1/chain/1": "Unstable",
+  "O1/chain/2": "Unstable",
+  "O1/chain/3": "Unstable",
+  "O1/chain/4": "Unknown",
+  "O1/chain/5": "Stable",
+  "O1/vector/0": {
+    "value": {
+      "steps": 7,
+      "dependencies": [
+        "FLD04→FLD05"
+      ]
+    },
+    "quality": "known"
+  },
+  "O1/vector/1": {
+    "value": [],
+    "quality": "known"
+  },
+  "O1/vector/2": {
+    "value": null,
+    "quality": "unknown"
+  },
+  "O1/help/preview": [
+    {
+      "state": "Emerging",
+      "quality": "known",
+      "needs": []
+    },
+    {
+      "state": "Stable",
+      "quality": "known",
+      "needs": []
+    }
+  ],
+  "O1/help/full": [
+    {
+      "state": "Emerging",
+      "quality": "known",
+      "needs": []
+    },
+    {
+      "state": "AssistanceNeeded",
+      "quality": "known",
+      "needs": [
+        "N2"
+      ]
+    },
+    {
+      "state": "Recovering",
+      "quality": "known",
+      "needs": [
+        "N2"
+      ]
+    },
+    {
+      "state": "Stable",
+      "quality": "known",
+      "needs": []
+    }
+  ],
+  "O1/help/direct": [
+    {
+      "state": "AssistanceNeeded",
+      "quality": "known",
+      "needs": [
+        "N1"
+      ]
+    }
+  ],
+  "O1/help/relapse": [
+    {
+      "state": "AssistanceNeeded",
+      "quality": "known",
+      "needs": [
+        "N1"
+      ]
+    },
+    {
+      "state": "Recovering",
+      "quality": "known",
+      "needs": [
+        "N1"
+      ]
+    },
+    {
+      "state": "AssistanceNeeded",
+      "quality": "known",
+      "needs": [
+        "N3"
+      ]
+    }
+  ],
+  "O1/help/generic": [
+    {
+      "state": "AssistanceNeeded",
+      "quality": "known",
+      "needs": []
+    }
+  ],
+  "O1/help/duplicate": [
+    {
+      "state": "AssistanceNeeded",
+      "quality": "known",
+      "needs": [
+        "N4"
+      ]
+    },
+    {
+      "state": "AssistanceNeeded",
+      "quality": "known",
+      "needs": [
+        "N4"
+      ]
+    }
+  ],
+  "O1/help/gap": [
+    {
+      "state": "Stable",
+      "quality": "unknown",
+      "needs": []
+    }
+  ],
+  "O1/help/missing": [],
+  "O1/help/excluded": [
+    {
+      "state": "Stable",
+      "quality": "known",
+      "needs": []
+    },
+    {
+      "state": "Stable",
+      "quality": "known",
+      "needs": []
+    },
+    {
+      "state": "Stable",
+      "quality": "known",
+      "needs": []
+    }
+  ],
+  "O1/help/unsafe-resume": [
+    {
+      "state": "AssistanceNeeded",
+      "quality": "known",
+      "needs": [
+        "N6"
+      ]
+    },
+    {
+      "state": "Recovering",
+      "quality": "known",
+      "needs": [
+        "N6"
+      ]
+    },
+    {
+      "state": "Recovering",
+      "quality": "known",
+      "needs": [
+        "N6"
+      ]
+    }
+  ],
+  "O1/help/background": [
+    {
+      "state": "AssistanceNeeded",
+      "quality": "known",
+      "needs": [
+        "N2"
+      ]
+    },
+    {
+      "state": "Recovering",
+      "quality": "known",
+      "needs": [
+        "N2"
+      ]
+    },
+    {
+      "state": "Recovering",
+      "quality": "known",
+      "needs": [
+        "N2"
+      ]
+    }
+  ],
+  "O1/risk/risk": [
+    {
+      "state": "AtRisk",
+      "quality": "known"
+    },
+    {
+      "state": "AtRisk",
+      "quality": "known"
+    },
+    {
+      "state": "Disrupted",
+      "quality": "known"
+    }
+  ],
+  "O1/risk/clean": [
+    {
+      "state": "Disrupted",
+      "quality": "known"
+    },
+    {
+      "state": "Recovering",
+      "quality": "known"
+    },
+    {
+      "state": "Normal",
+      "quality": "known"
+    }
+  ],
+  "O1/risk/gap": [
+    {
+      "state": "Disrupted",
+      "quality": "known"
+    },
+    {
+      "state": "Recovering",
+      "quality": "known"
+    },
+    {
+      "state": "Recovering",
+      "quality": "unknown"
+    },
+    {
+      "state": "Recovering",
+      "quality": "known"
+    },
+    {
+      "state": "Normal",
+      "quality": "known"
+    }
+  ],
+  "O1/risk/relapse": [
+    {
+      "state": "Disrupted",
+      "quality": "known"
+    },
+    {
+      "state": "Recovering",
+      "quality": "known"
+    },
+    {
+      "state": "AtRisk",
+      "quality": "known"
+    }
+  ],
+  "O2/CN/C1.1/N1/true": true,
+  "O2/CN/C1.1/N1/false": false,
+  "O2/CN/C1.1/N1/unknown": null,
+  "O2/CN/C1.1/N2/true": true,
+  "O2/CN/C1.1/N2/false": false,
+  "O2/CN/C1.1/N2/unknown": null,
+  "O2/CN/C1.1/N3/true": true,
+  "O2/CN/C1.1/N3/false": false,
+  "O2/CN/C1.1/N3/unknown": null,
+  "O2/CN/C1.1/N4/true": true,
+  "O2/CN/C1.1/N4/false": false,
+  "O2/CN/C1.1/N4/unknown": null,
+  "O2/CN/C1.1/N5/true": true,
+  "O2/CN/C1.1/N5/false": false,
+  "O2/CN/C1.1/N5/unknown": null,
+  "O2/CN/C1.1/N6/true": true,
+  "O2/CN/C1.1/N6/false": false,
+  "O2/CN/C1.1/N6/unknown": null,
+  "O2/CN/C1.1/N7/true": false,
+  "O2/CN/C1.1/N7/false": false,
+  "O2/CN/C1.1/N7/unknown": false,
+  "O2/CN/C1.2/N1/true": true,
+  "O2/CN/C1.2/N1/false": false,
+  "O2/CN/C1.2/N1/unknown": null,
+  "O2/CN/C1.2/N2/true": true,
+  "O2/CN/C1.2/N2/false": false,
+  "O2/CN/C1.2/N2/unknown": null,
+  "O2/CN/C1.2/N3/true": true,
+  "O2/CN/C1.2/N3/false": false,
+  "O2/CN/C1.2/N3/unknown": null,
+  "O2/CN/C1.2/N4/true": false,
+  "O2/CN/C1.2/N4/false": false,
+  "O2/CN/C1.2/N4/unknown": false,
+  "O2/CN/C1.2/N5/true": true,
+  "O2/CN/C1.2/N5/false": false,
+  "O2/CN/C1.2/N5/unknown": null,
+  "O2/CN/C1.2/N6/true": true,
+  "O2/CN/C1.2/N6/false": false,
+  "O2/CN/C1.2/N6/unknown": null,
+  "O2/CN/C1.2/N7/true": false,
+  "O2/CN/C1.2/N7/false": false,
+  "O2/CN/C1.2/N7/unknown": false,
+  "O2/CN/C1.3/N1/true": true,
+  "O2/CN/C1.3/N1/false": false,
+  "O2/CN/C1.3/N1/unknown": null,
+  "O2/CN/C1.3/N2/true": true,
+  "O2/CN/C1.3/N2/false": false,
+  "O2/CN/C1.3/N2/unknown": null,
+  "O2/CN/C1.3/N3/true": true,
+  "O2/CN/C1.3/N3/false": false,
+  "O2/CN/C1.3/N3/unknown": null,
+  "O2/CN/C1.3/N4/true": true,
+  "O2/CN/C1.3/N4/false": false,
+  "O2/CN/C1.3/N4/unknown": null,
+  "O2/CN/C1.3/N5/true": true,
+  "O2/CN/C1.3/N5/false": false,
+  "O2/CN/C1.3/N5/unknown": null,
+  "O2/CN/C1.3/N6/true": true,
+  "O2/CN/C1.3/N6/false": false,
+  "O2/CN/C1.3/N6/unknown": null,
+  "O2/CN/C1.3/N7/true": false,
+  "O2/CN/C1.3/N7/false": false,
+  "O2/CN/C1.3/N7/unknown": false,
+  "O2/CN/C2.1/N1/true": false,
+  "O2/CN/C2.1/N1/false": false,
+  "O2/CN/C2.1/N1/unknown": false,
+  "O2/CN/C2.1/N2/true": false,
+  "O2/CN/C2.1/N2/false": false,
+  "O2/CN/C2.1/N2/unknown": false,
+  "O2/CN/C2.1/N3/true": false,
+  "O2/CN/C2.1/N3/false": false,
+  "O2/CN/C2.1/N3/unknown": false,
+  "O2/CN/C2.1/N4/true": false,
+  "O2/CN/C2.1/N4/false": false,
+  "O2/CN/C2.1/N4/unknown": false,
+  "O2/CN/C2.1/N5/true": false,
+  "O2/CN/C2.1/N5/false": false,
+  "O2/CN/C2.1/N5/unknown": false,
+  "O2/CN/C2.1/N6/true": false,
+  "O2/CN/C2.1/N6/false": false,
+  "O2/CN/C2.1/N6/unknown": false,
+  "O2/CN/C2.1/N7/true": false,
+  "O2/CN/C2.1/N7/false": false,
+  "O2/CN/C2.1/N7/unknown": false,
+  "O2/CN/C2.2/N1/true": true,
+  "O2/CN/C2.2/N1/false": false,
+  "O2/CN/C2.2/N1/unknown": null,
+  "O2/CN/C2.2/N2/true": false,
+  "O2/CN/C2.2/N2/false": false,
+  "O2/CN/C2.2/N2/unknown": false,
+  "O2/CN/C2.2/N3/true": true,
+  "O2/CN/C2.2/N3/false": false,
+  "O2/CN/C2.2/N3/unknown": null,
+  "O2/CN/C2.2/N4/true": true,
+  "O2/CN/C2.2/N4/false": false,
+  "O2/CN/C2.2/N4/unknown": null,
+  "O2/CN/C2.2/N5/true": true,
+  "O2/CN/C2.2/N5/false": false,
+  "O2/CN/C2.2/N5/unknown": null,
+  "O2/CN/C2.2/N6/true": false,
+  "O2/CN/C2.2/N6/false": false,
+  "O2/CN/C2.2/N6/unknown": false,
+  "O2/CN/C2.2/N7/true": false,
+  "O2/CN/C2.2/N7/false": false,
+  "O2/CN/C2.2/N7/unknown": false,
+  "O2/CN/C2.3/N1/true": false,
+  "O2/CN/C2.3/N1/false": false,
+  "O2/CN/C2.3/N1/unknown": false,
+  "O2/CN/C2.3/N2/true": false,
+  "O2/CN/C2.3/N2/false": false,
+  "O2/CN/C2.3/N2/unknown": false,
+  "O2/CN/C2.3/N3/true": false,
+  "O2/CN/C2.3/N3/false": false,
+  "O2/CN/C2.3/N3/unknown": false,
+  "O2/CN/C2.3/N4/true": false,
+  "O2/CN/C2.3/N4/false": false,
+  "O2/CN/C2.3/N4/unknown": false,
+  "O2/CN/C2.3/N5/true": false,
+  "O2/CN/C2.3/N5/false": false,
+  "O2/CN/C2.3/N5/unknown": false,
+  "O2/CN/C2.3/N6/true": true,
+  "O2/CN/C2.3/N6/false": false,
+  "O2/CN/C2.3/N6/unknown": null,
+  "O2/CN/C2.3/N7/true": true,
+  "O2/CN/C2.3/N7/false": false,
+  "O2/CN/C2.3/N7/unknown": null,
+  "O2/CN/C3.1/N1/true": false,
+  "O2/CN/C3.1/N1/false": false,
+  "O2/CN/C3.1/N1/unknown": false,
+  "O2/CN/C3.1/N2/true": false,
+  "O2/CN/C3.1/N2/false": false,
+  "O2/CN/C3.1/N2/unknown": false,
+  "O2/CN/C3.1/N3/true": false,
+  "O2/CN/C3.1/N3/false": false,
+  "O2/CN/C3.1/N3/unknown": false,
+  "O2/CN/C3.1/N4/true": true,
+  "O2/CN/C3.1/N4/false": false,
+  "O2/CN/C3.1/N4/unknown": null,
+  "O2/CN/C3.1/N5/true": false,
+  "O2/CN/C3.1/N5/false": false,
+  "O2/CN/C3.1/N5/unknown": false,
+  "O2/CN/C3.1/N6/true": true,
+  "O2/CN/C3.1/N6/false": false,
+  "O2/CN/C3.1/N6/unknown": null,
+  "O2/CN/C3.1/N7/true": true,
+  "O2/CN/C3.1/N7/false": false,
+  "O2/CN/C3.1/N7/unknown": null,
+  "O2/CN/C3.2/N1/true": false,
+  "O2/CN/C3.2/N1/false": false,
+  "O2/CN/C3.2/N1/unknown": false,
+  "O2/CN/C3.2/N2/true": false,
+  "O2/CN/C3.2/N2/false": false,
+  "O2/CN/C3.2/N2/unknown": false,
+  "O2/CN/C3.2/N3/true": false,
+  "O2/CN/C3.2/N3/false": false,
+  "O2/CN/C3.2/N3/unknown": false,
+  "O2/CN/C3.2/N4/true": true,
+  "O2/CN/C3.2/N4/false": false,
+  "O2/CN/C3.2/N4/unknown": null,
+  "O2/CN/C3.2/N5/true": false,
+  "O2/CN/C3.2/N5/false": false,
+  "O2/CN/C3.2/N5/unknown": false,
+  "O2/CN/C3.2/N6/true": true,
+  "O2/CN/C3.2/N6/false": false,
+  "O2/CN/C3.2/N6/unknown": null,
+  "O2/CN/C3.2/N7/true": true,
+  "O2/CN/C3.2/N7/false": false,
+  "O2/CN/C3.2/N7/unknown": null,
+  "O2/CN/C3.3/N1/true": false,
+  "O2/CN/C3.3/N1/false": false,
+  "O2/CN/C3.3/N1/unknown": false,
+  "O2/CN/C3.3/N2/true": false,
+  "O2/CN/C3.3/N2/false": false,
+  "O2/CN/C3.3/N2/unknown": false,
+  "O2/CN/C3.3/N3/true": false,
+  "O2/CN/C3.3/N3/false": false,
+  "O2/CN/C3.3/N3/unknown": false,
+  "O2/CN/C3.3/N4/true": true,
+  "O2/CN/C3.3/N4/false": false,
+  "O2/CN/C3.3/N4/unknown": null,
+  "O2/CN/C3.3/N5/true": false,
+  "O2/CN/C3.3/N5/false": false,
+  "O2/CN/C3.3/N5/unknown": false,
+  "O2/CN/C3.3/N6/true": true,
+  "O2/CN/C3.3/N6/false": false,
+  "O2/CN/C3.3/N6/unknown": null,
+  "O2/CN/C3.3/N7/true": true,
+  "O2/CN/C3.3/N7/false": false,
+  "O2/CN/C3.3/N7/unknown": null,
+  "O2/CN/C4.1/N1/true": false,
+  "O2/CN/C4.1/N1/false": false,
+  "O2/CN/C4.1/N1/unknown": false,
+  "O2/CN/C4.1/N2/true": true,
+  "O2/CN/C4.1/N2/false": false,
+  "O2/CN/C4.1/N2/unknown": null,
+  "O2/CN/C4.1/N3/true": true,
+  "O2/CN/C4.1/N3/false": false,
+  "O2/CN/C4.1/N3/unknown": null,
+  "O2/CN/C4.1/N4/true": true,
+  "O2/CN/C4.1/N4/false": false,
+  "O2/CN/C4.1/N4/unknown": null,
+  "O2/CN/C4.1/N5/true": true,
+  "O2/CN/C4.1/N5/false": false,
+  "O2/CN/C4.1/N5/unknown": null,
+  "O2/CN/C4.1/N6/true": true,
+  "O2/CN/C4.1/N6/false": false,
+  "O2/CN/C4.1/N6/unknown": null,
+  "O2/CN/C4.1/N7/true": true,
+  "O2/CN/C4.1/N7/false": false,
+  "O2/CN/C4.1/N7/unknown": null,
+  "O2/CN/C4.2/N1/true": true,
+  "O2/CN/C4.2/N1/false": false,
+  "O2/CN/C4.2/N1/unknown": null,
+  "O2/CN/C4.2/N2/true": true,
+  "O2/CN/C4.2/N2/false": false,
+  "O2/CN/C4.2/N2/unknown": null,
+  "O2/CN/C4.2/N3/true": false,
+  "O2/CN/C4.2/N3/false": false,
+  "O2/CN/C4.2/N3/unknown": false,
+  "O2/CN/C4.2/N4/true": true,
+  "O2/CN/C4.2/N4/false": false,
+  "O2/CN/C4.2/N4/unknown": null,
+  "O2/CN/C4.2/N5/true": true,
+  "O2/CN/C4.2/N5/false": false,
+  "O2/CN/C4.2/N5/unknown": null,
+  "O2/CN/C4.2/N6/true": true,
+  "O2/CN/C4.2/N6/false": false,
+  "O2/CN/C4.2/N6/unknown": null,
+  "O2/CN/C4.2/N7/true": true,
+  "O2/CN/C4.2/N7/false": false,
+  "O2/CN/C4.2/N7/unknown": null,
+  "O2/CN/C4.3/N1/true": true,
+  "O2/CN/C4.3/N1/false": false,
+  "O2/CN/C4.3/N1/unknown": null,
+  "O2/CN/C4.3/N2/true": true,
+  "O2/CN/C4.3/N2/false": false,
+  "O2/CN/C4.3/N2/unknown": null,
+  "O2/CN/C4.3/N3/true": true,
+  "O2/CN/C4.3/N3/false": false,
+  "O2/CN/C4.3/N3/unknown": null,
+  "O2/CN/C4.3/N4/true": true,
+  "O2/CN/C4.3/N4/false": false,
+  "O2/CN/C4.3/N4/unknown": null,
+  "O2/CN/C4.3/N5/true": true,
+  "O2/CN/C4.3/N5/false": false,
+  "O2/CN/C4.3/N5/unknown": null,
+  "O2/CN/C4.3/N6/true": true,
+  "O2/CN/C4.3/N6/false": false,
+  "O2/CN/C4.3/N6/unknown": null,
+  "O2/CN/C4.3/N7/true": true,
+  "O2/CN/C4.3/N7/false": false,
+  "O2/CN/C4.3/N7/unknown": null,
+  "O2/NR/N1/R1/true": true,
+  "O2/NR/N1/R1/false": true,
+  "O2/NR/N1/R1/unknown": true,
+  "O2/NR/N1/R1/inactive": false,
+  "O2/NR/N1/R2/true": true,
+  "O2/NR/N1/R2/false": false,
+  "O2/NR/N1/R2/unknown": null,
+  "O2/NR/N1/R2/inactive": false,
+  "O2/NR/N1/R3/true": false,
+  "O2/NR/N1/R3/false": false,
+  "O2/NR/N1/R3/unknown": false,
+  "O2/NR/N1/R3/inactive": false,
+  "O2/NR/N1/R4/true": false,
+  "O2/NR/N1/R4/false": false,
+  "O2/NR/N1/R4/unknown": false,
+  "O2/NR/N1/R4/inactive": false,
+  "O2/NR/N2/R1/true": true,
+  "O2/NR/N2/R1/false": true,
+  "O2/NR/N2/R1/unknown": true,
+  "O2/NR/N2/R1/inactive": false,
+  "O2/NR/N2/R2/true": false,
+  "O2/NR/N2/R2/false": false,
+  "O2/NR/N2/R2/unknown": false,
+  "O2/NR/N2/R2/inactive": false,
+  "O2/NR/N2/R3/true": false,
+  "O2/NR/N2/R3/false": false,
+  "O2/NR/N2/R3/unknown": false,
+  "O2/NR/N2/R3/inactive": false,
+  "O2/NR/N2/R4/true": true,
+  "O2/NR/N2/R4/false": true,
+  "O2/NR/N2/R4/unknown": true,
+  "O2/NR/N2/R4/inactive": false,
+  "O2/NR/N3/R1/true": true,
+  "O2/NR/N3/R1/false": false,
+  "O2/NR/N3/R1/unknown": null,
+  "O2/NR/N3/R1/inactive": false,
+  "O2/NR/N3/R2/true": true,
+  "O2/NR/N3/R2/false": true,
+  "O2/NR/N3/R2/unknown": true,
+  "O2/NR/N3/R2/inactive": false,
+  "O2/NR/N3/R3/true": false,
+  "O2/NR/N3/R3/false": false,
+  "O2/NR/N3/R3/unknown": false,
+  "O2/NR/N3/R3/inactive": false,
+  "O2/NR/N3/R4/true": true,
+  "O2/NR/N3/R4/false": true,
+  "O2/NR/N3/R4/unknown": true,
+  "O2/NR/N3/R4/inactive": false,
+  "O2/NR/N4/R1/true": false,
+  "O2/NR/N4/R1/false": false,
+  "O2/NR/N4/R1/unknown": false,
+  "O2/NR/N4/R1/inactive": false,
+  "O2/NR/N4/R2/true": true,
+  "O2/NR/N4/R2/false": false,
+  "O2/NR/N4/R2/unknown": null,
+  "O2/NR/N4/R2/inactive": false,
+  "O2/NR/N4/R3/true": true,
+  "O2/NR/N4/R3/false": false,
+  "O2/NR/N4/R3/unknown": null,
+  "O2/NR/N4/R3/inactive": false,
+  "O2/NR/N4/R4/true": true,
+  "O2/NR/N4/R4/false": false,
+  "O2/NR/N4/R4/unknown": null,
+  "O2/NR/N4/R4/inactive": false,
+  "O2/NR/N5/R1/true": true,
+  "O2/NR/N5/R1/false": true,
+  "O2/NR/N5/R1/unknown": true,
+  "O2/NR/N5/R1/inactive": false,
+  "O2/NR/N5/R2/true": true,
+  "O2/NR/N5/R2/false": true,
+  "O2/NR/N5/R2/unknown": true,
+  "O2/NR/N5/R2/inactive": false,
+  "O2/NR/N5/R3/true": false,
+  "O2/NR/N5/R3/false": false,
+  "O2/NR/N5/R3/unknown": false,
+  "O2/NR/N5/R3/inactive": false,
+  "O2/NR/N5/R4/true": true,
+  "O2/NR/N5/R4/false": false,
+  "O2/NR/N5/R4/unknown": null,
+  "O2/NR/N5/R4/inactive": false,
+  "O2/NR/N6/R1/true": true,
+  "O2/NR/N6/R1/false": true,
+  "O2/NR/N6/R1/unknown": true,
+  "O2/NR/N6/R1/inactive": false,
+  "O2/NR/N6/R2/true": false,
+  "O2/NR/N6/R2/false": false,
+  "O2/NR/N6/R2/unknown": false,
+  "O2/NR/N6/R2/inactive": false,
+  "O2/NR/N6/R3/true": true,
+  "O2/NR/N6/R3/false": true,
+  "O2/NR/N6/R3/unknown": true,
+  "O2/NR/N6/R3/inactive": false,
+  "O2/NR/N6/R4/true": true,
+  "O2/NR/N6/R4/false": true,
+  "O2/NR/N6/R4/unknown": true,
+  "O2/NR/N6/R4/inactive": false,
+  "O2/NR/N7/R1/true": false,
+  "O2/NR/N7/R1/false": false,
+  "O2/NR/N7/R1/unknown": false,
+  "O2/NR/N7/R1/inactive": false,
+  "O2/NR/N7/R2/true": false,
+  "O2/NR/N7/R2/false": false,
+  "O2/NR/N7/R2/unknown": false,
+  "O2/NR/N7/R2/inactive": false,
+  "O2/NR/N7/R3/true": true,
+  "O2/NR/N7/R3/false": true,
+  "O2/NR/N7/R3/unknown": true,
+  "O2/NR/N7/R3/inactive": false,
+  "O2/NR/N7/R4/true": true,
+  "O2/NR/N7/R4/false": false,
+  "O2/NR/N7/R4/unknown": null,
+  "O2/NR/N7/R4/inactive": false,
+  "O2/C13/0/Stable": false,
+  "O2/C13/0/Emerging": false,
+  "O2/C13/0/AssistanceNeeded": true,
+  "O2/C13/0/Recovering": true,
+  "O2/C13/1/Stable": false,
+  "O2/C13/1/Emerging": false,
+  "O2/C13/1/AssistanceNeeded": true,
+  "O2/C13/1/Recovering": true,
+  "O2/C13/2/Stable": false,
+  "O2/C13/2/Emerging": false,
+  "O2/C13/2/AssistanceNeeded": true,
+  "O2/C13/2/Recovering": true,
+  "O2/C13/3/Stable": false,
+  "O2/C13/3/Emerging": false,
+  "O2/C13/3/AssistanceNeeded": true,
+  "O2/C13/3/Recovering": true,
+  "O2/C13/4/Stable": false,
+  "O2/C13/4/Emerging": false,
+  "O2/C13/4/AssistanceNeeded": true,
+  "O2/C13/4/Recovering": true,
+  "O2/C13/5/Stable": false,
+  "O2/C13/5/Emerging": false,
+  "O2/C13/5/AssistanceNeeded": true,
+  "O2/C13/5/Recovering": true,
+  "O2/nonactivation/C1.2": false,
+  "O2/nonactivation/C2.1": false,
+  "O2/action/R1.A1/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R1.A1/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R1.A1/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R1.A1/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R1.A1/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R1.A1/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R1.A1/mode/off": true,
+  "O2/legal/R1.A1/mode/on": true,
+  "O2/legal/R1.A1/mode/contextual": true,
+  "O2/variant/R1.A1/contextual": true,
+  "O2/action/R1.A2/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R1.A2/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R1.A2/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R1.A2/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R1.A2/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R1.A2/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R1.A2/mode/hidden": true,
+  "O2/legal/R1.A2/mode/on-demand": true,
+  "O2/legal/R1.A2/mode/inline": true,
+  "O2/variant/R1.A2/on-demand": true,
+  "O2/action/R1.A3/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R1.A3/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R1.A3/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R1.A3/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R1.A3/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R1.A3/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R1.A3/mode/compact": true,
+  "O2/legal/R1.A3/mode/full": true,
+  "O2/legal/R1.A3/realisation/native": true,
+  "O2/legal/R1.A3/realisation/shared-progress": true,
+  "O2/variant/R1.A3/shared-progress": true,
+  "O2/action/R1.A4/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R1.A4/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R1.A4/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R1.A4/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R1.A4/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R1.A4/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R1.A4/mode/hidden": true,
+  "O2/legal/R1.A4/mode/on-demand": true,
+  "O2/legal/R1.A4/realisation/native": true,
+  "O2/legal/R1.A4/realisation/text-equivalent": true,
+  "O2/variant/R1.A4/text-equivalent": true,
+  "O2/action/R1.A5/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R1.A5/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R1.A5/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R1.A5/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R1.A5/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R1.A5/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R1.A5/mode/standard": true,
+  "O2/legal/R1.A5/mode/contextual": true,
+  "O2/action/R1.A6/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R1.A6/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R1.A6/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R1.A6/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R1.A6/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R1.A6/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R1.A6/mode/standard": true,
+  "O2/legal/R1.A6/mode/contextual": true,
+  "O2/action/R2.A1/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R2.A1/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R2.A1/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R2.A1/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R2.A1/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R2.A1/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R2.A1/mode/standard": true,
+  "O2/legal/R2.A1/mode/reduced": true,
+  "O2/action/R2.A2/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R2.A2/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R2.A2/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R2.A2/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R2.A2/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R2.A2/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R2.A2/state/shown": true,
+  "O2/legal/R2.A2/state/collapsed": true,
+  "O2/legal/R2.A2/scope_kind/optional-content": true,
+  "O2/legal/R2.A2/scope_kind/secondary-navigation": true,
+  "O2/legal/R2.A2/scope_kind/nonessential-controls": true,
+  "O2/variant/R2.A2/narrow-scope": true,
+  "O2/action/R2.A3/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R2.A3/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R2.A3/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R2.A3/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R2.A3/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R2.A3/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R2.A3/mode/standard": true,
+  "O2/legal/R2.A3/mode/semantic": true,
+  "O2/legal/R2.A3/realisation/native": true,
+  "O2/legal/R2.A3/realisation/within-stage": true,
+  "O2/variant/R2.A3/within-stage": true,
+  "O2/action/R2.A4/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R2.A4/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R2.A4/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R2.A4/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R2.A4/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R2.A4/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R2.A4/mode/standard": true,
+  "O2/legal/R2.A4/mode/emphasized": true,
+  "O2/action/R2.A5/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R2.A5/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R2.A5/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R2.A5/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R2.A5/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R2.A5/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R2.A5/mode/full": true,
+  "O2/legal/R2.A5/mode/checklist": true,
+  "O2/action/R3.A1/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R3.A1/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R3.A1/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R3.A1/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R3.A1/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R3.A1/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R3.A1/mode/off": true,
+  "O2/legal/R3.A1/mode/on": true,
+  "O2/action/R3.A2/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R3.A2/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R3.A2/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R3.A2/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R3.A2/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R3.A2/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R3.A2/mode/manual": true,
+  "O2/legal/R3.A2/mode/guarded-auto": true,
+  "O2/action/R3.A3/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R3.A3/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R3.A3/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R3.A3/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R3.A3/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R3.A3/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R3.A3/profile/standard": true,
+  "O2/legal/R3.A3/profile/low-bandwidth": true,
+  "O2/legal/R3.A3/realisation/native": true,
+  "O2/legal/R3.A3/realisation/registered-text": true,
+  "O2/variant/R3.A3/registered-text": true,
+  "O2/action/R3.A4/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R3.A4/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R3.A4/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R3.A4/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R3.A4/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R3.A4/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R3.A4/visibility/hidden": true,
+  "O2/legal/R3.A4/visibility/visible": true,
+  "O2/legal/R3.A4/realisation/native": true,
+  "O2/legal/R3.A4/realisation/shared-review": true,
+  "O2/variant/R3.A4/shared-review": true,
+  "O2/action/R3.A5/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R3.A5/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R3.A5/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R3.A5/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R3.A5/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R3.A5/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R3.A5/mode/standard": true,
+  "O2/legal/R3.A5/mode/explicit": true,
+  "O2/action/R3.A6/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R3.A6/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R3.A6/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R3.A6/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R3.A6/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R3.A6/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R3.A6/mode/manual": true,
+  "O2/legal/R3.A6/mode/guided": true,
+  "O2/action/R3.A7/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R3.A7/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R3.A7/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R3.A7/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R3.A7/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R3.A7/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R3.A7/mode/manual": true,
+  "O2/legal/R3.A7/mode/guarded-query": true,
+  "O2/action/R4.A1/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R4.A1/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R4.A1/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R4.A1/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R4.A1/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R4.A1/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R4.A1/mode/single-page": true,
+  "O2/legal/R4.A1/mode/staged": true,
+  "O2/action/R4.A2/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R4.A2/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R4.A2/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R4.A2/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R4.A2/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R4.A2/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R4.A2/mode/off": true,
+  "O2/legal/R4.A2/mode/on": true,
+  "O2/legal/R4.A2/realisation/native": true,
+  "O2/legal/R4.A2/realisation/shared-cue": true,
+  "O2/variant/R4.A2/shared-cue": true,
+  "O2/action/R4.A3/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R4.A3/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R4.A3/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R4.A3/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R4.A3/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R4.A3/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R4.A3/mode/submit": true,
+  "O2/legal/R4.A3/mode/step": true,
+  "O2/action/R4.A4/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R4.A4/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R4.A4/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R4.A4/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R4.A4/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R4.A4/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R4.A4/mode/off": true,
+  "O2/legal/R4.A4/mode/on": true,
+  "O2/legal/R4.A4/realisation/native": true,
+  "O2/legal/R4.A4/realisation/shared-recovery": true,
+  "O2/variant/R4.A4/shared-recovery": true,
+  "O2/action/R4.A5/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R4.A5/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R4.A5/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R4.A5/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R4.A5/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R4.A5/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R4.A5/mode/basic": true,
+  "O2/legal/R4.A5/mode/back-review": true,
+  "O2/action/R4.A6/target": {
+    "status": "READY",
+    "operation": "KEEP"
+  },
+  "O2/action/R4.A6/exclusion": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R4.A6/wait": {
+    "status": "WAIT",
+    "operation": "DEFER"
+  },
+  "O2/action/R4.A6/unknown": {
+    "status": "UNKNOWN",
+    "operation": "DEFER"
+  },
+  "O2/action/R4.A6/illegal": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/action/R4.A6/no-need": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "O2/legal/R4.A6/mode/hidden": true,
+  "O2/legal/R4.A6/mode/visible": true,
+  "O3/resolver/valid/665": {
+    "selected": [
+      "b"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/valid/666": {
+    "selected": [
+      "b"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/feasible/667": {
+    "selected": [
+      "b"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/feasible/668": {
+    "selected": [
+      "b"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/coverage/669": {
+    "selected": [
+      "a"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/coverage/670": {
+    "selected": [
+      "a"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/continuity/671": {
+    "selected": [
+      "b"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/continuity/672": {
+    "selected": [
+      "b"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/stability/673": {
+    "selected": [
+      "b"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/stability/674": {
+    "selected": [
+      "b"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/minimal/675": {
+    "selected": [
+      "b"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/minimal/676": {
+    "selected": [
+      "b"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/tie/677": {
+    "selected": [
+      "a"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/tie/678": {
+    "selected": [
+      "a"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/incomparable/679": {
+    "selected": [],
+    "operation": "DEFER"
+  },
+  "O3/resolver/incomparable/680": {
+    "selected": [],
+    "operation": "DEFER"
+  },
+  "O3/resolver/lower-after-incomparable/681": {
+    "selected": [
+      "b"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/lower-after-incomparable/682": {
+    "selected": [
+      "b"
+    ],
+    "operation": "KEEP"
+  },
+  "O3/resolver/unknown/683": {
+    "selected": [],
+    "operation": "DEFER"
+  },
+  "O3/resolver/unknown/684": {
+    "selected": [],
+    "operation": "DEFER"
+  },
+  "O3/resolver/wait/685": {
+    "selected": [],
+    "operation": "DEFER"
+  },
+  "O3/resolver/wait/686": {
+    "selected": [],
+    "operation": "DEFER"
+  },
+  "O3/resolver/blocked/687": {
+    "selected": [],
+    "operation": "SUPPRESS"
+  },
+  "O3/resolver/blocked/688": {
+    "selected": [],
+    "operation": "SUPPRESS"
+  },
+  "O3/resolver/unknown-feasibility/689": {
+    "selected": [],
+    "operation": "DEFER"
+  },
+  "O3/resolver/unknown-feasibility/690": {
+    "selected": [],
+    "operation": "DEFER"
+  },
+  "O3/compose/compatible": {
+    "operation": "COMBINE",
+    "actions": [
+      "R1.A2",
+      "R3.A1"
+    ],
+    "variants": {}
+  },
+  "O3/compose/shared": {
+    "operation": "TRANSFORM",
+    "actions": [
+      "R1.A3",
+      "R4.A2"
+    ],
+    "variants": {
+      "R1.A3": "shared-progress",
+      "R4.A2": "shared-cue"
+    }
+  },
+  "O3/compose/mismatch": {
+    "operation": "COMBINE",
+    "actions": [
+      "R1.A3",
+      "R4.A2"
+    ],
+    "variants": {}
+  },
+  "O3/compose/fits": {
+    "operation": "COMBINE",
+    "actions": [
+      "R1.A1",
+      "R2.A1"
+    ],
+    "variants": {}
+  },
+  "O3/compose/guidance": {
+    "operation": "TRANSFORM",
+    "actions": [
+      "R1.A1",
+      "R2.A1"
+    ],
+    "variants": {
+      "R1.A1": "contextual"
+    }
+  },
+  "O3/compose/lost": {
+    "operation": "SUPPRESS",
+    "actions": [
+      "R1.A1",
+      "R2.A1"
+    ],
+    "variants": {}
+  },
+  "O3/compose/active": {
+    "operation": "DEFER",
+    "actions": [
+      "R1.A1",
+      "R2.A1"
+    ],
+    "variants": {}
+  },
+  "O3/compose/text": {
+    "operation": "TRANSFORM",
+    "actions": [
+      "R1.A4",
+      "R3.A3"
+    ],
+    "variants": {
+      "R1.A4": "text-equivalent"
+    }
+  },
+  "O3/compose/text-lost": {
+    "operation": "SUPPRESS",
+    "actions": [
+      "R1.A4",
+      "R3.A3"
+    ],
+    "variants": {}
+  },
+  "O3/compose/text-unknown": {
+    "operation": "DEFER",
+    "actions": [
+      "R1.A4",
+      "R3.A3"
+    ],
+    "variants": {}
+  },
+  "O3/compose/review": {
+    "operation": "TRANSFORM",
+    "actions": [
+      "R3.A4",
+      "R4.A4"
+    ],
+    "variants": {
+      "R3.A4": "shared-review",
+      "R4.A4": "shared-recovery"
+    }
+  },
+  "O3/stage/True": {
+    "operation": "TRANSFORM",
+    "actions": [
+      "R2.A3",
+      "R4.A1"
+    ],
+    "variants": {
+      "R2.A3": "within-stage"
+    }
+  },
+  "O3/stage/False": {
+    "operation": "SUPPRESS",
+    "actions": [
+      "R2.A3",
+      "R4.A1"
+    ],
+    "variants": {}
+  },
+  "O3/reduce/optional": {
+    "operation": "KEEP",
+    "collapsed": [
+      "OPT01"
+    ],
+    "protected_retained": true
+  },
+  "O3/reduce/secondary": {
+    "operation": "KEEP",
+    "collapsed": [
+      "OPT02"
+    ],
+    "protected_retained": true
+  },
+  "O3/reduce/both": {
+    "operation": "KEEP",
+    "collapsed": [
+      "OPT01",
+      "OPT02"
+    ],
+    "protected_retained": true
+  },
+  "O3/reduce/narrow": {
+    "operation": "TRANSFORM",
+    "collapsed": [
+      "OPT01"
+    ],
+    "protected_retained": true
+  },
+  "O3/reduce/none": {
+    "operation": "SUPPRESS",
+    "collapsed": [],
+    "protected_retained": true
+  },
+  "O2/combinations/0": [],
+  "O2/combinations/1": [
+    "R1"
+  ],
+  "O2/combinations/2": [
+    "R2"
+  ],
+  "O2/combinations/3": [
+    "R1",
+    "R2"
+  ],
+  "O2/combinations/4": [
+    "R3"
+  ],
+  "O2/combinations/5": [
+    "R1",
+    "R3"
+  ],
+  "O2/combinations/6": [
+    "R2",
+    "R3"
+  ],
+  "O2/combinations/7": [
+    "R1",
+    "R2",
+    "R3"
+  ],
+  "O2/combinations/8": [
+    "R4"
+  ],
+  "O2/combinations/9": [
+    "R1",
+    "R4"
+  ],
+  "O2/combinations/10": [
+    "R2",
+    "R4"
+  ],
+  "O2/combinations/11": [
+    "R1",
+    "R2",
+    "R4"
+  ],
+  "O2/combinations/12": [
+    "R3",
+    "R4"
+  ],
+  "O2/combinations/13": [
+    "R1",
+    "R3",
+    "R4"
+  ],
+  "O2/combinations/14": [
+    "R2",
+    "R3",
+    "R4"
+  ],
+  "O2/combinations/15": [
+    "R1",
+    "R2",
+    "R3",
+    "R4"
+  ],
+  "O4/apply": {
+    "operation": "KEEP",
+    "preserved": true,
+    "noop": false,
+    "stale_prevented": false
+  },
+  "O4/same": {
+    "operation": "KEEP",
+    "preserved": true,
+    "noop": true,
+    "stale_prevented": false
+  },
+  "O4/active": {
+    "operation": "DEFER",
+    "preserved": true,
+    "noop": true,
+    "stale_prevented": false
+  },
+  "O4/stale": {
+    "operation": "DEFER",
+    "preserved": true,
+    "noop": true,
+    "stale_prevented": true
+  },
+  "O4/rollback": {
+    "operation": "ROLLBACK",
+    "preserved": true,
+    "noop": true,
+    "stale_prevented": false
+  },
+  "O5/predicate/none": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "O5/predicate/values": [
+    false,
+    true,
+    true,
+    true,
+    false
+  ],
+  "O5/predicate/step": [
+    true,
+    false,
+    true,
+    true,
+    false
+  ],
+  "O5/predicate/active": [
+    true,
+    true,
+    false,
+    true,
+    true
+  ],
+  "O5/predicate/transaction": [
+    true,
+    false,
+    true,
+    true,
+    false
+  ],
+  "O5/reachability/error": [
+    true,
+    true,
+    true,
+    false,
+    true
+  ],
+  "O5/reachability/status": [
+    true,
+    true,
+    true,
+    false,
+    true
+  ],
+  "O5/reachability/recovery": [
+    true,
+    true,
+    true,
+    false,
+    true
+  ],
+  "O5/reachability/navigation": [
+    true,
+    true,
+    true,
+    false,
+    true
+  ],
+  "O5/reachability/submit-explanation": [
+    true,
+    true,
+    true,
+    false,
+    true
+  ],
+  "TX/X-C": {
+    "status": "completed",
+    "retry": false,
+    "attempts": 1,
+    "identities": 1,
+    "effects": 1,
+    "queries": 1,
+    "direct_retry": false
+  },
+  "TX/X-P": {
+    "status": "pending",
+    "retry": false,
+    "attempts": 1,
+    "identities": 1,
+    "effects": 0,
+    "queries": 1,
+    "direct_retry": false
+  },
+  "TX/X-R": {
+    "status": "safely_retryable",
+    "retry": true,
+    "attempts": 2,
+    "identities": 1,
+    "effects": 1,
+    "queries": 1,
+    "direct_retry": false
+  },
+  "TX/X-F": {
+    "status": "terminal_rejected",
+    "retry": false,
+    "attempts": 1,
+    "identities": 1,
+    "effects": 0,
+    "queries": 1,
+    "direct_retry": false
+  },
+  "TX/X-U": {
+    "status": "unknown",
+    "retry": false,
+    "attempts": 1,
+    "identities": 1,
+    "effects": 0,
+    "queries": 1,
+    "direct_retry": false
+  },
+  "TX/response/wrong": false,
+  "TX/response/stale": false,
+  "TX/response/valid": true,
+  "TX/query/token": 1,
+  "TX/query/own-failure": 1,
+  "TX/query/new-token": 2,
+  "O4/resume/compatible": true,
+  "O4/resume/conflict": false,
+  "O4/resume/unauthorised": false,
+  "TX/baseline/adaptive": {
+    "effects": 1,
+    "second_retry": false
+  },
+  "TX/baseline/baseline": {
+    "effects": 1,
+    "second_retry": false
+  },
+  "TRACE/applied": {
+    "complete": true,
+    "missing": []
+  },
+  "TRACE/combine": {
+    "complete": true,
+    "missing": []
+  },
+  "TRACE/transform": {
+    "complete": true,
+    "missing": []
+  },
+  "TRACE/suppress": {
+    "complete": true,
+    "missing": []
+  },
+  "TRACE/defer-execute": {
+    "complete": true,
+    "missing": []
+  },
+  "TRACE/defer-supersede": {
+    "complete": true,
+    "missing": []
+  },
+  "TRACE/unknown": {
+    "complete": true,
+    "missing": []
+  },
+  "TRACE/transaction": {
+    "complete": true,
+    "missing": []
+  },
+  "GAP/browser-reflow": null,
+  "GAP/full-contract-effects": null,
+  "GAP/canonical-typed-domain": null,
+  "GAP/all-scope-combinations": null,
+  "GAP/ime-dom-preservation": null,
+  "ADD/status-path": {
+    "status": "unknown",
+    "retry": false,
+    "attempts": 1,
+    "identities": 1,
+    "effects": 0,
+    "queries": 1,
+    "direct_retry": false
+  },
+  "ADD/no-shortcut/R3.A7": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "ADD/no-shortcut/R3.A2": {
+    "status": "BLOCKED",
+    "operation": "SUPPRESS"
+  },
+  "ADD/response-boundary/False": {
+    "accepted": true,
+    "status": "completed",
+    "ledger_unchanged": true
+  },
+  "ADD/response-boundary/True": {
+    "accepted": false,
+    "status": "unknown",
+    "ledger_unchanged": true
+  },
+  "ADD/conditional-preservation": {
+    "preserved_hidden": true,
+    "preserved_restored": true
+  }
+}

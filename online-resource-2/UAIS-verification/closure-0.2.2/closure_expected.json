@@ -1,0 +1,564 @@
+{
+  "CORE/ACTION/R1.A1/positive": {
+    "property": "G.guidance.visibility",
+    "value": "contextual",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R1.A1/contextual": {
+    "property": "G.guidance.visibility",
+    "value": "contextual",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R1.A2/positive": {
+    "property": "G.term.explanation",
+    "value": "inline",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R1.A2/on-demand": {
+    "property": "G.term.explanation",
+    "value": "on-demand",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R1.A3/positive": {
+    "property": "G.step.cue",
+    "value": "full",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R1.A3/shared-progress": {
+    "property": "G.step.cue",
+    "value": "full",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R1.A4/positive": {
+    "property": "G.example.visibility",
+    "value": "on-demand",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R1.A4/text-equivalent": {
+    "property": "G.example.visibility",
+    "value": "on-demand",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R1.A5/positive": {
+    "property": "G.help.access",
+    "value": "contextual",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R1.A5/unlisted": {
+    "operation": "SUPPRESS",
+    "unchanged": true
+  },
+  "CORE/ACTION/R1.A6/positive": {
+    "property": "G.error.explanation",
+    "value": "contextual",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R1.A6/unlisted": {
+    "operation": "SUPPRESS",
+    "unchanged": true
+  },
+  "CORE/ACTION/R2.A1/positive": {
+    "property": "D.layout.density",
+    "value": "reduced",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R2.A1/unlisted": {
+    "operation": "SUPPRESS",
+    "unchanged": true
+  },
+  "CORE/ACTION/R2.A2/positive": {
+    "property": "D.content.reduction[OPT01].state",
+    "value": "collapsed",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R2.A2/narrow-scope": {
+    "property": "D.content.reduction[OPT01].state",
+    "value": "collapsed",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R2.A3/positive": {
+    "property": "D.grouping.mode",
+    "value": "semantic",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R2.A3/within-stage": {
+    "property": "D.grouping.mode",
+    "value": "semantic",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R2.A4/positive": {
+    "property": "D.primary.control.emphasis",
+    "value": "emphasized",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R2.A4/unlisted": {
+    "operation": "SUPPRESS",
+    "unchanged": true
+  },
+  "CORE/ACTION/R2.A5/positive": {
+    "property": "D.requirements.view",
+    "value": "checklist",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R2.A5/unlisted": {
+    "operation": "SUPPRESS",
+    "unchanged": true
+  },
+  "CORE/ACTION/R3.A1/positive": {
+    "property": "P.draft.autosave",
+    "value": "on",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R3.A1/unlisted": {
+    "operation": "SUPPRESS",
+    "unchanged": true
+  },
+  "CORE/ACTION/R3.A2/positive": {
+    "property": "P.network.retry",
+    "value": "guarded-auto",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R3.A2/unlisted": {
+    "operation": "SUPPRESS",
+    "unchanged": true
+  },
+  "CORE/ACTION/R3.A3/positive": {
+    "property": "P.asset.profile",
+    "value": "low-bandwidth",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R3.A3/registered-text": {
+    "property": "P.asset.profile",
+    "value": "low-bandwidth",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R3.A4/positive": {
+    "property": "P.recovery.panel",
+    "value": "visible",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R3.A4/shared-review": {
+    "property": "P.recovery.panel",
+    "value": "visible",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R3.A5/positive": {
+    "property": "P.submission.feedback",
+    "value": "explicit",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R3.A5/unlisted": {
+    "operation": "SUPPRESS",
+    "unchanged": true
+  },
+  "CORE/ACTION/R3.A6/positive": {
+    "property": "P.draft.resume",
+    "value": "guided",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R3.A6/unlisted": {
+    "operation": "SUPPRESS",
+    "unchanged": true
+  },
+  "CORE/ACTION/R3.A7/positive": {
+    "property": "P.transaction.reconciliation",
+    "value": "guarded-query",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R3.A7/unlisted": {
+    "operation": "SUPPRESS",
+    "unchanged": true
+  },
+  "CORE/ACTION/R4.A1/positive": {
+    "property": "F.flow.mode",
+    "value": "staged",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R4.A1/unlisted": {
+    "operation": "SUPPRESS",
+    "unchanged": true
+  },
+  "CORE/ACTION/R4.A2/positive": {
+    "property": "F.progress.indicator",
+    "value": "on",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R4.A2/shared-cue": {
+    "property": "F.progress.indicator",
+    "value": "on",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R4.A3/positive": {
+    "property": "F.validation.timing",
+    "value": "step",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R4.A3/unlisted": {
+    "operation": "SUPPRESS",
+    "unchanged": true
+  },
+  "CORE/ACTION/R4.A4/positive": {
+    "property": "F.review.summary",
+    "value": "on",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R4.A4/shared-recovery": {
+    "property": "F.review.summary",
+    "value": "on",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R4.A5/positive": {
+    "property": "F.stage.navigation",
+    "value": "back-review",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R4.A5/unlisted": {
+    "operation": "SUPPRESS",
+    "unchanged": true
+  },
+  "CORE/ACTION/R4.A6/positive": {
+    "property": "F.dependency.cue",
+    "value": "visible",
+    "checks_pass": true
+  },
+  "CORE/ACTION/R4.A6/unlisted": {
+    "operation": "SUPPRESS",
+    "unchanged": true
+  },
+  "CORE/KEY/decimal-equivalent": 0,
+  "CORE/KEY/decimal-exact": -1,
+  "CORE/KEY/decimal-numeric-order": -1,
+  "CORE/KEY/signed-zero": 0,
+  "CORE/KEY/unicode-nfc": 0,
+  "CORE/KEY/unicode-distinct": -1,
+  "CORE/KEY/boolean": -1,
+  "CORE/KEY/enum": 0,
+  "CORE/KEY/sequence-equal": 0,
+  "CORE/KEY/sequence-order": -1,
+  "CORE/KEY/set-order": 0,
+  "CORE/KEY/nested": 0,
+  "CORE/KEY/multi-action-order": 0,
+  "CORE/KEY/shorter-prefix": -1,
+  "CORE/RESOLVE/tie/False": {
+    "selected": [
+      "two"
+    ],
+    "operation": "KEEP",
+    "canonical_used": true
+  },
+  "CORE/RESOLVE/unknown/False": {
+    "selected": [],
+    "operation": "DEFER",
+    "canonical_used": false
+  },
+  "CORE/RESOLVE/incomparable/False": {
+    "selected": [],
+    "operation": "DEFER",
+    "canonical_used": false
+  },
+  "CORE/RESOLVE/lower/False": {
+    "selected": [
+      "ten"
+    ],
+    "operation": "KEEP",
+    "canonical_used": false
+  },
+  "CORE/RESOLVE/tie/True": {
+    "selected": [
+      "two"
+    ],
+    "operation": "KEEP",
+    "canonical_used": true
+  },
+  "CORE/RESOLVE/unknown/True": {
+    "selected": [],
+    "operation": "DEFER",
+    "canonical_used": false
+  },
+  "CORE/RESOLVE/incomparable/True": {
+    "selected": [],
+    "operation": "DEFER",
+    "canonical_used": false
+  },
+  "CORE/RESOLVE/lower/True": {
+    "selected": [
+      "ten"
+    ],
+    "operation": "KEEP",
+    "canonical_used": false
+  },
+  "CORE/KEY/binary-float": "REJECT_UNKNOWN",
+  "CORE/KEY/unknown-value": "REJECT_UNKNOWN",
+  "CORE/KEY/nonfinite": "REJECT_UNKNOWN",
+  "CORE/MULTI/S00": {
+    "rules": [],
+    "dispositions": {},
+    "preserved": true
+  },
+  "CORE/MULTI/S01": {
+    "rules": [
+      "R1"
+    ],
+    "dispositions": {
+      "R1.A2": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/S02": {
+    "rules": [
+      "R2"
+    ],
+    "dispositions": {
+      "R2.A3": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/S03": {
+    "rules": [
+      "R3"
+    ],
+    "dispositions": {
+      "R3.A1": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/S04": {
+    "rules": [
+      "R4"
+    ],
+    "dispositions": {
+      "R4.A1": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/S05": {
+    "rules": [
+      "R1",
+      "R2"
+    ],
+    "dispositions": {
+      "R1.A2": "KEEP",
+      "R2.A3": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/S06": {
+    "rules": [
+      "R1",
+      "R3"
+    ],
+    "dispositions": {
+      "R1.A2": "KEEP",
+      "R3.A1": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/S07": {
+    "rules": [
+      "R1",
+      "R4"
+    ],
+    "dispositions": {
+      "R1.A2": "KEEP",
+      "R4.A1": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/S08": {
+    "rules": [
+      "R2",
+      "R3"
+    ],
+    "dispositions": {
+      "R2.A3": "KEEP",
+      "R3.A1": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/S09": {
+    "rules": [
+      "R2",
+      "R4"
+    ],
+    "dispositions": {
+      "R2.A3": "KEEP",
+      "R4.A1": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/S10": {
+    "rules": [
+      "R3",
+      "R4"
+    ],
+    "dispositions": {
+      "R3.A1": "KEEP",
+      "R4.A1": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/S11": {
+    "rules": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "dispositions": {
+      "R1.A2": "KEEP",
+      "R2.A3": "KEEP",
+      "R3.A1": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/S12": {
+    "rules": [
+      "R1",
+      "R2",
+      "R4"
+    ],
+    "dispositions": {
+      "R1.A2": "KEEP",
+      "R2.A3": "KEEP",
+      "R4.A1": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/S13": {
+    "rules": [
+      "R1",
+      "R3",
+      "R4"
+    ],
+    "dispositions": {
+      "R1.A2": "KEEP",
+      "R3.A1": "KEEP",
+      "R4.A1": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/S14": {
+    "rules": [
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "dispositions": {
+      "R2.A3": "KEEP",
+      "R3.A1": "KEEP",
+      "R4.A1": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/S15": {
+    "rules": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "dispositions": {
+      "R1.A2": "KEEP",
+      "R2.A3": "KEEP",
+      "R3.A1": "KEEP",
+      "R4.A1": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/suppressed": {
+    "rules": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "dispositions": {
+      "R1.A2": "KEEP",
+      "R2.A3": "SUPPRESS",
+      "R3.A1": "KEEP",
+      "R4.A1": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/transformed": {
+    "rules": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "dispositions": {
+      "R1.A2": "KEEP",
+      "R2.A3": "TRANSFORM",
+      "R3.A1": "KEEP",
+      "R4.A1": "KEEP"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/deferred": {
+    "rules": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "dispositions": {
+      "R1.A2": "KEEP",
+      "R2.A3": "KEEP",
+      "R3.A1": "KEEP",
+      "R4.A1": "DEFER"
+    },
+    "preserved": true
+  },
+  "CORE/MULTI/lower": {
+    "rules": [
+      "R1",
+      "R2"
+    ],
+    "selected": [
+      "R1.A2"
+    ],
+    "operation": "KEEP",
+    "canonical_used": false,
+    "preserved": true
+  },
+  "CORE/MULTI/final-incomparable": {
+    "rules": [
+      "R1",
+      "R2"
+    ],
+    "selected": [],
+    "operation": "DEFER",
+    "canonical_used": false,
+    "preserved": true
+  },
+  "CORE/DEDUP/False": {
+    "operation": "COMBINE",
+    "selected": [
+      "a"
+    ],
+    "sources": [
+      "a",
+      "b"
+    ]
+  },
+  "CORE/DEDUP/True": {
+    "operation": "COMBINE",
+    "selected": [
+      "a"
+    ],
+    "sources": [
+      "a",
+      "b"
+    ]
+  },
+  "CORE/ACTION/R3.A6/restore-missing": {
+    "property": "P.draft.resume",
+    "value": "guided",
+    "checks_pass": true
+  },
+  "CORE/QUERY/no-invented-request": {
+    "invented_requests": 0,
+    "query_commands": 1,
+    "retry_commands": 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "SpecificationVersion": "UAIS-S3-FINAL-1.0",
+  "CatalogueVersion": "UAIS-CAT-1.0",
+  "VerificationVersion": "VER-CAT1",
+  "FixtureVersion": "UAIS-VRI-1.0",
+  "ImplementationBuildID": "UAIS-CORE-0.2.2",
+  "ExecutionDate": "2026-09-13T03:03:21.994669+00:00",
+  "TestDatasetVersion": "UAIS-CORE-DATA-1.2",
+  "ServiceManifestVersion": "1.0.0",
+  "SimulatorVersion": "UAIS-LEDGER-0.1.0",
+  "PythonVersion": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "Status": "FROZEN_BEFORE_FIRST_TEST_EXECUTION",
+  "hashes": {
+    "closure_expected.json": "8d16767091b808b371fcbc581a6a3fca85722e10c858d8975b71aadc01944bbf",
+    "closure_inventory.json": "0c5a199356df465fd422781ecf90afed26fc74782f291978c29c1b31ba865c71",
+    "expected.json": "ec4ec3ef495cbfaaab4e7540ad1e5e825ce70d9108b1c768333deb52ec553b88",
+    "freeze_revision.py": "1de504c0e4c1963e8995aa1317476674d206329dbe7e50957b5e4af301f2b611",
+    "inventory.json": "fcee773ee9c57b77bf08003e6a3f6119dfb6d0cd5478a781e18a2243eba74066",
+    "model.py": "02fd1d5637906925852cff1b821caa77cf6bfc93ba9fd105861421a07bac801e",
+    "parent_inventory.json": "b3e6a3f700b0aeb0358c88c2cac7e2c342dcf5ac1502b1e42a7a3dc1a430784a",
+    "runner.py": "d0e5a7850f226ba8a2d62b6d6f44b948eb79cd45e2b728c99cef0aa9a6716b63",
+    "run_closure.py": "c4bd480bf5491145ed0a45bdd4228655cea9b19b8493f5222e542d1ac2aa9de8",
+    "semantic.py": "b2bd0e86b3c6d12f3715e3703f0fb890c9ab0ca21cf361c3499befbd40ddd8a5",
+    "service_manifest.json": "165a98ecfe7f29eb49621c97d19957427451eb039fc475c373469361d7184644",
+    "specs/catalogue.json": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+    "specs/UAIS_Final_Action_Catalogue.md": "7376dc09f9fc662f127d7aeb9f1473135764fb23b94aa3a63960ef492d4b214e",
+    "specs/UAIS_Final_Action_Contracts.json": "5e3106805ccc7f6ccb7be38f6c8b40abf73a499bf10305b7e15b60fbe14437c0",
+    "specs/UAIS_Final_Verification_Delta.md": "e1cfcc2dac44902c7a5652906e584f21a731e95fe4bfaf0aa81d88748a9f5398",
+    "specs/UAIS_Historical_Mapping_Verification_Import.md": "8a1216fb46676675624a28a38ef2cd65586c2c7c293903c38d0150caf109106d",
+    "specs/UAIS_Section3_Final_Completion_Decisions.md": "374b852298accfb3cf265a1d894b724814b1ece0fe497e78d52b211f7118d144",
+    "specs/UAIS_Section4_Proposed_Framework.md": "65cbb0e4c1372d0f40bb1f74df3b16432534f02448bd53d727d5c04548b51bed",
+    "specs/UAIS_Section5_Fixture_and_Production_Specification.md": "27a1bfa5fe81843731a81324c176362352dd21d02fe5531a453e52f8d01d26f1",
+    "specs/UAIS_Section5_Framework_Instantiation.md": "fbe9d08e38ce5a7b2e1f4e3357775f23c04276fa76416939f7f7d269e5e1df23",
+    "specs/UAIS_Verification_Child_Index.json": "21c564cd4af3e5fc83600ec4f2010a6c69211249e0607ead37ba672054c3bc66"
+  },
+  "PreviousManifestSHA256": "c7fa7019c2940495e6c121204c61a97d679e2f72bc429faa7bbf19bcf757cdcd",
+  "ChangeRecord": [
+    "IMPL-004 code-review correction: publish query evidence without synthesising a fresh assistance request",
+    "New query-provenance negative control; existing 97 closure and 770 regression expectations unchanged"
+  ],
+  "ClosureExpectedPolicy": "New representative contract/canonical/multi-rule instances; all 770 previous expected objects unchanged. Browser/IME remain explicit boundaries."
+}

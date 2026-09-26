@@ -1,0 +1,20 @@
+{
+  "Version": "UAIS-TRACE-ACCEPTANCE-1.0",
+  "CriteriaUnchanged": {
+    "Version": "UAIS-TRACE-ACCEPTANCE-1.0",
+    "Expected": "All eight representative trace scenarios have version, scoped need provenance, actual resolver witnesses, admission and resulting-state links. Missing required fields fail acceptance.",
+    "Source": "specs/UAIS_Section3_Final_Completion_Decisions.md; specs/UAIS_Final_Action_Catalogue.md",
+    "checks": [
+      "recorded specification/catalogue/service version available in trace or linked envelope",
+      "all selected action candidates have need/rule ancestors",
+      "every Resolver record retains actual plan inputs and comparator witnesses or explicit non-comparison reason",
+      "execution admission records have invariant vector and current version-token comparison",
+      "deferred successors identify and supersede their predecessor"
+    ],
+    "FrozenAt": "2026-09-13T02:22:41.733253+00:00",
+    "AuditCodeSHA256": "7005804be94fce71361f2d04b159301dba0f21b2f05a2994332133449d156b81"
+  },
+  "ExecutionDate": "2026-09-13T02:27:49.466013+00:00",
+  "CodeSHA256": "16a351b3f3d475d10aa08c4f7469e2d3dc0fc5844badec9849eda9cca2d3b267",
+  "ImplementationBuildID": "UAIS-HEADLESS-0.1.2"
+}
