@@ -1,8 +1,10 @@
 cff-version: 1.2.0
-message: "Cite the archived research artifact after its public release; DOI is pending."
+message: "Cite the archived research artifact using the version-specific DOI."
 title: "A Context-Aware Rule-Based Adaptive User Interface Framework for Cognitive Accessibility in Digital Public Services: Research Artifacts"
 type: software
-version: "0.2.2"
+version: "0.2.3"
+date-released: 2026-09-26
+doi: "10.5281/zenodo.22971444"
 authors:
   - family-names: "Rosmasari"
     affiliation: "Udayana University"
@@ -20,4 +22,4 @@ keywords:
   - cognitive accessibility
   - adaptive user interfaces
   - bounded semantic verification
-repository-code: 'https://github.com/arya114/context-aware-adaptive-ui-cognitive-accessibility'
+repository-code: "https://github.com/arya114/context-aware-adaptive-ui-cognitive-accessibility"
